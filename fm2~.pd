@@ -1,4 +1,4 @@
-#N canvas 313 396 555 501 12;
+#N canvas 311 397 555 501 12;
 #X obj 64 30 inlet;
 #X text 83 52 fundamental;
 #X obj 210 44 inlet;
@@ -41,7 +41,6 @@
 #X obj 351 355 f \$6;
 #X connect 0 0 4 0;
 #X connect 2 0 5 0;
-#X connect 4 0 9 0;
 #X connect 4 0 22 0;
 #X connect 5 0 20 0;
 #X connect 6 0 4 0;
