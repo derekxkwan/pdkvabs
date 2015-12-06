@@ -5,6 +5,8 @@ pure data abstractions
 <b>cospan~.pd</b> - equal-power cosine panner <br>
 <b>fm1~.pd</b> - single-operator FM synthesis based on Miller Puckette's E09.FM.spectrum.pd with added ability to change harmonic of modulator.<br>
 <b>fm2~.pd</b> - two-operator FM synthesis based on Miller Puckette's E10.complex.FM.pd<br>
+<b>fm3~.pd</b> - three-operator FM synthesis<br>
+<b>fm4~.pd</b> - four-operator FM synthesis<br>
 <b>phasevoc~.pd</b> - a phase vocoder abstraction lifted from Miller Puckette's I07.phase.vocoder.pd from the help files. Like tabread4~, hot signal inlet indexes by sample. First arg is array name, second is window size. <br>
 <b>selector.pd</b> - a row of 32 toggle boxes whose values are stored in an array (name passed by argument, requires cyclone) <br>
 <b>stutter~.pd </b>- a delay-based stutter effect <br>
