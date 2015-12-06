@@ -1,11 +1,11 @@
-#N canvas 542 314 717 516 12;
+#N canvas 540 315 717 516 12;
 #X obj 64 30 inlet;
 #X text 83 52 fundamental;
 #X obj 210 44 inlet;
 #X text 251 46 carrier harm;
 #X obj 50 72 f \$1;
 #X obj 206 69 f \$2;
-#X obj 170 10 loadbang;
+#X obj 154 9 loadbang;
 #X obj 52 174 phasor~;
 #X obj 64 214 +~;
 #X obj 175 238 osc~;
@@ -60,6 +60,8 @@
 #X connect 6 0 26 0;
 #X connect 6 0 38 0;
 #X connect 6 0 39 0;
+#X connect 6 0 50 0;
+#X connect 6 0 51 0;
 #X connect 7 0 8 0;
 #X connect 8 0 16 0;
 #X connect 9 0 10 0;
