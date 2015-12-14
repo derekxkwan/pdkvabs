@@ -8,6 +8,8 @@ pure data abstractions
 <b>fm3~.pd</b> - three-operator FM synthesis<br>
 <b>fm4~.pd</b> - four-operator FM synthesis<br>
 <b>phasevoc~.pd</b> - a phase vocoder abstraction lifted from Miller Puckette's I07.phase.vocoder.pd from the help files. Like tabread4~, hot signal inlet indexes by sample. First arg is array name, second is window size. <br>
+<b>runmax.pd</b> - calculate running maximum<br>
+<b>runmax.pd</b> - calculate running minimum<br>
 <b>selector.pd</b> - a row of 32 toggle boxes whose values are stored in an array (name passed by argument, requires cyclone) <br>
 <b>stutter~.pd </b>- a delay-based stutter effect <br>
 <b>syncloop.pd</b> - a synchronized looper, requires bangsync. <br>
