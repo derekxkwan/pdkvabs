@@ -7,6 +7,7 @@ pure data abstractions
 <b>fm2~.pd</b> - two-operator FM synthesis based on Miller Puckette's E10.complex.FM.pd<br>
 <b>fm3~.pd</b> - three-operator FM synthesis<br>
 <b>fm4~.pd</b> - four-operator FM synthesis<br>
+<b>karplus~.pd</b> - karplus-strong synth<br>
 <b>nearpow2.pd</b> - rounds input to a power of 2<br>
 <b>paulstretch~.pd</b> - slightly modified/cleaned up martin brinkmann's (mmb) small_paul1 paulstretcher for use as an abstraction. Unlike small_paul1, it rounds window sizes to the nearest power of 2 and accept signals as position input.<br>
 <b>phasevoc~.pd</b> - a phase vocoder abstraction lifted from Miller Puckette's I07.phase.vocoder.pd from the help files. Like tabread4~, hot signal inlet indexes by sample. First arg is array name, second is window size. <br>
