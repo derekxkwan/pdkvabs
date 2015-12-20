@@ -15,6 +15,7 @@ pure data abstractions
 <b>runmax.pd</b> - calculate running maximum<br>
 <b>runmin.pd</b> - calculate running minimum<br>
 <b>selector.pd</b> - a row of 32 toggle boxes whose values are stored in an array (name passed by argument, requires cyclone) <br>
+<b>stpan~.pd</b> - stereo panning <br>
 <b>stutter~.pd </b>- a delay-based stutter effect <br>
 <b>syncloop.pd</b> - a synchronized looper, requires bangsync. <br>
 <b>oneShotM.pd</b> - a one-shot sample player, left inlet takes a bang to trigger playback, right inlet takes a path for file. <br>
