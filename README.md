@@ -1,4 +1,4 @@
-# pureDataAbstractions
+# pure data abstractions
 pure data abstractions 
 
 <b>bangsync.pd</b> - syncs up two bangs. <br>
