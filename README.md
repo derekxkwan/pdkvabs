@@ -11,6 +11,7 @@ pure data abstractions
 <b>fm3~.pd</b> - three-operator FM synthesis<br>
 <b>fm4~.pd</b> - four-operator FM synthesis<br>
 <b>fm5~.pd</b> - five-operator FM synthesis<br>
+<b>fm6~.pd</b> - six-operator FM synthesis<br>
 <b>hannmaker.pd</b> - constructs hann window. args are array name where window is stored, window size, and overlap.<br>
 <b>hannnorm~.pd</b> - normalizes an incoming signal according to hann window (usu. after an ifft~). args are window size and overlap.<br>
 <b>karplus~.pd</b> - karplus-strong synth<br>
