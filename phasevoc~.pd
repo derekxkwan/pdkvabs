@@ -1,4 +1,4 @@
-#N canvas 48 255 932 709 10;
+#N canvas 47 256 932 709 10;
 #X obj 51 477 *~;
 #X obj 18 477 *~;
 #X obj 18 499 -~;
@@ -26,7 +26,7 @@
 #X obj 52 598 tabreceive~ \$0-hann;
 #X obj 127 643 expr 2/(3*$f1);
 #X obj 97 425 q8_rsqrt~;
-#N canvas 137 186 1006 799 read-windows 0;
+#N canvas 135 188 1006 799 read-windows 0;
 #X obj 18 693 *~;
 #X obj 102 139 /;
 #X obj 195 695 *~;
@@ -213,6 +213,11 @@ by "location". If "speed" is nonzero \, "location" automatically precesses.
 #X obj 404 520 +~ 0.5;
 #X obj 404 542 tabwrite~ \$0-hann;
 #X obj 500 286 r \$0-window-size;
+#X text 17 76 normalize;
+#X text 157 391 normalize;
+#X text 209 264 add neighoring amps (phase locking);
+#X text 156 189 mult by conj of sig back win;
+#X text 184 494 mult by front window of sig;
 #X connect 0 0 2 1;
 #X connect 1 0 2 0;
 #X connect 2 0 15 0;
