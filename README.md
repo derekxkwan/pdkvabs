@@ -12,6 +12,8 @@ pure data abstractions
 <b>fm3~.pd</b> - three-operator FM synthesis<br>
 <b>fm4~.pd</b> - four-operator FM synthesis<br>
 <b>fm5~.pd</b> - five-operator FM synthesis<br>
+<b>hannmaker.pd</b> - constructs hann window. args are array name where window is stored, window size, and overlap.<br>
+<b>hannnorm~.pd</b> - normalizes an incoming signal according to hann window (usu. after an ifft~). args are window size and overlap.<br>
 <b>karplus~.pd</b> - karplus-strong synth<br>
 <b>nearpow2.pd</b> - rounds input to a power of 2<br>
 <b>paulstretch~.pd</b> - slightly modified/cleaned up martin brinkmann's (mmb) small_paul1 paulstretcher for use as an abstraction. Unlike small_paul1, it rounds window sizes to the nearest power of 2 and accept signals as position input.<br>
