@@ -6,7 +6,6 @@ pure data abstractions
 <b>cdiv~.pd</b> - division of two complex signals. <br>
 <b>cmult~.pd</b> - multiplication of two complex signals. <br>
 <b>cnorm~.pd</b> - normalization of a complex. <br>
-<b>cdiv~.pd</b> - division of two complex signals. <br>
 <b>fm1~.pd</b> - single-operator FM synthesis based on Miller Puckette's E09.FM.spectrum.pd with added ability to change harmonic of modulator.<br>
 <b>fm2~.pd</b> - two-operator FM synthesis based on Miller Puckette's E10.complex.FM.pd<br>
 <b>fm3~.pd</b> - three-operator FM synthesis<br>
