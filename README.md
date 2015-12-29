@@ -26,7 +26,7 @@ pure data abstractions
 <b>selector.pd</b> - a row of 32 toggle boxes whose values are stored in an array (name passed by argument, requires cyclone) <br>
 <b>stpan~.pd</b> - stereo panning <br>
 <b>stutter~.pd </b>- a delay-based stutter effect <br>
-<b>syncloop.pd</b> - a synchronized looper, requires bangsync. <br>
+<b>syncloop.pd</b> - a synchronized looper. <br>
 <b>oneShotM.pd</b> - a one-shot sample player, left inlet takes a bang to trigger playback, right inlet takes a path for file. <br>
 <b>oneShotS.pd</b> - stereo version <br>
 <b>tri~.pd</b> - nonbandlimited triangle oscillator based off Miller Puckette's  J05.triangle.pd<br>
