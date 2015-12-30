@@ -15,6 +15,7 @@ pure data abstractions
 <b>fm4~.pd</b> - four-operator FM synthesis<br>
 <b>fm5~.pd</b> - five-operator FM synthesis<br>
 <b>fm6~.pd</b> - six-operator FM synthesis<br>
+<b>gainenv~.pd</b> - traceable gain envelope<br>
 <b>hannmaker.pd</b> - constructs hann window. args are array name where window is stored, window size, and overlap.<br>
 <b>hannnorm~.pd</b> - normalizes an incoming signal according to hann window (usu. after an ifft~). args are window size and overlap.<br>
 <b>karplus~.pd</b> - karplus-strong synth<br>
@@ -25,6 +26,7 @@ pure data abstractions
 <b>runmax.pd</b> - calculate running maximum<br>
 <b>runmin.pd</b> - calculate running minimum<br>
 <b>selector.pd</b> - a row of 32 toggle boxes whose values are stored in an array (name passed by argument, requires cyclone) <br>
+<b>spectgain~.pd</b> - spectral filter with traceable gain. <br>
 <b>stpan~.pd</b> - stereo panning <br>
 <b>stutter~.pd </b>- a delay-based stutter effect <br>
 <b>syncloop.pd</b> - a synchronized looper. <br>
