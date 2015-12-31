@@ -1,4 +1,4 @@
-#N canvas 783 361 1024 693 10;
+#N canvas 781 361 1024 693 10;
 #X obj 186 47 inlet;
 #X obj 133 137 outlet;
 #X obj 317 57 inlet;
@@ -130,10 +130,13 @@ hexaeolian;
 #X obj 296 222 symbol \$1;
 #X obj 423 198 t s b;
 #X obj 421 263 pack s f;
-#X text 25 10 arg: \$1 - scale \, \$2 - starting midi note;
-#X text 14 25 check list for possible scales (remove \$1-);
+#X text 453 34 arg: \$1 - scale \, \$2 - starting midi note;
+#X text 442 49 check list for possible scales (remove \$1-);
 #X obj 176 111 + \$2;
-#X text 331 12 inlets - scale degree \, scale name \, start note;
+#X text 447 17 inlets - scale degree \, scale name \, starting midi
+note;
+#X text 43 19 MAPS SCALE DEGREES TO MIDI NOTES;
+#X text 445 139 - Derek X. Kwan;
 #X connect 0 0 14 0;
 #X connect 2 0 3 0;
 #X connect 3 0 22 0;
