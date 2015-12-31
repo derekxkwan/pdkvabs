@@ -32,5 +32,6 @@ pure data abstractions
 <b>syncloop.pd</b> - a synchronized looper. <br>
 <b>oneShotM.pd</b> - a one-shot sample player, left inlet takes a bang to trigger playback, right inlet takes a path for file. <br>
 <b>oneShotS.pd</b> - stereo version <br>
+<b>scaledeg.pd</b> - borrowed from SuperCollider's Scale object. Maps scale degrees to midi notes. Arguments are scale and starting midi note. <br>
 <b>tri~.pd</b> - nonbandlimited triangle oscillator based off Miller Puckette's  J05.triangle.pd<br>
 <b>vadsr~.pd</b> - adsr envelope generator using vline~ based off Matt Davey's  diy-adsr~.pd<br>
