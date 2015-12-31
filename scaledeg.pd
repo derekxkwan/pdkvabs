@@ -1,0 +1,155 @@
+#N canvas 783 361 1024 693 10;
+#X obj 186 47 inlet;
+#X obj 133 137 outlet;
+#X obj 317 57 inlet;
+#X obj 319 87 t b f;
+#X obj 192 142 loadbang;
+#X obj 192 164 \$0;
+#X obj 256 129 inlet;
+#X obj 300 185 loadbang;
+#X obj 463 228 \$0;
+#X msg 410 311 set \$2-\$1;
+#X msg 288 406 \; \$1-dim1 0 0 1 3 4 6 7 9 10 \; \$1-dim2 0 0 2 3 5
+6 8 9 11 \;;
+#X msg 44 225 \; \$1-major 0 0 2 4 5 7 9 11 \; \$1-ionian 0 0 2 4 5
+7 9 11 \; \$1-dorian 0 0 2 3 5 7 9 10 \; \$1-phrygian 0 0 1 3 5 7 8
+10 \; \$1-lydian 0 0 2 4 6 7 9 11 \; \$1-mixo 0 0 2 4 5 7 9 10 \; \$1-aeolian
+0 0 2 3 5 7 8 10 \; \$1-minor 0 0 2 3 5 7 8 10 \; \$1-locrian 0 0 1
+3 5 6 8 10 \; \$1-harminor 0 0 2 3 5 7 8 11 \; \$1-melminor 0 0 2 4
+5 7 8 10 \; \$1-bartok 0 0 2 4 5 7 8 10 \; \$1-neapminor 0 0 1 3 5
+7 8 11 \; \$1-neapmajor 0 0 1 3 5 7 8 11 \; \$1-rominor 0 0 2 3 6 7
+9 10 \; \$1-superloc 0 0 1 3 4 6 8 10 \; \$1-spanish 0 0 1 4 5 7 8
+10 \; \$1-enigmatic 0 0 1 4 6 8 10 11 \; \$1-todi 0 0 1 3 6 7 8 11
+\; \$1-purvi 0 0 1 4 6 7 8 11 \; \$1-marva 0 0 1 4 6 7 9 11 \; \$1-bhairav
+0 0 1 4 5 7 8 11 \; \$1-ahirbhairav 0 0 1 4 5 7 8 11 \; \$1-leadwhole
+0 0 2 4 6 8 10 11 \; \$1-lydianminor 0 0 2 4 6 7 8 10 \; \$1-locrianmajor
+0 0 2 4 5 6 8 10 \;;
+#N canvas 163 223 634 434 setmod 0;
+#X obj 71 148 list trim;
+#X obj 139 182 route dim1 dim2;
+#X obj 229 221 route whole hexmajor7 hexdorian hexphrygian hexsus hexmajor
+hexaeolian;
+#X msg 153 300 8;
+#X msg 199 302 6;
+#X msg 257 305 7;
+#X obj 144 360 s noteoctbang;
+#X obj 236 360 v noteoct;
+#X obj 141 335 bang;
+#X obj 147 68 inlet;
+#X connect 0 0 1 0;
+#X connect 1 0 3 0;
+#X connect 1 1 3 0;
+#X connect 1 2 2 0;
+#X connect 2 0 4 0;
+#X connect 2 1 4 0;
+#X connect 2 2 4 0;
+#X connect 2 3 4 0;
+#X connect 2 4 4 0;
+#X connect 2 5 4 0;
+#X connect 2 6 4 0;
+#X connect 2 7 5 0;
+#X connect 3 0 7 0;
+#X connect 3 0 8 0;
+#X connect 4 0 7 0;
+#X connect 4 0 8 0;
+#X connect 5 0 7 0;
+#X connect 5 0 8 0;
+#X connect 8 0 6 0;
+#X connect 9 0 0 0;
+#X restore 292 267 pd setmod;
+#X obj 393 337 s \$0-picktable;
+#N canvas 456 346 450 299 readtable 0;
+#X obj 222 9 inlet;
+#X obj 255 267 outlet;
+#X obj 242 82 % 7, f 5;
+#X obj 332 76 / 7;
+#X obj 329 99 i, f 4;
+#X obj 247 234 +;
+#X obj 267 43 t f f;
+#X obj 311 148 * 12;
+#X obj 180 178 tabread \$0-major;
+#X obj 171 132 r \$0-picktable;
+#X obj 339 36 v noteoct;
+#X obj 325 -4 r noteoctbang;
+#X connect 0 0 6 0;
+#X connect 2 0 8 0;
+#X connect 3 0 4 0;
+#X connect 4 0 7 0;
+#X connect 5 0 1 0;
+#X connect 6 0 2 0;
+#X connect 6 1 3 0;
+#X connect 7 0 5 1;
+#X connect 8 0 5 0;
+#X connect 9 0 8 0;
+#X connect 10 0 3 1;
+#X connect 10 0 2 1;
+#X connect 11 0 10 0;
+#X restore 132 80 pd readtable;
+#X msg 287 478 \; \$1-whole 0 0 2 4 6 8 10 \; \$1-hexmajor7 0 0 2 4
+7 9 11 \; \$1-hexdorian 0 0 2 3 5 7 10 \; \$1-hexphrygian 0 0 1 3 5
+8 10 \; \$1-hexsus 0 0 2 5 7 9 10 \; \$1-hexmajor 0 0 2 4 5 7 9 \;
+\$1-hexaeolian 0 0 3 5 7 8 10 \;;
+#N canvas 1020 302 593 418 tables 0;
+#X obj 6 17 table \$0-major;
+#X obj 6 61 table \$0-dorian;
+#X obj 6 39 table \$0-ionian;
+#X obj 6 83 table \$0-phrygian;
+#X obj 6 105 table \$0-lydian;
+#X obj 6 127 table \$0-mixo;
+#X obj 6 149 table \$0-aeolian;
+#X obj 6 171 table \$0-minor;
+#X obj 6 193 table \$0-locrian;
+#X obj 6 215 table \$0-harminor;
+#X obj 6 237 table \$0-melminor;
+#X obj 6 259 table \$0-bartok;
+#X obj 6 281 table \$0-neapminor;
+#X obj 6 325 table \$0-rominor;
+#X obj 163 17 table \$0-superloc;
+#X obj 163 39 table \$0-spanish;
+#X obj 163 61 table \$0-enigmatic;
+#X obj 163 83 table \$0-todi;
+#X obj 163 105 table \$0-purvi;
+#X obj 163 127 table \$0-marva;
+#X obj 163 149 table \$0-bhairav;
+#X obj 163 171 table \$0-ahirbhairav;
+#X obj 163 193 table \$0-leadwhole;
+#X obj 163 215 table \$0-lydianminor;
+#X obj 163 237 table \$0-locrianminor;
+#X obj 163 259 table \$0-dim1;
+#X obj 163 281 table \$0-dim2;
+#X obj 163 303 table \$0-whole;
+#X obj 163 325 table \$0-hexmajor7;
+#X obj 342 14 table \$0-hexdorian;
+#X obj 344 37 table \$0-hexphrygian;
+#X obj 344 59 table \$0-hexsus;
+#X obj 344 81 table \$0-hexmajor;
+#X obj 344 103 table \$0-hexaeolian;
+#X obj 6 303 table \$0-neapmajor;
+#X obj 344 125 table \$0-locrianmajor;
+#X restore 300 370 pd tables;
+#X obj 296 222 symbol \$1;
+#X obj 423 198 t s b;
+#X obj 421 263 pack s f;
+#X text 25 10 arg: \$1 - scale \, \$2 - starting midi note;
+#X text 14 25 check list for possible scales (remove \$1-);
+#X obj 176 111 + \$2;
+#X text 331 12 inlets - scale degree \, scale name \, start note;
+#X connect 0 0 14 0;
+#X connect 2 0 3 0;
+#X connect 3 0 22 0;
+#X connect 3 1 22 1;
+#X connect 4 0 5 0;
+#X connect 5 0 11 0;
+#X connect 5 0 10 0;
+#X connect 5 0 15 0;
+#X connect 6 0 17 0;
+#X connect 7 0 17 0;
+#X connect 8 0 19 1;
+#X connect 9 0 13 0;
+#X connect 14 0 22 0;
+#X connect 17 0 12 0;
+#X connect 17 0 18 0;
+#X connect 18 0 19 0;
+#X connect 18 1 8 0;
+#X connect 19 0 9 0;
+#X connect 22 0 1 0;
