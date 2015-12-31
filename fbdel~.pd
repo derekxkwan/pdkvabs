@@ -1,0 +1,19 @@
+#N canvas 858 319 700 486 10;
+#X obj 197 368 outlet~;
+#X obj 95 192 delwrite~ \$0-del \$1;
+#X obj 204 232 delread~ \$0-del \$2;
+#X obj 268 143 inlet;
+#X obj 160 147 inlet~;
+#X obj 244 294 *~ \$3;
+#X obj 346 144 inlet;
+#X text 25 22 args: \$1 - max delay (ms) \, \$2 - delay time (ms) \,
+\$3 - fb;
+#X text 26 42 inlets: sig \, delay time (ms) \, fb;
+#X text 30 6 FBDEL~ by derek x. kwan;
+#X connect 2 0 5 0;
+#X connect 3 0 2 0;
+#X connect 4 0 0 0;
+#X connect 4 0 1 0;
+#X connect 5 0 0 0;
+#X connect 5 0 1 0;
+#X connect 6 0 5 1;
