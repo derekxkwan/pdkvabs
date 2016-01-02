@@ -1,0 +1,32 @@
+#N canvas 662 319 835 464 10;
+#X obj 187 52 osc~ \$2;
+#X obj 187 74 *~ \$3;
+#X obj 187 96 *~ \$1;
+#X obj 187 118 +~ \$1;
+#X obj 18 33 inlet~;
+#X obj 13 68 delwrite~ \$0-flange 1000;
+#X obj 189 156 vd~ \$0-flange;
+#X obj 187 181 *~ \$4;
+#X obj 129 241 outlet~;
+#X obj 98 28 inlet;
+#X obj 182 21 inlet;
+#X obj 251 29 inlet;
+#X obj 294 90 inlet;
+#X text 317 17 args: \$1-delay time(ms) \, \$2-flanger rate (hz) \,
+\$3-flanger depth \, \$4 - fb;
+#X text 317 45 inlets: 1-sig~ \, 2-delay time(ms) \, 3-flanger rate
+(hz) \, 4-flanger depth \, 5-fb;
+#X connect 0 0 1 0;
+#X connect 1 0 2 0;
+#X connect 2 0 3 0;
+#X connect 3 0 6 0;
+#X connect 4 0 5 0;
+#X connect 4 0 8 0;
+#X connect 6 0 7 0;
+#X connect 7 0 5 0;
+#X connect 7 0 8 0;
+#X connect 9 0 2 1;
+#X connect 9 0 3 1;
+#X connect 10 0 0 0;
+#X connect 11 0 1 1;
+#X connect 12 0 7 1;
