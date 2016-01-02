@@ -3,13 +3,15 @@ pure data abstractions
 
 <b>bangsync.pd</b> - syncs up two bangs. <br>
 <b>bitred~.pd</b> - audio-signal bit-reduction based off 3.Bit-Reduction.pd by Alexander Torres Porres. <br>
-<b>cospan~.pd</b> - equal-power cosine panner <br>
+<b>chorus~.pd</b> - chorus based on the Cycling '74 MSP tutorial.<br>
 <b>cdiv~.pd</b> - division of two complex signals. <br>
+<b>cospan~.pd</b> - equal-power cosine panner <br>
 <b>cmult~.pd</b> - multiplication of two complex signals. <br>
 <b>cnorm~.pd</b> - normalization of a complex. <br>
 <b>distort~.pd</b> - audio-signal distortion based off the work of LandonPD. Requires zexy.<br>
 <b>downsamp~.pd</b> - audio-signal downsampler.<br>
 <b>fbdel~.pd</b> - delay line with feedback<br>
+<b>flanger~.pd</b> - flanger based on the Cycling '74 MSP tutorial.<br>
 <b>fm1~.pd</b> - single-operator FM synthesis based on Miller Puckette's E09.FM.spectrum.pd with added ability to change harmonic of modulator.<br>
 <b>fm2~.pd</b> - two-operator FM synthesis based on Miller Puckette's E10.complex.FM.pd<br>
 <b>fm3~.pd</b> - three-operator FM synthesis<br>
