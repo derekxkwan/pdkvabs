@@ -1,0 +1,36 @@
+#N canvas 1082 293 752 406 10;
+#X obj 21 208 delwrite~ \$0-chorus 100;
+#X obj 177 247 vd~ \$0-chorus;
+#X obj 195 153 *~ \$3;
+#X obj 193 89 noise~;
+#X obj 195 123 samphold~;
+#X obj 256 100 phasor~ \$2;
+#X obj 169 348 outlet~;
+#X obj 177 269 *~ \$4;
+#X obj 41 57 inlet~;
+#X obj 269 77 inlet;
+#X obj 324 130 inlet;
+#X obj 391 145 inlet;
+#X obj 195 175 *~ \$1;
+#X obj 195 198 +~ \$1;
+#X text 217 39 inlets: 1-sig~ \, 2-delay time(ms) \, 3-chorus rate
+(hz) \, 4-chorus depth \, 5-fb;
+#X text 212 15 args: \$1-delay time(ms) \, \$2-chorus rate (hz) \,
+\$3-chorus depth \, \$4 - fb;
+#X obj 116 92 inlet;
+#X connect 1 0 7 0;
+#X connect 2 0 12 0;
+#X connect 3 0 4 0;
+#X connect 4 0 2 0;
+#X connect 5 0 4 0;
+#X connect 7 0 6 0;
+#X connect 7 0 0 0;
+#X connect 8 0 6 0;
+#X connect 8 0 0 0;
+#X connect 9 0 5 0;
+#X connect 10 0 2 1;
+#X connect 11 0 7 1;
+#X connect 12 0 13 0;
+#X connect 13 0 1 0;
+#X connect 16 0 12 1;
+#X connect 16 0 13 1;
