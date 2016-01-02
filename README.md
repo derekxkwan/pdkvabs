@@ -26,7 +26,7 @@ pure data abstractions
 <b>paulstretch~.pd</b> - slightly modified/cleaned up martin brinkmann's (mmb) small_paul1 paulstretcher for use as an abstraction. Unlike small_paul1, it rounds window sizes to the nearest power of 2 and accept signals as position input.<br>
 <b>phasevoc~.pd</b> - a phase vocoder abstraction lifted from Miller Puckette's I07.phase.vocoder.pd from the help files. Like tabread4~, hot signal inlet indexes by sample. First arg is array name, second is window size. <br>
 <b>pulsewidth~.pd</b> - pulse width modulation<br>
-<b>rand~.pd</b> - abstraction simulating the output of the Max/MSP rand~ object.<br>
+<b>random~.pd</b> - abstraction simulating the output of the Max/MSP rand~ object.<br>
 <b>randgate.pd</b> - randomly-opened spigot. specify percentage of things to let through.<br>
 <b>runmax.pd</b> - calculate running maximum<br>
 <b>runmin.pd</b> - calculate running minimum<br>
