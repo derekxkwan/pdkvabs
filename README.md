@@ -19,6 +19,7 @@ pure data abstractions
 <b>fm5~.pd</b> - five-operator FM synthesis<br>
 <b>fm6~.pd</b> - six-operator FM synthesis<br>
 <b>gainenv~.pd</b> - traceable gain envelope<br>
+<b>grainstr~.pd</b> - 64-voice granular stretcher (warning: still working out the kinks)<br>
 <b>hannmaker.pd</b> - constructs hann window. args are array name where window is stored, window size, and overlap.<br>
 <b>hannnorm~.pd</b> - normalizes an incoming signal according to hann window (usu. after an ifft~). args are window size and overlap.<br>
 <b>karplus~.pd</b> - karplus-strong synth<br>
