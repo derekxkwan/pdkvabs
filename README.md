@@ -32,8 +32,9 @@ pure data abstractions
 <b>runmax.pd</b> - calculate running maximum<br>
 <b>runmin.pd</b> - calculate running minimum<br>
 <b>selector.pd</b> - a row of 32 toggle boxes whose values are stored in an array (name passed by argument, requires cyclone) <br>
-<b>spectgain~.pd</b> - spectral filter with traceable gain. <br>
 <b>spectcomp~.pd</b> - spectral compressor based on 5.Spectral-Compressor by Alexander Torres Porres.<br>
+<b>spectgain~.pd</b> - spectral filter with traceable gain. <br>
+<b>spectgate~.pd</b> - spectral gate (requires zexy). <br>
 <b>stpan~.pd</b> - stereo panning <br>
 <b>stutter~.pd </b>- a delay-based stutter effect <br>
 <b>syncloop.pd</b> - a synchronized looper. <br>
