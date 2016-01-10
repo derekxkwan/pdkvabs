@@ -11,6 +11,7 @@ pure data abstractions
 <b>distort~.pd</b> - audio-signal distortion based off the work of LandonPD. Requires zexy.<br>
 <b>downsamp~.pd</b> - audio-signal downsampler.<br>
 <b>fbdel~.pd</b> - delay line with feedback<br>
+<b>fgrainstr~.pd</b> - granular stretcher<br>
 <b>flanger~.pd</b> - flanger based on the Cycling '74 MSP tutorial.<br>
 <b>fm1~.pd</b> - single-operator FM synthesis based on Miller Puckette's E09.FM.spectrum.pd with added ability to change harmonic of modulator.<br>
 <b>fm2~.pd</b> - two-operator FM synthesis based on Miller Puckette's E10.complex.FM.pd<br>
@@ -19,7 +20,6 @@ pure data abstractions
 <b>fm5~.pd</b> - five-operator FM synthesis<br>
 <b>fm6~.pd</b> - six-operator FM synthesis<br>
 <b>gainenv~.pd</b> - traceable gain envelope<br>
-<b>grainstr~.pd</b> - 64-voice granular stretcher (warning: still working out the kinks)<br>
 <b>hannmaker.pd</b> - constructs hann window. args are array name where window is stored, window size, and overlap.<br>
 <b>hannnorm~.pd</b> - normalizes an incoming signal according to hann window (usu. after an ifft~). args are window size and overlap.<br>
 <b>karplus~.pd</b> - karplus-strong synth<br>
