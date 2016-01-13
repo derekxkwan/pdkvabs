@@ -3,6 +3,7 @@ pure data abstractions
 
 <b>bangsync.pd</b> - syncs up two bangs. <br>
 <b>bitred~.pd</b> - audio-signal bit-reduction based off 3.Bit-Reduction.pd by Alexander Torres Porres. <br>
+<b>blkmn~.pd</b> - generates blackman window according to input from 0 to 1. <br>
 <b>chorus~.pd</b> - chorus based on the Cycling '74 MSP tutorial.<br>
 <b>cdiv~.pd</b> - division of two complex signals. <br>
 <b>cospan~.pd</b> - equal-power cosine panner <br>
@@ -20,6 +21,7 @@ pure data abstractions
 <b>fm5~.pd</b> - five-operator FM synthesis<br>
 <b>fm6~.pd</b> - six-operator FM synthesis<br>
 <b>gainenv~.pd</b> - traceable gain envelope<br>
+<b>hamm~.pd</b> - generates hamming window according to input 0 to 1. <br>
 <b>hannmaker.pd</b> - constructs hann window. args are array name where window is stored, window size, and overlap.<br>
 <b>hannnorm~.pd</b> - normalizes an incoming signal according to hann window (usu. after an ifft~). args are window size and overlap.<br>
 <b>karplus~.pd</b> - karplus-strong synth<br>
