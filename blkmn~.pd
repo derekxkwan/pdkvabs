@@ -1,0 +1,23 @@
+#N canvas 938 490 450 300 10;
+#X obj 147 134 cos~;
+#X obj 147 156 *~ -0.5;
+#X obj 226 141 cos~;
+#X obj 225 117 *~ 2;
+#X obj 226 163 *~ 0.08;
+#X obj 147 178 +~;
+#X obj 147 200 +~ 0.42;
+#X obj 162 72 inlet~;
+#X obj 147 222 outlet~;
+#X text 21 13 BLACKMAN WINDOW;
+#X text 284 12 Derek Kwan \, 2016;
+#X text 16 258 Eq: 0.42 - 0.5*cos(2*pi*i/M) + 0.08*cos(4*pi*i/M) for
+i=0:M;
+#X connect 0 0 1 0;
+#X connect 1 0 5 0;
+#X connect 2 0 4 0;
+#X connect 3 0 2 0;
+#X connect 4 0 5 1;
+#X connect 5 0 6 0;
+#X connect 6 0 8 0;
+#X connect 7 0 3 0;
+#X connect 7 0 0 0;
