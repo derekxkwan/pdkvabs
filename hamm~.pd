@@ -1,0 +1,13 @@
+#N canvas 588 230 450 300 10;
+#X obj 153 89 cos~;
+#X obj 153 111 *~ -0.46;
+#X obj 153 133 +~ 0.54;
+#X obj 151 63 inlet~;
+#X obj 153 155 outlet~;
+#X text 40 11 HAMMING WINDOW;
+#X text 17 193 eq: 0.54 - 0.46*cos(2*pi*i/M) for i=0:M;
+#X text 281 11 Derek Kwan \, 2016;
+#X connect 0 0 1 0;
+#X connect 1 0 2 0;
+#X connect 2 0 4 0;
+#X connect 3 0 0 0;
