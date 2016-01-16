@@ -10,6 +10,7 @@ pure data abstractions
 <b>cmult~.pd</b> - multiplication of two complex signals. <br>
 <b>cnorm~.pd</b> - normalization of a complex. <br>
 <b>distort~.pd</b> - audio-signal distortion based off the work of LandonPD. Requires zexy.<br>
+<b>dkbd~.pd</b> - bass drum synth<br>
 <b>downsamp~.pd</b> - audio-signal downsampler.<br>
 <b>fbdel~.pd</b> - delay line with feedback<br>
 <b>fgrainstr~.pd</b> - granular stretcher<br>
