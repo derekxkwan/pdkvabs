@@ -64,7 +64,7 @@ prop \, 4 glide dur prop \, 5 noisiness (%) \, 6 lowpass hz;
 #X obj 865 109 print \$0-dkbd;
 #X text 588 491 inlets: 1 trigger \, 2 main pitch \, 3 note dur (ms)
 \, 4 pitch glide prop/glide dur prop/noisiness (%)/lowpass (hz);
-#X text 592 599 args for third inlet: pgprop: pitch glide prop \, pgdur:
+#X text 592 599 args for fourth inlet: pgprop: pitch glide prop \, pgdur:
 pitch glide dur prop \, noiseamt: noisiness( %) \, lop: lowpass(hz)
 ;
 #X obj 640 52 route pgprop pgdur noiseamt lop;
