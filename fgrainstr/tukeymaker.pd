@@ -1,4 +1,4 @@
-#N canvas 999 151 637 674 10;
+#N canvas 997 154 637 674 10;
 #X obj 242 302 moses 0.25;
 #X obj 321 321 moses 0.75;
 #X obj 251 439 cos;
@@ -32,6 +32,12 @@
 #X obj 365 57 t b b b;
 #X obj 350 132 f \$2;
 #X obj 350 154 + 1;
+#X text 12 14 TUKEY WINDOW CONSTRUCTOR;
+#X text 11 37 ARGS: \$1-table to write window in;
+#X text 12 117 INLET: BANG to make;
+#X text 18 155 Derek Kwan \, 2016;
+#X text 44 54 \$2-window size;
+#X text 40 69 \$3-slope prop (0-1);
 #X connect 0 0 3 0;
 #X connect 0 1 1 0;
 #X connect 1 0 4 0;
