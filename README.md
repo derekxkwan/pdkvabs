@@ -29,6 +29,7 @@ pure data abstractions
 <b>karplus~.pd</b> - karplus-strong synth<br>
 <b>mbang.pd</b> - outputts multiple bangs for each incoming bang according to a given subdivision<br>
 <b>nearpow2.pd</b> - rounds input to a power of 2<br>
+<b>nobu~.pd</b> - sample chopper with stutter<br>
 <b>paulstretch~.pd</b> - slightly modified/cleaned up martin brinkmann's (mmb) small_paul1 paulstretcher for use as an abstraction. Unlike small_paul1, it rounds window sizes to the nearest power of 2 and accept signals as position input.<br>
 <b>phasevoc~.pd</b> - a phase vocoder abstraction lifted from Miller Puckette's I07.phase.vocoder.pd from the help files. Like tabread4~, hot signal inlet indexes by sample. First arg is array name, second is window size. <br>
 <b>pulsewidth~.pd</b> - pulse width modulation<br>
