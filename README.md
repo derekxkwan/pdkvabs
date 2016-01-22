@@ -26,6 +26,7 @@ pure data abstractions
 <b>hamm~.pd</b> - generates hamming window according to input 0 to 1. <br>
 <b>hannmaker.pd</b> - constructs hann window. args are array name where window is stored, window size, and overlap.<br>
 <b>hannnorm~.pd</b> - normalizes an incoming signal according to hann window (usu. after an ifft~). args are window size and overlap.<br>
+<b>incwrite~.pd</b> - incremental tabwrite~<br>
 <b>karplus~.pd</b> - karplus-strong synth<br>
 <b>mbang.pd</b> - outputts multiple bangs for each incoming bang according to a given subdivision<br>
 <b>nearpow2.pd</b> - rounds input to a power of 2<br>
