@@ -11,6 +11,7 @@ pure data abstractions
 <b>cnorm~.pd</b> - normalization of a complex. <br>
 <b>distort~.pd</b> - audio-signal distortion based off the work of LandonPD. Requires zexy.<br>
 <b>dkbd~.pd</b> - bass drum synth<br>
+<b>dkhh~.pd</b> - hihat synth<br>
 <b>dksd~.pd</b> - snare drum synth<br>
 <b>downsamp~.pd</b> - audio-signal downsampler.<br>
 <b>fbdel~.pd</b> - delay line with feedback<br>
