@@ -22,6 +22,7 @@ pure data abstractions
 <b>fft/fftgain~.pd</b> - spectral filter with traceable gain. <br>
 <b>fft/fftgate~.pd</b> - spectral gate (requires zexy). <br>
 <b>fgrain/fgrainstr~.pd</b> - granular stretcher<br>
+<b>fgrain/fgraintrig~.pd</b> - triggered granular stretcher (requires fgrainstr~)<br>
 <b>fgrain/fgrainxfade~.pd</b> - granular stretcher/crossfader<br>
 <b>flanger~.pd</b> - flanger based on the Cycling '74 MSP tutorial.<br>
 <b>fm/fm1~.pd</b> - single-operator FM synthesis based on Miller Puckette's E09.FM.spectrum.pd with added ability to change harmonic of modulator.<br>
@@ -59,6 +60,5 @@ pure data abstractions
 <b>syncloop.pd</b> - a synchronized looper. <br>
 <b>tport.pd</b> - a fancy counter with beats, subdivisions, and measures. <br>
 <b>tri~.pd</b> - nonbandlimited triangle oscillator based off Miller Puckette's  J05.triangle.pd<br>
-<b>triggrstr~.pd</b> - triggered granular stretcher (requires fgrainstr~)<br>
 <b>tukeymaker.pd</b> - tukey window constructor. ideal for grain envelopes. <br>
 <b>vadsr~.pd</b> - adsr envelope generator using vline~ based off Matt Davey's  diy-adsr~.pd<br>
