@@ -21,7 +21,8 @@ pure data abstractions
 <b>fft/fftcross~.pd</b> - spectral cross-synthesis based on 1.Cross-Synthesis by Alexander Torres Porres.<br>
 <b>fft/fftgain~.pd</b> - spectral filter with traceable gain. <br>
 <b>fft/fftgate~.pd</b> - spectral gate (requires zexy). <br>
-<b>fgrainstr~.pd</b> - granular stretcher<br>
+<b>fgrain/fgrainstr~.pd</b> - granular stretcher<br>
+<b>fgrain/fgrainxfade~.pd</b> - granular stretcher/crossfader<br>
 <b>flanger~.pd</b> - flanger based on the Cycling '74 MSP tutorial.<br>
 <b>fm1~.pd</b> - single-operator FM synthesis based on Miller Puckette's E09.FM.spectrum.pd with added ability to change harmonic of modulator.<br>
 <b>fm2~.pd</b> - two-operator FM synthesis based on Miller Puckette's E10.complex.FM.pd<br>
