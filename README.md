@@ -25,6 +25,8 @@ pure data abstractions
 <b>fgrain/fgraintrig~.pd</b> - triggered granular stretcher (requires fgrainstr~)<br>
 <b>fgrain/fgrainxfade~.pd</b> - granular stretcher/crossfader<br>
 <b>filter/allpass_van~.pd</b> - vanilla implementation of an all-pass filter using y[n] = gx[n]+x[n-d]-gy[n-d]<br>
+<b>filter/comb_van~.pd</b> - vanilla implementation of Max's comb~ comb filter using y[n] = ax[n]+bx[n-d]+cy[n-d]<br>
+<b>filter/teeth_van~.pd</b> - vanilla implementation of Max's teeth~ comb filter using y[n] = ax[n]+bx[n-ffd]+cy[n-fbd] featuring control of all feedforward and feedback parameters<br>
 <b>flanger~.pd</b> - flanger based on the Cycling '74 MSP tutorial.<br>
 <b>fm/fm1~.pd</b> - single-operator FM synthesis based on Miller Puckette's E09.FM.spectrum.pd with added ability to change harmonic of modulator.<br>
 <b>fm/fm2~.pd</b> - two-operator FM synthesis based on Miller Puckette's E10.complex.FM.pd<br>
