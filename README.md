@@ -15,6 +15,12 @@ pure data abstractions
 <b>dksd~.pd</b> - snare drum synth<br>
 <b>downsamp~.pd</b> - audio-signal downsampler.<br>
 <b>fbdel~.pd</b> - delay line with feedback<br>
+<b>fft/fftbinwipe~.pd</b> - fft bin wiper ported from SuperCollider's PV_BinWipe<br>
+<b>fft/fftcomp~.pd</b> - spectral compressor based on 5.Spectral-Compressor by Alexander Torres Porres.<br>
+<b>fft/fftconvolve~.pd</b> - fft convolver<br>
+<b>fft/fftcross~.pd</b> - spectral cross-synthesis based on 1.Cross-Synthesis by Alexander Torres Porres.<br>
+<b>fft/fftgain~.pd</b> - spectral filter with traceable gain. <br>
+<b>fft/fftgate~.pd</b> - spectral gate (requires zexy). <br>
 <b>fgrainstr~.pd</b> - granular stretcher<br>
 <b>flanger~.pd</b> - flanger based on the Cycling '74 MSP tutorial.<br>
 <b>fm1~.pd</b> - single-operator FM synthesis based on Miller Puckette's E09.FM.spectrum.pd with added ability to change harmonic of modulator.<br>
@@ -23,6 +29,7 @@ pure data abstractions
 <b>fm4~.pd</b> - four-operator FM synthesis<br>
 <b>fm5~.pd</b> - five-operator FM synthesis<br>
 <b>fm6~.pd</b> - six-operator FM synthesis<br>
+<b>freqshift~.pd</b> - frequency shifter via single sideband modulation<br>
 <b>gainenv~.pd</b> - traceable gain envelope<br>
 <b>hamm~.pd</b> - generates hamming window according to input 0 to 1. <br>
 <b>hannmaker.pd</b> - constructs hann window. args are array name where window is stored, window size, and overlap.<br>
@@ -46,9 +53,6 @@ pure data abstractions
 <b>runmin.pd</b> - calculate running minimum<br>
 <b>scaledeg.pd</b> - borrowed from SuperCollider's Scale object. Maps scale degrees to midi notes. Arguments are scale and starting midi note. <br>
 <b>selector.pd</b> - a row of 32 toggle boxes whose values are stored in an array (name passed by argument, requires cyclone) <br>
-<b>spectcomp~.pd</b> - spectral compressor based on 5.Spectral-Compressor by Alexander Torres Porres.<br>
-<b>spectgain~.pd</b> - spectral filter with traceable gain. <br>
-<b>spectgate~.pd</b> - spectral gate (requires zexy). <br>
 <b>stpan~.pd</b> - stereo panning <br>
 <b>stutter~.pd </b>- a delay-based stutter effect <br>
 <b>syncloop.pd</b> - a synchronized looper. <br>
