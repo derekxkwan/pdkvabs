@@ -1,4 +1,4 @@
-#N canvas 1 56 666 421 10;
+#N canvas 513 239 666 421 10;
 #X obj 93 135 inlet~;
 #X obj 354 73 inlet;
 #X obj 498 75 inlet;
@@ -14,12 +14,12 @@
 #X obj 44 243 delwrite~ \$0-apdv-ff \$1;
 #X obj 194 103 delread~ \$0-apdv-fb \$2;
 #X obj 286 308 delwrite~ \$0-apdv-fb \$1;
-#X text 35 26 ALLPASS_VAN~ - pd-vanilla all-pass delay line;
 #X text 37 59 DEREK KWAN \, 2016;
 #X text 59 403 where x = input \, y=output \, 0<=g<=1;
 #X text 483 206 arg1: max delay len (ms);
 #X text 481 226 arg2/in2: delay len (ms);
 #X text 480 245 arg3/in3: gain g;
+#X text 35 26 ALLPASS_VAN~ - pd-vanilla all-pass filter;
 #X connect 0 0 9 0;
 #X connect 0 0 12 0;
 #X connect 1 0 11 0;
