@@ -10,9 +10,9 @@ pure data abstractions
 <b>cmult~.pd</b> - multiplication of two complex signals. <br>
 <b>cnorm~.pd</b> - normalization of a complex. <br>
 <b>distort~.pd</b> - audio-signal distortion based off the work of LandonPD. Requires zexy.<br>
-<b>dkbd~.pd</b> - bass drum synth<br>
-<b>dkhh~.pd</b> - hihat synth<br>
-<b>dksd~.pd</b> - snare drum synth<br>
+<b>dksynth/dkbd~.pd</b> - bass drum synth<br>
+<b>dksynth/dkhh~.pd</b> - hihat synth<br>
+<b>dksynth/dksd~.pd</b> - snare drum synth<br>
 <b>downsamp~.pd</b> - audio-signal downsampler.<br>
 <b>fbdel~.pd</b> - delay line with feedback<br>
 <b>fft/fftbinwipe~.pd</b> - fft bin wiper ported from SuperCollider's PV_BinWipe<br>
@@ -24,12 +24,12 @@ pure data abstractions
 <b>fgrain/fgrainstr~.pd</b> - granular stretcher<br>
 <b>fgrain/fgrainxfade~.pd</b> - granular stretcher/crossfader<br>
 <b>flanger~.pd</b> - flanger based on the Cycling '74 MSP tutorial.<br>
-<b>fm1~.pd</b> - single-operator FM synthesis based on Miller Puckette's E09.FM.spectrum.pd with added ability to change harmonic of modulator.<br>
-<b>fm2~.pd</b> - two-operator FM synthesis based on Miller Puckette's E10.complex.FM.pd<br>
-<b>fm3~.pd</b> - three-operator FM synthesis<br>
-<b>fm4~.pd</b> - four-operator FM synthesis<br>
-<b>fm5~.pd</b> - five-operator FM synthesis<br>
-<b>fm6~.pd</b> - six-operator FM synthesis<br>
+<b>fm/fm1~.pd</b> - single-operator FM synthesis based on Miller Puckette's E09.FM.spectrum.pd with added ability to change harmonic of modulator.<br>
+<b>fm/fm2~.pd</b> - two-operator FM synthesis based on Miller Puckette's E10.complex.FM.pd<br>
+<b>fm/fm3~.pd</b> - three-operator FM synthesis<br>
+<b>fm/fm4~.pd</b> - four-operator FM synthesis<br>
+<b>fm/fm5~.pd</b> - five-operator FM synthesis<br>
+<b>fm/fm6~.pd</b> - six-operator FM synthesis<br>
 <b>freqshift~.pd</b> - frequency shifter via single sideband modulation<br>
 <b>gainenv~.pd</b> - traceable gain envelope<br>
 <b>hamm~.pd</b> - generates hamming window according to input 0 to 1. <br>
@@ -39,10 +39,10 @@ pure data abstractions
 <b>karplus~.pd</b> - karplus-strong synth<br>
 <b>mbang.pd</b> - outputts multiple bangs for each incoming bang according to a given subdivision<br>
 <b>nearpow2.pd</b> - rounds input to a power of 2<br>
-<b>nobu~.pd</b> - sample chopper with stutter<br>
-<b>nobugrain~.pd</b> - sample chopper wit stutter and granular stretching (requires fgrainstr~)<br>
-<b>nobupaul~.pd</b> - sample chopper wit stutter and paulstretching (requires paulstretch~)<br>
-<b>nobupvoc~.pd</b> - sample chopper wit stutter and phase vocoding (requires phasevoc~)<br>
+<b>nobu/nobu~.pd</b> - sample chopper with stutter<br>
+<b>nobu/nobugrain~.pd</b> - sample chopper wit stutter and granular stretching (requires fgrainstr~)<br>
+<b>nobu/nobupaul~.pd</b> - sample chopper wit stutter and paulstretching (requires paulstretch~)<br>
+<b>nobu/nobupvoc~.pd</b> - sample chopper wit stutter and phase vocoding (requires phasevoc~)<br>
 <b>oneShotM.pd</b> - a one-shot sample player, left inlet takes a bang to trigger playback, right inlet takes a path for file. <br>
 <b>oneShotS.pd</b> - stereo version <br>
 <b>paulstretch~.pd</b> - slightly modified/cleaned up martin brinkmann's (mmb) small_paul1 paulstretcher for use as an abstraction. Unlike small_paul1, it rounds window sizes to the nearest power of 2 and accept signals as position input.<br>
