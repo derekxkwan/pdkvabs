@@ -24,7 +24,7 @@ pure data abstractions
 <b>fgrain/fgrainstr~.pd</b> - granular stretcher<br>
 <b>fgrain/fgraintrig~.pd</b> - triggered granular stretcher (requires fgrainstr~)<br>
 <b>fgrain/fgrainxfade~.pd</b> - granular stretcher/crossfader<br>
-<b>filter/allpass_van~.pd</b> - vanilla implementation of an all-pass filter using y[n] = g*x[n]+x[n-d]-g*y[n-d]<br>
+<b>filter/allpass_van~.pd</b> - vanilla implementation of an all-pass filter using y[n] = g/*x[n]+x[n-d]-g/*y[n-d]<br>
 <b>flanger~.pd</b> - flanger based on the Cycling '74 MSP tutorial.<br>
 <b>fm/fm1~.pd</b> - single-operator FM synthesis based on Miller Puckette's E09.FM.spectrum.pd with added ability to change harmonic of modulator.<br>
 <b>fm/fm2~.pd</b> - two-operator FM synthesis based on Miller Puckette's E10.complex.FM.pd<br>
