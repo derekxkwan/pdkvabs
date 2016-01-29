@@ -1,6 +1,5 @@
 # pure data abstractions
-pure data abstractions 
-
+<br>
 <b>bangsync.pd</b> - syncs up two bangs. <br>
 <b>bitred~.pd</b> - audio-signal bit-reduction based off 3.Bit-Reduction.pd by Alexander Torres Porres. <br>
 <b>blkmn~.pd</b> - generates blackman window according to input from 0 to 1. <br>
