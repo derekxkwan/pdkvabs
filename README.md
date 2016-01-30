@@ -8,6 +8,7 @@
 <b>cospan~.pd</b> - equal-power cosine panner <br>
 <b>cmult~.pd</b> - multiplication of two complex signals. <br>
 <b>cnorm~.pd</b> - normalization of a complex. <br>
+<b>decrease.pd</b> - detect decreases <br>
 <b>distort~.pd</b> - audio-signal distortion based off the work of LandonPD. Requires zexy.<br>
 <b>dksynth/dkbd~.pd</b> - bass drum synth<br>
 <b>dksynth/dkhh~.pd</b> - hihat synth<br>
@@ -38,7 +39,9 @@
 <b>hamm~.pd</b> - generates hamming window according to input 0 to 1. <br>
 <b>hannmaker.pd</b> - constructs hann window. args are array name where window is stored, window size, and overlap.<br>
 <b>hannnorm~.pd</b> - normalizes an incoming signal according to hann window (usu. after an ifft~). args are window size and overlap.<br>
+<b>increase.pd</b> - detect increases <br>
 <b>incwrite~.pd</b> - incremental tabwrite~<br>
+<b>incwritepos~.pd</b> - incremental tabwrite~ with sample position table<br>
 <b>karplus~.pd</b> - karplus-strong synth<br>
 <b>mbang.pd</b> - outputts multiple bangs for each incoming bang according to a given subdivision<br>
 <b>nearpow2.pd</b> - rounds input to a power of 2<br>
