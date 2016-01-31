@@ -46,9 +46,9 @@
 <b>mbang.pd</b> - outputts multiple bangs for each incoming bang according to a given subdivision<br>
 <b>nearpow2.pd</b> - rounds input to a power of 2<br>
 <b>nobu/nobu~.pd</b> - sample chopper with stutter<br>
-<b>nobu/nobugrain~.pd</b> - sample chopper wit stutter and granular stretching (requires fgrainstr~)<br>
-<b>nobu/nobupaul~.pd</b> - sample chopper wit stutter and paulstretching (requires paulstretch~)<br>
-<b>nobu/nobupvoc~.pd</b> - sample chopper wit stutter and phase vocoding (requires phasevoc~)<br>
+<b>nobu/nobugrain~.pd</b> - sample chopper with stutter and granular stretching (requires fgrainstr~)<br>
+<b>nobu/nobupaul~.pd</b> - sample chopper with stutter and paulstretching (requires paulstretch~)<br>
+<b>nobu/nobupvoc~.pd</b> - sample chopper with stutter and phase vocoding (requires phasevoc~)<br>
 <b>oneShotM.pd</b> - a one-shot sample player, left inlet takes a bang to trigger playback, right inlet takes a path for file. <br>
 <b>oneShotS.pd</b> - stereo version <br>
 <b>paulstretch~.pd</b> - slightly modified/cleaned up martin brinkmann's (mmb) small_paul1 paulstretcher for use as an abstraction. Unlike small_paul1, it rounds window sizes to the nearest power of 2 and accept signals as position input.<br>
