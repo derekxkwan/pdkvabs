@@ -58,7 +58,7 @@
 <b>randgate.pd</b> - randomly-opened spigot. specify percentage of things to let through.<br>
 <b>runmax.pd</b> - calculate running maximum<br>
 <b>runmin.pd</b> - calculate running minimum<br>
-<b>scaledeg.pd</b> - borrowed from SuperCollider's Scale object. Maps scale degrees to midi notes. Arguments are scale and starting midi note. <br>
+<b>scaledeg_van.pd</b> - borrowed from SuperCollider's Scale object. Maps scale degrees to midi notes. Arguments are scale and starting midi note. <br>
 <b>selector.pd</b> - a row of 32 toggle boxes whose values are stored in an array (name passed by argument, requires cyclone) <br>
 <b>stpan~.pd</b> - stereo panning <br>
 <b>strippoly.pd </b>- a poly without noteoff messages (or zero velocity notes) <br>
