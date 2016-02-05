@@ -21,7 +21,8 @@
 <b>fft/fftcross~.pd</b> - spectral cross-synthesis based on 1.Cross-Synthesis by Alexander Torres Porres.<br>
 <b>fft/fftgain~.pd</b> - spectral filter with traceable gain. <br>
 <b>fft/fftgate~.pd</b> - spectral gate (requires zexy). <br>
-<b>fgrain/fgrainstr~.pd</b> - granular stretcher<br>
+<b>fgrain/fgrainstr~.pd</b> - granular stretcher using tabread~<br>
+<b>fgrain/fgrainstr2~.pd</b> - granular stretcher using tabplay~ to avoid onset truncation error (no transposition)<br>
 <b>fgrain/fgraintrig~.pd</b> - triggered granular stretcher (requires fgrainstr~)<br>
 <b>fgrain/fgrainxfade~.pd</b> - granular stretcher/crossfader<br>
 <b>filter/allpass_van~.pd</b> - vanilla implementation of an all-pass filter using y[n] = gx[n]+x[n-d]-gy[n-d]<br>
