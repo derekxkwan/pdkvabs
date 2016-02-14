@@ -1,4 +1,4 @@
-#N canvas 598 161 920 711 10;
+#N canvas 1 56 1083 685 10;
 #X text 80 15 position (samples);
 #X obj 324 22 inlet;
 #X text 373 22 blocksize;
@@ -101,9 +101,12 @@
 #X text 40 40 args: \$1 - sample array \, \$2 - window size;
 #X obj 114 418 *~ 1;
 #X obj 27 14 inlet~;
-#X obj 107 211 samphold~;
+#X obj 66 201 samphold~;
 #X text 441 655 cleaned up martin brinkmann's (mmb's) small_paul1 for
 easier abstraction use and modified it to accept signal input.;
+#X text 12 86 in1: pos \, in2: offset \, in3: blocksize \, in4: transpose
+;
+#X obj 207 11 inlet;
 #X connect 1 0 32 0;
 #X connect 3 0 32 0;
 #X connect 4 0 5 0;
@@ -182,3 +185,4 @@ easier abstraction use and modified it to accept signal input.;
 #X connect 76 0 30 0;
 #X connect 77 0 78 0;
 #X connect 78 0 30 1;
+#X connect 81 0 34 1;
