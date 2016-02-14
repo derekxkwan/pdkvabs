@@ -59,6 +59,8 @@
 <b>randgate.pd</b> - randomly-opened spigot. specify percentage of things to let through.<br>
 <b>runmax.pd</b> - calculate running maximum<br>
 <b>runmin.pd</b> - calculate running minimum<br>
+<b>sampread/linereadpct~.pd</b> - sample indexing abstraction using line~<br>
+<b>sampread/phasread~.pd</b> - sample indexing abstraction using phasor~<br>
 <b>scaledeg_van.pd</b> - borrowed from SuperCollider's Scale object. Maps scale degrees to midi notes. Arguments are scale and starting midi note. Vanilla version of my scaledeg external using tables<br>
 <b>selector.pd</b> - a row of 32 toggle boxes whose values are stored in an array (name passed by argument, requires cyclone) <br>
 <b>stpan~.pd</b> - stereo panning <br>
