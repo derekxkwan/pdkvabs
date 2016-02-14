@@ -1,4 +1,4 @@
-#N canvas 389 158 1251 814 10;
+#N canvas 387 161 1251 814 10;
 #X obj 281 132 inlet;
 #X obj 355 188 moses 0;
 #X obj 404 130 loadbang;
@@ -225,8 +225,8 @@ table(0-1) \, 4.subdiv dur(ms);
 #X connect 67 0 66 0;
 #X connect 74 0 75 0;
 #X connect 79 0 26 0;
-#X connect 81 0 79 2;
-#X connect 82 0 79 1;
+#X connect 81 0 79 3;
+#X connect 82 0 79 2;
 #X connect 83 0 84 0;
 #X connect 87 0 58 0;
 #X connect 87 1 25 0;
