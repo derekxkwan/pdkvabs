@@ -1,4 +1,4 @@
-# pure data abstractions
+# pure data abstractions - released under gpl v3.0
 <br>
 <b>bangsync.pd</b> - syncs up two bangs. <br>
 <b>bitred~.pd</b> - audio-signal bit-reduction based off 3.Bit-Reduction.pd by Alexander Torres Porres. <br>
