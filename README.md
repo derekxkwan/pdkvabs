@@ -66,7 +66,8 @@ vanilla abstractions
 - dksmp2ms - samples to ms
 - dkstpan~ - stereo panning 
 - dkstrippoly - a poly without noteoff messages (or zero velocity notes) 
-- dkstutter~ - a delay-based stutter effect 
+- dkstutter~ - a delay-based stutter effect
+- dksyncgrn~ - synchronous granular abstraction
 - dksyncloop - a synchronized looper. 
 - dkswing - bang swinger
 - dksyncb - synchronized banger
