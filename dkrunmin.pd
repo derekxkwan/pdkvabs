@@ -1,0 +1,26 @@
+#N canvas 167 640 450 300 10;
+#X obj 176 107 inlet;
+#X obj 185 202 min;
+#X obj 173 241 outlet;
+#X obj 180 158 t f b;
+#X obj 219 187 f;
+#X obj 259 126 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj 254 100 inlet;
+#X text 303 100 reset;
+#X text 126 108 input;
+#X obj 374 114 loadbang;
+#X obj 249 151 1e+38;
+#X text 309 9 Derek Kwan \, 2016;
+#X text 25 19 in1 - input \, in2 - reset;
+#X text 19 2 DKRUNMIN - running minimum;
+#X connect 0 0 3 0;
+#X connect 1 0 2 0;
+#X connect 1 0 4 1;
+#X connect 3 0 1 0;
+#X connect 3 1 4 0;
+#X connect 4 0 1 1;
+#X connect 5 0 10 0;
+#X connect 6 0 5 0;
+#X connect 9 0 5 0;
+#X connect 10 0 4 1;

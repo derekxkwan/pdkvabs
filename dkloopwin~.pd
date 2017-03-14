@@ -1,0 +1,114 @@
+#N canvas 884 268 1017 734 12;
+#X obj 114 507 *~ 0.5;
+#X obj 117 560 cos~;
+#X obj 106 392 clip~ 0 1;
+#X obj 108 441 +~ 0.5;
+#X obj 108 466 wrap~;
+#X obj 103 323 wrap~;
+#X obj 114 532 -~ 0.25;
+#X obj 334 317 *;
+#X obj 334 342 t b f;
+#X msg 334 367 500;
+#X obj 334 392 /;
+#X obj 110 362 *~ 1;
+#X obj 117 585 outlet~;
+#X obj 284 165 inlet;
+#X text 289 139 ms ramp;
+#X obj 369 146 inlet;
+#X obj 198 238 moses 1e-16;
+#X msg 198 263 3;
+#X obj 198 298 f;
+#X obj 169 176 loadbang;
+#X obj 177 208 f \$1;
+#X obj 356 227 f \$2;
+#X text 14 2 DKLOOPWIN~: signal-driven loop-windowing;
+#X obj 359 273 t b f;
+#X obj 97 178 inlet~;
+#X text 381 125 incoming phasor rate;
+#X text 86 140 incoming 0-1 phasor;
+#X text 16 69 in1~: 0-1 phasor~ \, in2: ms ramp \, in3: incoming phasor
+rate;
+#X text 799 6 Derek Kwan \, 2016;
+#X text 874 27 gpl v3;
+#X obj 103 298 +~ 0.25;
+#X text 578 108 SOLN: use the 1/2 of a sine wave to window;
+#X text 624 132 and pause in the middle.;
+#X text 627 84 where the loop is driven by a 0-1 phasor~;
+#X text 580 63 GOAL: an x ms ramp at the ends of a loop window;
+#X text 562 356 TO GET DESIRED MULTIPLIER Y:;
+#X text 562 380 - multiplying at r Hz 0-1 phasor~ by y makes your ramp
+;
+#X text 577 402 get from 0 to y in 1/r secs or 1000/r msecs.;
+#X text 560 524 - x ms = 500/(r*y) -> y = 500/(r*x);
+#X text 562 426 - or 0 to 1 in 1000/(r*y) msecs;
+#X text 578 233 instead of the clipped value of 1;
+#X text 550 170 IDEA: mult 0-1 phasor~ by a value y \, and clip at
+1;
+#X text 560 193 - for it to pause "in the middle" \, pause at 0.5;
+#X text 561 212 - SO: add 0.5 and rewrap to get pause at 0.5;
+#X text 578 271 ramp -> clip \, need to split initial ramp in half
+;
+#X text 562 258 - AND since we want ramp -> clip -> ramp instead of
+;
+#X text 561 296 - MEANING: start at 0.5 with ramp \, clip \,;
+#X text 581 318 then after the clip spend time getting back to 0.5
+;
+#X text 556 450 - since we are give the dur of the ramp up or down
+;
+#X text 574 473 (which is actually one half of the real ramp) \,;
+#X text 579 496 we need half the time (500/(r*y) ms);
+#X text 562 356 TO GET DESIRED MULTIPLIER Y:;
+#X text 562 380 - multiplying at r Hz 0-1 phasor~ by y makes your ramp
+;
+#X text 577 402 get from 0 to y in 1/r secs or 1000/r msecs.;
+#X text 560 524 - x ms = 500/(r*y) -> y = 500/(r*x);
+#X text 562 426 - or 0 to 1 in 1000/(r*y) msecs;
+#X text 556 450 - since we are give the dur of the ramp up or down
+;
+#X text 574 473 (which is actually one half of the real ramp) \,;
+#X text 579 496 we need half the time (500/(r*y) ms);
+#X text 211 502 TO GET A PHASOR STARTING AT 0.5 WHEN THE;
+#X text 213 526 ORIGINAL STARTS AT 0:;
+#X text 205 551 - offset the phasor by a value o and wrap;
+#X text 195 619 - use [cos~] for window;
+#X text 193 644 - needs -0.25 to 0.25 range for window;
+#X text 195 670 - so mult 0-1 range window by 0.5 and subtract 0.25
+;
+#X text 222 574 - o * y = 0.5 -> o = 0.5 / y;
+#X obj 334 417 t b f;
+#X msg 334 442 0.5;
+#X obj 334 467 /;
+#X text 14 93 arg1: ramp time ms (default 3) \, arg2: incoming phasor
+rate;
+#X text 13 28 (see dxk-pd tutorial: signal_driven_windowing.pd);
+#X connect 0 0 6 0;
+#X connect 1 0 12 0;
+#X connect 2 0 3 0;
+#X connect 3 0 4 0;
+#X connect 4 0 0 0;
+#X connect 5 0 11 0;
+#X connect 6 0 1 0;
+#X connect 7 0 8 0;
+#X connect 8 0 9 0;
+#X connect 8 1 10 1;
+#X connect 9 0 10 0;
+#X connect 10 0 66 0;
+#X connect 11 0 2 0;
+#X connect 13 0 18 0;
+#X connect 15 0 21 0;
+#X connect 16 0 17 0;
+#X connect 16 1 18 0;
+#X connect 17 0 18 0;
+#X connect 18 0 7 0;
+#X connect 19 0 20 0;
+#X connect 19 0 21 0;
+#X connect 20 0 16 0;
+#X connect 21 0 23 0;
+#X connect 23 0 7 0;
+#X connect 23 1 7 1;
+#X connect 24 0 30 0;
+#X connect 30 0 5 0;
+#X connect 66 0 67 0;
+#X connect 66 1 68 1;
+#X connect 67 0 68 0;
+#X connect 68 0 30 1;

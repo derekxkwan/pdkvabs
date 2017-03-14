@@ -1,0 +1,13 @@
+#N canvas 331 257 450 300 12;
+#X obj 182 55 inlet;
+#X obj 182 80 t b f;
+#X msg 170 134 60000;
+#X obj 170 159 /;
+#X obj 170 184 outlet;
+#X text 347 17 dkbpm2ms;
+#X text 291 44 Derek Kwan 2016;
+#X connect 0 0 1 0;
+#X connect 1 0 2 0;
+#X connect 1 1 3 1;
+#X connect 2 0 3 0;
+#X connect 3 0 4 0;

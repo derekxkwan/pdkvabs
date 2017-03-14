@@ -1,0 +1,13 @@
+#N canvas 486 308 518 275 12;
+#X text 11 31 Derek Kwan \, 2016;
+#X text 11 50 gpl v3;
+#X obj 162 86 inlet;
+#X obj 162 111 * -1;
+#X obj 162 136 - 1;
+#X obj 162 161 outlet;
+#X text 217 101 not = * -1 - 1;
+#X text 217 124 in two's complement;
+#X text 13 10 DKNOT: control-rate bitwise not;
+#X connect 2 0 3 0;
+#X connect 3 0 4 0;
+#X connect 4 0 5 0;

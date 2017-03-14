@@ -1,0 +1,15 @@
+#N canvas 772 310 450 300 10;
+#X obj 252 85 inlet;
+#X obj 105 83 inlet;
+#X obj 166 215 outlet;
+#X text 256 56 in 2: sync;
+#X text 320 16 Derek Kwan - 2016;
+#X text 22 11 DKSYNCF - synchronized floats;
+#X text 86 56 in 1: incoming float;
+#X obj 175 161 f;
+#X obj 252 107 bang;
+#X text 227 221 out 1: synced float;
+#X connect 0 0 8 0;
+#X connect 1 0 7 1;
+#X connect 7 0 2 0;
+#X connect 8 0 7 0;

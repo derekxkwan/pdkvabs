@@ -1,0 +1,10 @@
+#N canvas 1385 501 450 300 12;
+#X obj 101 43 inlet~;
+#X obj 206 92 wrap~;
+#X obj 100 121 -~;
+#X obj 100 146 outlet~;
+#X text 6 7 DKINT~ - "typecasts" a signal to int;
+#X connect 0 0 1 0;
+#X connect 0 0 2 0;
+#X connect 1 0 2 1;
+#X connect 2 0 3 0;
