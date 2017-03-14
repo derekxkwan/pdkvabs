@@ -79,3 +79,12 @@ vanilla abstractions
 - dkvuzi - vanilla uzi/multiple banger
 - dkvadsr~ - adsr envelope generator using vline~ based off Matt Davey's  diy-adsr~
 - dkxor - control-rate bitwise xor
+
+
+VANILLA SIGNAL BINOPS
+- dkeq~ - equal to
+- dkge~ - greater than or equal to
+- dkgt~ - greater than
+- dkle~ - less than or equal to
+- dklt~ - less than
+- dkne~ - not equal to
