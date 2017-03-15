@@ -1,6 +1,7 @@
 - # dkvabs - released under gpl v3.0
 vanilla abstractions
 
+- dkasyncgrn~ - asynchronous granular synth
 - dkbangsync - bang syncer
 - dkbinlist - int to binary list
 - dkbitred~ - audio-signal bit-reduction based off 3.Bit-Reduction by Alexander Torres Porres. 
