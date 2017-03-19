@@ -15,6 +15,7 @@ vanilla abstractions
 - dkdecrease - detect decreases 
 - dkdistort~ - audio-signal distortion based off the work of Lando. Requires zexy.
 - dkdownsamp~ - audio-signal downsampler.
+- dkeqtemp - degree to equal temperament in Hz
 - dkfbdel~ - simple delay with fb
 - dkfft/fftbinwipe~ - fft bin wiper ported from SuperCollider's PV_BinWipe
 - dkfft/fftcomp~ - spectral compressor based on 5.Spectral-Compressor by Alexander Torres Porres.
