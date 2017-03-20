@@ -54,7 +54,7 @@ vanilla abstractions
 - dkrandom~ - abstraction simulating the output of the Max/MSP rand~ object.
 - dkrunmax - running maximum
 - dkrunmin - running minimum
-- dkrndgt - let through anything x% of the time
+- dkrgate - let through anything x% of the time
 - dkscaledeg_van - borrowed from SuperCollider's Scale object. Maps scale degrees to midi notes. Arguments are scale and starting midi note. Vanilla version of my scaledeg external using tables
 - dkselector - a row of 32 toggle boxes whose values are stored in an array (name passed by argument, requires cyclone) 
 - dkseqgen1 - timed random sequence generator
