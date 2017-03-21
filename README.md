@@ -1,6 +1,7 @@
 - # dkvabs - released under gpl v3.0
 vanilla abstractions
 
+- dkaccum - running sum
 - dkasyncgrn~ - asynchronous granular synth
 - dkbangsync - bang syncer
 - dkbinlist - int to binary list
