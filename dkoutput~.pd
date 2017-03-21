@@ -1,0 +1,47 @@
+#N canvas 746 258 897 479 12;
+#X obj 319 393 dac~ 1 2;
+#X obj 269 293 catch~ \$1L;
+#X obj 275 335 *~;
+#X obj 406 333 *~;
+#X msg 109 238 \$1 5;
+#X obj 95 276 line~;
+#X obj 100 103 cnv 15 150 87 empty empty empty 20 12 0 14 -228856 -66577
+0;
+#X obj 112 134 hsl 128 15 0 1 0 0 empty empty empty -2 -8 0 10 -262144
+-1 -1 0 1;
+#X symbolatom 114 110 15 0 0 0 - - -, f 15;
+#X obj 349 72 loadbang;
+#X obj 398 124 symbol \$1;
+#X obj 406 294 catch~ \$1R;
+#X obj 462 45 inlet;
+#X obj 462 70 route float;
+#X obj 354 232 inlet~;
+#X obj 446 229 inlet~;
+#X obj 186 165 tgl 15 0 empty empty mute 17 7 0 15 -262144 -1 -1 0
+1;
+#X obj 106 164 nbx 5 16 -1e+37 1e+37 0 0 empty empty empty 0 -8 0 15
+-262144 -1 -1 0 256;
+#X text 12 8 dkoutput~ - output abstraction;
+#X text 13 33 want: way to set catch~ name dynamically;
+#X text 24 371 inlets: sigL~ \, sigr~ \, gain;
+#X text 24 319 args: throw name;
+#X text 21 345 (catch will be name+L or R);
+#X text 643 27 derek kwan 2017;
+#X text 644 46 gpl v 3;
+#X text 647 73 pdkvabs;
+#X connect 1 0 2 0;
+#X connect 2 0 0 0;
+#X connect 3 0 0 1;
+#X connect 4 0 5 0;
+#X connect 5 0 2 1;
+#X connect 5 0 3 1;
+#X connect 7 0 4 0;
+#X connect 7 0 17 0;
+#X connect 9 0 10 0;
+#X connect 10 0 8 0;
+#X connect 11 0 3 0;
+#X connect 12 0 13 0;
+#X connect 13 0 7 0;
+#X connect 14 0 2 0;
+#X connect 15 0 3 0;
+#X coords 0 -1 1 1 150 90 2 100 100;

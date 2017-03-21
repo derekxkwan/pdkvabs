@@ -52,6 +52,7 @@ vanilla abstractions
 - dkphsrd~ - phasor sound reader abstraction
 - dkpolyish1 - polyish abs with no note off
 - dkpulsewidth~ - pulse width modulation
+- dkrandi - random int within a given range
 - dkrandom~ - abstraction simulating the output of the Max/MSP rand~ object.
 - dkrunmax - running maximum
 - dkrunmin - running minimum
@@ -71,6 +72,7 @@ vanilla abstractions
 - dktport - a fancy counter with beats, subdivisions, and measures. 
 - dktri~ - nonbandlimited triangle oscillator based off Miller Puckette's  J05.triangle
 - dktukeymaker - tukey window constructor. ideal for grain envelopes. 
+- dkoutput~ - output abstraction
 - dkunit2ms - ms calculator
 - dkvanctr - vanilla counter (can go both up and down)
 - dkvancomp~ - vanilla compressor/limiter
