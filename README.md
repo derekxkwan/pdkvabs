@@ -95,3 +95,6 @@ VANILLA SIGNAL BINOPS
 - dkle~ - less than or equal to
 - dklt~ - less than
 - dkne~ - not equal to
+
+STRUCTURE
+- pdkst-nth - get nth scalar of a structure 
