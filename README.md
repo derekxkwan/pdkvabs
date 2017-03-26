@@ -36,6 +36,7 @@ vanilla abstractions
 - dkint~ - "typecast" signals to integer
 - dkincwritepos~ - incremental tabwrite~ with sample position table
 - dkkarplus~ - karplus-strong synth
+- dkkeysend - send globally via prefixed key
 - dkkeyrow2num - maps the key row to floats
 - dkloopplay~ - synced looper based around tabplay~
 - dkloopwin~ - signal-driven loop windowing
