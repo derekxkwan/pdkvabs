@@ -97,4 +97,6 @@ VANILLA SIGNAL BINOPS
 - dkne~ - not equal to
 
 STRUCTURE
+- pdkst-init - clear scalars and init iterating over given element
 - pdkst-nth - get nth scalar of a structure 
+- pdkst-textdefine - emulate [text define] methods for text struct member
