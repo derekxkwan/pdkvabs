@@ -52,6 +52,7 @@ vanilla abstractions
 - dkpaulstretch~ - slightly modified/cleaned up martin brinkmann's (mmb) small_paul1 paulstretcher for use as an abstraction. Unlike small_paul1, it rounds window sizes to the nearest power of 2 and accept signals as position input.
 - dkphasevoc~ - a phase vocoder abstraction lifted from Miller Puckette's I07.phase.vocoder from the help files. Like tabread4~, hot signal inlet indexes by sample. First arg is array name, second is window size. 
 - dkphsrd~ - phasor sound reader abstraction
+- dkpolargraph~ - graph a real fft analysis in polar coords
 - dkpolyish1 - polyish abs with no note off
 - dkpulsewidth~ - pulse width modulation
 - dkrandi - random int within a given range
