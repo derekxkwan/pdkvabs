@@ -10,7 +10,6 @@ vanilla abstractions
 - dkbpm2ms - bpm to ms
 - dkchorus~ - chorus based on the Cycling '74 MSP tutorial.
 - dkcdiv~ - division of two complex signals. 
-- dkcospan~ - cosine panner
 - dkcmult~ - multiplication of two complex signals. 
 - dkcnorm~ - normalization of a complex. 
 - dkdecrease - detect decreases 
@@ -88,6 +87,10 @@ vanilla abstractions
 - dkvadsr~ - adsr envelope generator using vline~ based off Matt Davey's  diy-adsr~
 - dkxor - control-rate bitwise xor
 
+PANNING
+- dkcomppan~ - -4.5 dB panner (compromise panner)
+- dkcospan~ - cosine-based equal-power panner
+- dklinpan~ - linear panner
 
 VANILLA SIGNAL BINOPS
 - dkeq~ - equal to
