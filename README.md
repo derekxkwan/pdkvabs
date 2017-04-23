@@ -104,3 +104,6 @@ STRUCTURE
 - pdkst-init - clear scalars and init iterating over given element
 - pdkst-nth - get nth scalar of a structure 
 - pdkst-textdefine - emulate [text define] methods for text struct member
+
+NOT-VANILLA ABSTRACTIONS
+- dkamixer~ - abstraction over ggee/shell to set volume with amixer (Linux only)
