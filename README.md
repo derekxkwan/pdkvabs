@@ -105,5 +105,9 @@ STRUCTURE
 - pdkst-nth - get nth scalar of a structure 
 - pdkst-textdefine - emulate [text define] methods for text struct member
 
+TEXT
+- pdktext-getval - get value from associated key (treating text like a hash table)
+
+
 NOT-VANILLA ABSTRACTIONS
 - dkamixer~ - abstraction over ggee/shell to set volume with amixer (Linux only)
