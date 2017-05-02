@@ -87,6 +87,13 @@ vanilla abstractions
 - dkvadsr~ - adsr envelope generator using vline~ based off Matt Davey's  diy-adsr~
 - dkxor - control-rate bitwise xor
 
+FILTERS
+- dkvapcomb~ - allpass filter from two combs
+- dkvfbcomb~ - feedback comb filter
+
+REVERB
+- dkschroeder1~ - a schroeder reverb with 4 outputs
+
 PANNING
 - dkcomppan~ - -4.5 dB panner (compromise panner)
 - dkcospan~ - cosine-based equal-power panner
