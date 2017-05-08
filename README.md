@@ -92,7 +92,8 @@ FILTERS
 - dkvfbcomb~ - feedback comb filter
 
 REVERB
-- dkschroeder1~ - a schroeder reverb with 4 outputs
+- dkschroeder1~ - a schroeder reverb (1-in,4-out)
+- dkschroeder2~ - satrev chowning schroeder reverb (1-in, 2-out)
 
 PANNING
 - dkcomppan~ - -4.5 dB panner (compromise panner)

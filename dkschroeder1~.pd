@@ -1,4 +1,4 @@
-#N canvas 770 186 1173 965 12;
+#N canvas 719 272 1173 965 12;
 #X obj 215 37 inlet~;
 #X obj 219 104 dkvapcomb~ 0.7 100;
 #X obj 220 154 dkvapcomb~ 0.7 100;
@@ -36,6 +36,7 @@
 #X text 1021 34 gpl v 3;
 #X text 1020 55 pdkvabs;
 #X text 1021 10 derek kwan 2017;
+#X text 9 63 1-in \, 4-out;
 #X connect 0 0 1 0;
 #X connect 1 0 2 0;
 #X connect 2 0 3 0;
