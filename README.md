@@ -27,9 +27,6 @@ vanilla abstractions
 - dkfor - for loop
 - dkfreqshift~ - frequency shifter via single sideband modulation
 - dkgainenv~ - traceable gain envelope
-- dkhamm~ - generates hamming window according to input 0 to 1. 
-- dkhannmaker - constructs hann window. args are array name where window is stored, window size, and overlap.
-- dkhannnorm~ - normalizes an incoming signal according to hann window (usu. after an ifft~). args are window size and overlap.
 - dkincrease - detect increases 
 - dkincwr~ - incremental tabwriter
 - dkint~ - "typecast" signals to integer
@@ -72,7 +69,6 @@ vanilla abstractions
 - dksyncf - synchronized floats
 - dktport - a fancy counter with beats, subdivisions, and measures. 
 - dktri~ - nonbandlimited triangle oscillator based off Miller Puckette's  J05.triangle
-- dktukeymaker - tukey window constructor. ideal for grain envelopes. 
 - dkoutput~ - output abstraction
 - dkunit2ms - ms calculator
 - dkvanctr - vanilla counter (can go both up and down)
@@ -119,6 +115,12 @@ STRUCTURE
 TEXT
 - pdktext-getval - get value from associated key (treating text like a hash table)
 
+WINDOWING
+- dkhamm~ - generates hamming window according to input 0 to 1. 
+- dkhann~ - generates hann window according to input 0 to 1
+- dkhannmaker - constructs hann window. args are array name where window is stored, window size, and overlap.
+- dkhannnorm~ - normalizes an incoming signal according to hann window (usu. after an ifft~). args are window size and overlap.
+- dktukeymaker - tukey window constructor. ideal for grain envelopes. 
 
 NOT-VANILLA ABSTRACTIONS
 - dkamixer~ - abstraction over ggee/shell to set volume with amixer (Linux only)
