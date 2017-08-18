@@ -66,7 +66,6 @@ vanilla abstractions
 - dkstpan~ - stereo panning 
 - dkstrippoly - a poly without noteoff messages (or zero velocity notes) 
 - dkstutter~ - a delay-based stutter effect
-- dksyncgrn~ - synchronous granular abstraction
 - dksyncloop - a synchronized looper. 
 - dkswing - bang swinger
 - dksyncb - synchronized banger
@@ -86,6 +85,10 @@ vanilla abstractions
 - dkvuzi - vanilla uzi/multiple banger
 - dkvadsr~ - adsr envelope generator using vline~ based off Matt Davey's  diy-adsr~
 - dkxor - control-rate bitwise xor
+
+GRANULAR
+- dklgstr1~ - live granular stretcher (uses dksyncgrn~)
+- dksyncgrn~ - synchronous granular abstraction
 
 FILTERS
 - dkvapcomb~ - allpass filter from two combs
