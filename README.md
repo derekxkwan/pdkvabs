@@ -9,7 +9,8 @@ vanilla abstractions
 - dkblkmn~ - generates blackman window according to input from 0 to 1. 
 - dkbpm2ms - bpm to ms
 - dkchorus~ - chorus based on the Cycling '74 MSP tutorial.
-- dkcdiv~ - division of two complex signals. 
+- dkcdiv~ - division of two complex signals.
+- dkcliktrak~ - click track/metronome
 - dkcmult~ - multiplication of two complex signals. 
 - dkcnorm~ - normalization of a complex. 
 - dkdecrease - detect decreases 
