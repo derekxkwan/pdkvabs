@@ -38,9 +38,9 @@
 #X text 651 54 pdkvabs;
 #X text 651 75 gpl v 3;
 #X obj 296 139 vsl 30 100 0 1 0 0 empty \$0-cliktrakvol vol 0 -9 0
-15 -262144 -1 -1 9900 1;
+15 -262144 -1 -1 2200 1;
 #X obj 281 251 nbx 3 20 -1e+37 1e+37 0 0 empty empty empty 0 -8 0 15
--262144 -1 -1 1 256;
+-262144 -1 -1 0.222222 256;
 #X obj 420 53 f \$0;
 #N canvas 350 147 924 747 dkcliktraksound 0;
 #X obj 385 323 sel 0 1 2;
@@ -120,7 +120,7 @@
 #X obj 167 250 nbx 3 20 -1e+37 1e+37 0 0 empty \$0-cliktrakmax max
 0 -8 0 15 -262144 -1 -1 4 256;
 #X obj 106 251 nbx 3 20 -1e+37 1e+37 0 0 empty \$0-cliktrakcount count
-0 -8 0 15 -262144 -1 -1 0 256;
+0 -8 0 15 -262144 -1 -1 1 256;
 #X obj 232 238 bng 30 250 50 0 empty empty reset 0 -7 0 15 -262144
 -1 -1;
 #X obj 219 195 nbx 4 20 -1e+37 1e+37 0 0 empty \$0-cliktrakfqbeat fq-beat
@@ -130,7 +130,11 @@
 0 \; \$1-cliktraksel 0 \; \$1-cliktrakvol 1 \; \$1-cliktrakfqmeas 4000
 \; \$1-cliktrakfqbeat 2000 \; \$1-cliktrakmax 4 \;;
 #X text 153 700 count;
-#X connect 0 0 6 0;
+#X obj 15 231 t f f;
+#X obj 66 286 sel 1;
+#X obj 295 726 outlet;
+#X text 298 696 on/off;
+#X connect 0 0 46 0;
 #X connect 1 0 2 0;
 #X connect 2 0 3 0;
 #X connect 2 1 4 1;
@@ -153,4 +157,8 @@
 #X connect 39 0 38 1;
 #X connect 41 0 38 3;
 #X connect 42 0 37 1;
+#X connect 46 0 6 0;
+#X connect 46 1 47 0;
+#X connect 46 1 48 0;
+#X connect 47 0 41 0;
 #X coords 0 -1 1 1 240 180 1 100 100;
