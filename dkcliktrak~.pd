@@ -9,7 +9,7 @@
 #X text 323 401 bpm to ms;
 #X obj 72 326 metro;
 #X obj 105 200 hradio 30 1 0 3 empty \$0-cliktraksel empty 0 -8 0 15
--262144 -1 -1 2;
+-262144 -1 -1 0;
 #X text 102 177 sin;
 #X text 168 176 noise;
 #X obj 23 721 outlet~;
@@ -24,7 +24,6 @@
 #X text 194 76 bpm;
 #X text 267 70 freq;
 #X obj 128 726 outlet;
-#X text 153 700 bang;
 #X text 36 687 sig;
 #X obj 218 725 outlet;
 #X text 232 701 ms;
@@ -121,7 +120,7 @@
 #X obj 167 250 nbx 3 20 -1e+37 1e+37 0 0 empty \$0-cliktrakmax max
 0 -8 0 15 -262144 -1 -1 4 256;
 #X obj 106 251 nbx 3 20 -1e+37 1e+37 0 0 empty \$0-cliktrakcount count
-0 -8 0 15 -262144 -1 -1 2 256;
+0 -8 0 15 -262144 -1 -1 0 256;
 #X obj 232 238 bng 30 250 50 0 empty empty reset 0 -7 0 15 -262144
 -1 -1;
 #X obj 219 195 nbx 4 20 -1e+37 1e+37 0 0 empty \$0-cliktrakfqbeat fq-beat
@@ -130,26 +129,28 @@
 #X msg 420 78 \; \$1-cliktrakbpm 120 \; \$1-cliktrakfreq 2000 \; \$1-cliktraktgl
 0 \; \$1-cliktraksel 0 \; \$1-cliktrakvol 1 \; \$1-cliktrakfqmeas 4000
 \; \$1-cliktrakfqbeat 2000 \; \$1-cliktrakmax 4 \;;
+#X text 153 700 count;
 #X connect 0 0 6 0;
 #X connect 1 0 2 0;
 #X connect 2 0 3 0;
 #X connect 2 1 4 1;
 #X connect 3 0 4 0;
 #X connect 4 0 6 1;
-#X connect 4 0 23 0;
-#X connect 6 0 39 0;
-#X connect 7 0 38 2;
-#X connect 12 0 38 0;
-#X connect 13 0 37 0;
+#X connect 4 0 22 0;
+#X connect 6 0 38 0;
+#X connect 7 0 37 2;
+#X connect 12 0 37 0;
+#X connect 13 0 36 0;
 #X connect 14 0 0 0;
 #X connect 16 0 1 0;
 #X connect 17 0 12 0;
-#X connect 35 0 36 0;
-#X connect 35 0 38 3;
-#X connect 37 0 45 0;
-#X connect 38 0 10 0;
-#X connect 39 0 44 0;
-#X connect 40 0 39 1;
-#X connect 42 0 39 3;
-#X connect 43 0 38 1;
+#X connect 34 0 35 0;
+#X connect 34 0 37 3;
+#X connect 36 0 44 0;
+#X connect 37 0 10 0;
+#X connect 38 0 43 0;
+#X connect 38 0 20 0;
+#X connect 39 0 38 1;
+#X connect 41 0 38 3;
+#X connect 42 0 37 1;
 #X coords 0 -1 1 1 240 180 1 100 100;
