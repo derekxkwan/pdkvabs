@@ -1,6 +1,6 @@
 #N canvas 955 308 820 843 12;
 #X obj 111 140 tgl 30 0 empty \$0-cliktraktgl on 0 -7 0 15 -262144
--1 -1 1 1;
+-1 -1 0 1;
 #X obj 152 150 nbx 3 20 -1e+37 1e+37 0 0 empty \$0-cliktrakbpm bpm
 0 -8 0 15 -262144 -1 -1 120 256;
 #X obj 265 360 t b f, f 15;
@@ -117,10 +117,10 @@
 #X connect 32 0 28 0;
 #X restore 135 492 pd dkcliktraksound;
 #X obj 37 383 dkvanctr 4;
-#X obj 163 251 nbx 3 20 -1e+37 1e+37 0 0 empty \$0-cliktrakmax meas
-0 -8 0 15 -262144 -1 -1 4 256;
+#X obj 163 251 nbx 3 20 -1e+37 1e+37 0 0 empty \$0-cliktrakmeas meas
+0 -8 0 15 -262144 -1 -1 0 256;
 #X obj 106 250 nbx 3 20 -1e+37 1e+37 0 0 empty \$0-cliktrakcount count
-0 -8 0 15 -45076 -257985 -1 2 256;
+0 -8 0 15 -45076 -257985 -1 0 256;
 #X obj 219 240 bng 30 250 50 0 empty empty reset 0 -7 0 12 -262144
 -1 -1;
 #X obj 214 196 nbx 4 20 -1e+37 1e+37 0 0 empty \$0-cliktrakfqbeat fq-beat
