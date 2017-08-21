@@ -122,5 +122,8 @@ WINDOWING
 - dkhannnorm~ - normalizes an incoming signal according to hann window (usu. after an ifft~). args are window size and overlap.
 - dktukeymaker - tukey window constructor. ideal for grain envelopes. 
 
+MISC
+- dklogidy - abstraction to deal with default settings of logidy umi3
+
 NOT-VANILLA ABSTRACTIONS
 - dkamixer~ - abstraction over ggee/shell to set volume with amixer (Linux only)
