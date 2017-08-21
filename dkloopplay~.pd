@@ -1,10 +1,10 @@
-#N canvas 96 349 875 562 12;
+#N canvas 184 332 875 562 12;
 #X obj 559 120 inlet;
 #X obj 262 476 tabwrite~ \$1;
-#X obj 243 133 inlet~;
+#X obj 243 240 inlet~;
 #X obj 363 106 inlet;
 #X text 345 148 play/rec;
-#X obj 440 128 inlet;
+#X obj 440 110 inlet;
 #X text 444 152 off/on;
 #X obj 363 224 f;
 #X text 610 117 transport sync;
@@ -89,19 +89,23 @@
 #X restore 368 366 pd syncer;
 #X obj 559 145 t b b b;
 #X text 32 12 dkloopplay~: synced looper based on tabplay~;
-#X text 10 159 in1: sig~ \, in2: play/rec;
-#X text 10 183 in3: off/on \, in4: transport;
-#X text 13 73 arg: sample array;
-#X text 21 224 out~: sig;
+#X text 6 320 in1: sig~ \, in2: play/rec;
+#X text 6 344 in3: off/on \, in4: transport;
+#X text 8 281 arg: sample array;
+#X text 17 385 out~: sig;
 #X text 27 38 Derek Kwan 2016 \, gpl v 3;
 #X obj 402 483 outlet~;
 #X obj 362 295 t f f;
 #X obj 576 322 * 0;
 #X obj 495 224 t b f;
+#X obj 109 143 tgl 30 0 empty empty rec 0 -7 0 15 -262144 -1 -1 0 1
+;
+#X obj 156 143 tgl 30 0 empty empty on 0 -7 0 15 -262144 -1 -1 0 1
+;
 #X connect 0 0 22 0;
 #X connect 2 0 14 0;
-#X connect 3 0 7 1;
-#X connect 5 0 10 1;
+#X connect 3 0 33 0;
+#X connect 5 0 34 0;
 #X connect 7 0 13 0;
 #X connect 9 0 13 0;
 #X connect 10 0 32 0;
@@ -125,3 +129,6 @@
 #X connect 31 0 18 0;
 #X connect 32 0 31 0;
 #X connect 32 1 31 1;
+#X connect 33 0 7 1;
+#X connect 34 0 10 1;
+#X coords 0 -1 1 1 150 80 1 100 100;
