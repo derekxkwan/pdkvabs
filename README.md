@@ -70,7 +70,6 @@ vanilla abstractions
 - dktri~ - nonbandlimited triangle oscillator based off Miller Puckette's  J05.triangle
 - dkoutput~ - output abstraction
 - dkunit2ms - ms calculator
-- dkvanctr - vanilla counter (can go both up and down)
 - dkvancomp~ - vanilla compressor/limiter
 - dkvandrk - vanilla drunk random number generator 
 - dkvanphs~ - vanilla 3-delay line phaser/chorus effect 
@@ -84,6 +83,10 @@ vanilla abstractions
 CONVENIENCE
 - dkezadc~ - adc abstraction
 - dkezdac~ - dac abstraction
+
+COUNTER
+- dktimedctr- on bang, output floats counting up to x 
+- dkvanctr - vanilla counter (can go both up and down)
 
 GATE
 - dklegt - let through floats lesser or equal to x
