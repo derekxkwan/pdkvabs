@@ -43,7 +43,6 @@ vanilla abstractions
 - dknearpow2 - rounds input to a power of 2
 - dknobu~ - sample chopper abstraction
 - dknot - control-rate bitwise not
-- dknzgt - only let nonzero floats through
 - dkoneShotM - a one-shot sample player, left inlet takes a bang to trigger playback, right inlet takes a path for file. 
 - dkoneShotS - stereo version 
 - dkpaulstretch~ - slightly modified/cleaned up martin brinkmann's (mmb) small_paul1 paulstretcher for use as an abstraction. Unlike small_paul1, it rounds window sizes to the nearest power of 2 and accept signals as position input.
@@ -56,7 +55,6 @@ vanilla abstractions
 - dkrandom~ - abstraction simulating the output of the Max/MSP rand~ object.
 - dkrunmax - running maximum
 - dkrunmin - running minimum
-- dkrgate - let through anything x% of the time
 - dkscaledeg_van - borrowed from SuperCollider's Scale object. Maps scale degrees to midi notes. Arguments are scale and starting midi note. Vanilla version of my scaledeg external using tables
 - dkselector - a row of 32 toggle boxes whose values are stored in an array (name passed by argument, requires cyclone) 
 - dkseqgen1 - timed random sequence generator
@@ -86,6 +84,12 @@ vanilla abstractions
 CONVENIENCE
 - dkezadc~ - adc abstraction
 - dkezdac~ - dac abstraction
+
+GATE
+- dklegt - let through floats lesser or equal to x
+- dkgegt - let through floats greater or equal to x
+- dkrgate - let through anything x% of the time
+- dknzgt - only let nonzero floats through
 
 GRANULAR
 - dklgstr1~ - live granular stretcher (uses dksyncgrn~)
