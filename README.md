@@ -83,6 +83,10 @@ vanilla abstractions
 - dkvadsr~ - adsr envelope generator using vline~ based off Matt Davey's  diy-adsr~
 - dkxor - control-rate bitwise xor
 
+CONVENIENCE
+- dkezadc~ - adc abstraction
+- dkezdac~ - dac abstraction
+
 GRANULAR
 - dklgstr1~ - live granular stretcher (uses dksyncgrn~)
 - dksyncgrn~ - synchronous granular abstraction
