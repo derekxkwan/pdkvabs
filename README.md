@@ -98,6 +98,9 @@ GRANULAR
 - dklgstr1~ - live granular stretcher (uses dksyncgrn~)
 - dksyncgrn~ - synchronous granular abstraction
 
+FFT
+- dkfftgraph~ - graph fft magnitude of incoming signal
+
 FILTERS
 - dkvapcomb~ - allpass filter from two combs
 - dkvfbcomb~ - feedback comb filter
