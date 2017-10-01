@@ -1,0 +1,13 @@
+#N canvas 493 262 679 302 12;
+#X obj 158 95 t f f;
+#X obj 159 164 -;
+#X obj 205 128 i;
+#X obj 159 189 outlet;
+#X text 29 13 dkfdec - get decimal part of float;
+#X text 536 12 pdkvabs;
+#X text 544 62 gpl v 3 2017;
+#X text 534 38 derek x kwan;
+#X connect 0 0 1 0;
+#X connect 0 1 2 0;
+#X connect 1 0 3 0;
+#X connect 2 0 1 1;

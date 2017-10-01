@@ -105,6 +105,11 @@ FILTERS
 - dkvapcomb~ - allpass filter from two combs
 - dkvfbcomb~ - feedback comb filter
 
+FLOAT
+- dkfround - round float
+- dkfdec - get decimal part of float
+- dkfdectol - pass float if within decimal tolerance of int
+
 REVERB
 - dkschroeder1~ - a schroeder reverb (1-in,4-out)
 - dkschroeder2~ - satrev chowning schroeder reverb (1-in, 2-out)
