@@ -1,4 +1,4 @@
-#N canvas 955 308 820 843 12;
+#N canvas 669 173 820 843 12;
 #X obj 111 140 tgl 30 0 empty \$0-cliktraktgl on 0 -7 0 15 -262144
 -1 -1 0 1;
 #X obj 152 150 nbx 3 20 -1e+37 1e+37 0 0 empty \$0-cliktrakbpm bpm
@@ -19,9 +19,9 @@
 #X obj 350 6 loadbang;
 #X obj 62 54 inlet;
 #X text 107 56 on/off;
-#X obj 179 56 inlet;
+#X obj 172 27 inlet;
 #X obj 261 49 inlet;
-#X text 194 76 bpm;
+#X text 187 47 bpm;
 #X text 267 70 freq;
 #X obj 128 726 outlet;
 #X text 36 687 sig;
@@ -41,11 +41,10 @@
 15 -262144 -1 -1 9900 1;
 #X obj 292 252 nbx 3 20 -1e+37 1e+37 0 0 empty empty empty 0 -8 0 12
 -262144 -1 -1 1 256;
-#X obj 420 53 f \$0;
+#X obj 586 139 f \$0;
 #N canvas 350 147 924 747 dkcliktraksound 0;
 #X obj 385 323 sel 0 1 2;
-#X obj 332 481 *~ 1;
-#X obj 385 482 *~ 0;
+#X obj 344 470 *~ 0;
 #X obj 435 482 *~ 0;
 #X msg 379 352 1 0 0;
 #X msg 448 354 0 1 0;
@@ -55,16 +54,16 @@
 #X obj 107 382 phasor~ 2000;
 #X obj 239 347 noise~;
 #X msg 21 209 0 48;
-#X obj 332 524 +~;
-#X obj 332 549 *~;
+#X obj 330 576 +~;
+#X obj 330 601 *~;
 #X obj 54 255 line~;
 #X msg 103 201 1;
-#X obj 332 574 *~ 1;
+#X obj 330 626 *~ 1;
 #X obj 237 155 inlet;
 #X obj 514 244 inlet;
 #X text 567 242 sel;
 #X obj 616 252 inlet;
-#X obj 332 599 outlet~;
+#X obj 330 660 outlet~;
 #X text 290 155 freq meas;
 #X obj 389 155 inlet;
 #X text 440 151 freq beat;
@@ -76,49 +75,54 @@
 #X obj 223 380 bp~ 2000 10;
 #X msg 366 111 bang;
 #X obj 51 81 r \$0-cliktrakcount;
-#X connect 0 0 4 0;
-#X connect 0 1 5 0;
-#X connect 0 2 6 0;
-#X connect 1 0 12 0;
-#X connect 2 0 12 1;
-#X connect 3 0 12 1;
-#X connect 4 0 7 0;
-#X connect 5 0 7 0;
-#X connect 6 0 7 0;
-#X connect 7 0 1 1;
-#X connect 7 1 2 1;
-#X connect 7 2 3 1;
+#X obj 157 482 *~ 1;
+#X obj 157 507 *~ 0.05;
+#X obj 345 495 *~ 0.05;
+#X connect 0 0 3 0;
+#X connect 0 1 4 0;
+#X connect 0 2 5 0;
+#X connect 1 0 34 0;
+#X connect 2 0 11 1;
+#X connect 3 0 6 0;
+#X connect 4 0 6 0;
+#X connect 5 0 6 0;
+#X connect 6 0 32 1;
+#X connect 6 1 1 1;
+#X connect 6 2 2 1;
+#X connect 7 0 32 0;
 #X connect 8 0 1 0;
-#X connect 9 0 2 0;
-#X connect 10 0 30 0;
-#X connect 11 0 14 0;
-#X connect 12 0 13 0;
-#X connect 13 0 16 0;
-#X connect 14 0 13 1;
-#X connect 15 0 14 0;
-#X connect 16 0 21 0;
-#X connect 17 0 25 1;
-#X connect 18 0 0 0;
-#X connect 20 0 16 1;
-#X connect 23 0 26 1;
+#X connect 9 0 29 0;
+#X connect 10 0 13 0;
+#X connect 11 0 12 0;
+#X connect 12 0 15 0;
+#X connect 13 0 12 1;
+#X connect 14 0 13 0;
+#X connect 15 0 20 0;
+#X connect 16 0 24 1;
+#X connect 17 0 0 0;
+#X connect 19 0 15 1;
+#X connect 22 0 25 1;
+#X connect 24 0 7 0;
+#X connect 24 0 29 1;
+#X connect 24 0 8 0;
 #X connect 25 0 8 0;
-#X connect 25 0 30 1;
-#X connect 25 0 9 0;
-#X connect 26 0 9 0;
-#X connect 26 0 30 1;
-#X connect 26 0 8 0;
-#X connect 28 0 11 0;
-#X connect 28 1 15 0;
-#X connect 28 2 29 0;
-#X connect 29 0 25 0;
-#X connect 29 1 31 0;
-#X connect 30 0 3 0;
-#X connect 31 0 26 0;
-#X connect 32 0 28 0;
+#X connect 25 0 29 1;
+#X connect 25 0 7 0;
+#X connect 27 0 10 0;
+#X connect 27 1 14 0;
+#X connect 27 2 28 0;
+#X connect 28 0 24 0;
+#X connect 28 1 30 0;
+#X connect 29 0 2 0;
+#X connect 30 0 25 0;
+#X connect 31 0 27 0;
+#X connect 32 0 33 0;
+#X connect 33 0 11 0;
+#X connect 34 0 11 1;
 #X restore 135 492 pd dkcliktraksound;
 #X obj 37 383 dkvanctr 4;
 #X obj 163 251 nbx 3 20 -1e+37 1e+37 0 0 empty \$0-cliktrakmeas meas
-0 -8 0 15 -262144 -1 -1 0 256;
+0 -8 0 15 -262144 -1 -1 4 256;
 #X obj 106 250 nbx 3 20 -1e+37 1e+37 0 0 empty \$0-cliktrakcount count
 0 -8 0 15 -45076 -257985 -1 0 256;
 #X obj 219 240 bng 30 250 50 0 empty empty reset 0 -7 0 12 -262144
@@ -133,9 +137,13 @@
 #X text 298 696 on/off;
 #X obj 259 240 bng 30 125 50 0 empty empty beat 0 -7 0 12 -45076 -257985
 -45076;
-#X msg 420 78 \; \$1-cliktrakbpm 120 \; \$1-cliktraktgl 0 \; \$1-cliktraksel
+#X msg 586 164 \; \$1-cliktrakbpm 120 \; \$1-cliktraktgl 0 \; \$1-cliktraksel
 0 \; \$1-cliktrakvol 1 \; \$1-cliktrakfqmeas 4000 \; \$1-cliktrakfqbeat
 2000 \; \$1-cliktrakmeas 4 \;;
+#X obj 361 71 f \$1;
+#X obj 361 96 moses 1;
+#X msg 365 121 120;
+#X obj 172 76 f;
 #X connect 0 0 45 0;
 #X connect 1 0 2 0;
 #X connect 2 0 3 0;
@@ -147,8 +155,9 @@
 #X connect 7 0 37 2;
 #X connect 12 0 37 0;
 #X connect 13 0 36 0;
+#X connect 13 0 51 0;
 #X connect 14 0 0 0;
-#X connect 16 0 1 0;
+#X connect 16 0 54 0;
 #X connect 17 0 12 0;
 #X connect 34 0 35 0;
 #X connect 34 0 37 3;
@@ -164,4 +173,9 @@
 #X connect 45 1 46 0;
 #X connect 45 1 47 0;
 #X connect 46 0 41 0;
+#X connect 51 0 52 0;
+#X connect 52 0 53 0;
+#X connect 52 1 54 0;
+#X connect 53 0 54 0;
+#X connect 54 0 1 0;
 #X coords 0 -1 1 1 240 180 1 100 100;
