@@ -13,7 +13,7 @@
 #X text 302 87 float;
 #X text 11 75 in1: float;
 #X text 14 103 in2: tolerance;
-#X text 20 135 arg1: tolerance;
+#X text 8 190 arg1: tolerance;
 #X text 635 21 pdkvabs;
 #X text 643 71 gpl v 3 2017;
 #X text 633 47 derek x kwan;
@@ -26,6 +26,10 @@
 #X obj 274 354 spigot;
 #X text 18 8 dkfdectol - passes float if within decimal tolerance of
 int;
+#X obj 367 407 outlet;
+#X text 427 403 indicator;
+#X text 15 125 out1: float;
+#X text 18 152 out2: indicator;
 #X connect 0 0 6 0;
 #X connect 4 0 21 1;
 #X connect 5 0 22 1;
@@ -44,4 +48,5 @@ int;
 #X connect 21 0 23 0;
 #X connect 22 0 23 1;
 #X connect 23 0 24 1;
+#X connect 23 0 26 0;
 #X connect 24 0 3 0;
