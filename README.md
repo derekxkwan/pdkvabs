@@ -58,6 +58,7 @@ vanilla abstractions
 - dkscaledeg_van - borrowed from SuperCollider's Scale object. Maps scale degrees to midi notes. Arguments are scale and starting midi note. Vanilla version of my scaledeg external using tables
 - dkselector - a row of 32 toggle boxes whose values are stored in an array (name passed by argument, requires cyclone) 
 - dkseqgen1 - timed random sequence generator
+- dksisascl~ - SIne SAmple SCaLer
 - dksmp2ms - samples to ms
 - dkstpan~ - stereo panning 
 - dkstrippoly - a poly without noteoff messages (or zero velocity notes) 
@@ -97,6 +98,7 @@ GATE
 GRANULAR
 - dklgstr1~ - live granular stretcher (uses dksyncgrn~)
 - dksyncgrn~ - synchronous granular abstraction
+- dkloopgrn~ - granular synchronized looper based on dksyncgrn~
 
 FFT
 - dkfftgraph~ - graph fft magnitude of incoming signal
