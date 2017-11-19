@@ -61,7 +61,6 @@ vanilla abstractions
 - dkseqgen1 - timed random sequence generator
 - dksisascl~ - SIne SAmple SCaLer
 - dksmp2ms - samples to ms
-- dkstpan~ - stereo panning 
 - dkstrippoly - a poly without noteoff messages (or zero velocity notes) 
 - dkstutter~ - a delay-based stutter effect
 - dksyncloop - a synchronized looper. 
@@ -126,6 +125,7 @@ PANNING
 - dkcomppan~ - -4.5 dB panner (compromise panner)
 - dkcospan~ - cosine-based equal-power panner
 - dklinpan~ - linear panner
+- dkstpan~ - stereo-to-stereo panning 
 
 VANILLA SIGNAL BINOPS
 - dkeq~ - equal to
