@@ -86,9 +86,9 @@
 #X obj 811 216 t b b;
 #X obj 1075 251 f \$3;
 #X text 1125 257 invert;
-#X msg 721 395 \; \$1-dkphaser_depth \$1 \; \$1-dkphaser_rate \$2 \;
-\$1-dkphaser_invert \$3 \;;
 #X text 1028 41 pdkvabs;
+#X msg 721 395 \; \$1-dkphaser_depth \$2 \; \$1-dkphaser_rate \$3 \;
+\$1-dkphaser_invert \$4 \;;
 #X connect 0 0 3 1;
 #X connect 0 0 22 0;
 #X connect 0 0 23 1;
@@ -123,7 +123,7 @@
 #X connect 39 0 40 0;
 #X connect 39 1 42 2;
 #X connect 40 0 42 2;
-#X connect 42 0 46 0;
+#X connect 42 0 47 0;
 #X connect 43 0 42 0;
 #X connect 43 1 37 0;
 #X connect 43 1 34 0;

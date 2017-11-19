@@ -35,10 +35,10 @@
 #X obj 1085 296 moses 1e-20;
 #X msg 1085 321 1;
 #X text 1135 271 rate;
-#X msg 865 411 \; \$1-dkchorus_depth \$1 \; \$1-dkchorus_rate \$2 \;
-;
 #X obj 862 223 t b b;
 #X text 1028 41 pdkvabs;
+#X msg 865 411 \; \$1-dkchorus_depth \$2 \; \$1-dkchorus_rate \$3 \;
+;
 #X connect 0 0 15 0;
 #X connect 0 0 21 1;
 #X connect 1 0 18 0;
@@ -58,8 +58,8 @@
 #X connect 23 0 20 0;
 #X connect 24 0 23 1;
 #X connect 25 0 16 0;
-#X connect 26 0 37 0;
-#X connect 27 0 36 0;
+#X connect 26 0 36 0;
+#X connect 27 0 38 0;
 #X connect 28 0 32 0;
 #X connect 30 0 27 1;
 #X connect 31 0 33 0;
@@ -68,6 +68,6 @@
 #X connect 33 0 34 0;
 #X connect 33 1 27 2;
 #X connect 34 0 27 2;
-#X connect 37 0 27 0;
-#X connect 37 1 31 0;
-#X connect 37 1 28 0;
+#X connect 36 0 27 0;
+#X connect 36 1 31 0;
+#X connect 36 1 28 0;
