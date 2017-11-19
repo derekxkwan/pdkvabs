@@ -1,0 +1,17 @@
+#N canvas 1186 393 792 575 12;
+#X obj 186 146 inlet~;
+#X obj 505 102 inlet;
+#X obj 305 148 inlet~;
+#X obj 195 417 outlet~;
+#X obj 195 309 *~ 1;
+#X obj 372 169 == 0;
+#X obj 300 308 *~ 0;
+#X text 21 32 pdkez_switcher - signal selector helper;
+#X text 548 39 derek kwan pdkez gplv3 2017;
+#X connect 0 0 4 0;
+#X connect 1 0 5 0;
+#X connect 1 0 6 1;
+#X connect 2 0 6 0;
+#X connect 4 0 3 0;
+#X connect 5 0 4 1;
+#X connect 6 0 3 0;

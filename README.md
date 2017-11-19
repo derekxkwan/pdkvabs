@@ -3,12 +3,14 @@ vanilla abstractions
 
 - dkaccum - running sum
 - dkasyncgrn~ - asynchronous granular synth
+- dkautowah~ - automatic wah based on envelope following
 - dkbangsync - bang syncer
 - dkbinlist - int to binary list
-- dkbitred~ - audio-signal bit-reduction based off 3.Bit-Reduction by Alexander Torres Porres. 
+- dkbitred~ - audio-signal bit-reduction based off 3.Bit-Reduction by Alexander Torres Porres.
+- dkbitcrush~ - bit-resolution/sample-rate reducer
 - dkblkmn~ - generates blackman window according to input from 0 to 1. 
 - dkbpm2ms - bpm to ms
-- dkchorus~ - chorus based on the Cycling '74 MSP tutorial.
+- dkchorus~ - chorus 
 - dkcdiv~ - division of two complex signals.
 - dkcliktrak~ - click track/metronome
 - dkcmult~ - multiplication of two complex signals. 
@@ -25,7 +27,7 @@ vanilla abstractions
 - dkfft/fftcross~ - spectral cross-synthesis based on 1.Cross-Synthesis by Alexander Torres Porres.
 - dkfft/fftgain~ - spectral filter with traceable gain. 
 - dkfft/fftgate~ - spectral gate (requires zexy). 
-- dkflanger~ - flanger based on the Cycling '74 MSP tutorial.
+- dkflanger~ - flanger
 - dkfor - for loop
 - dkfreqshift~ - frequency shifter via single sideband modulation
 - dkgainenv~ - traceable gain envelope
@@ -47,7 +49,8 @@ vanilla abstractions
 - dkoneShotM - a one-shot sample player, left inlet takes a bang to trigger playback, right inlet takes a path for file. 
 - dkoneShotS - stereo version 
 - dkpaulstretch~ - slightly modified/cleaned up martin brinkmann's (mmb) small_paul1 paulstretcher for use as an abstraction. Unlike small_paul1, it rounds window sizes to the nearest power of 2 and accept signals as position input.
-- dkphasevoc~ - a phase vocoder abstraction lifted from Miller Puckette's I07.phase.vocoder from the help files. Like tabread4~, hot signal inlet indexes by sample. First arg is array name, second is window size. 
+- dkphaser~ - phaser
+- dkphasevoc~ - a phase vocoder abstraction lifted from Miller Puckette's I07.phase.vocoder from the help files. Like tabread4~, hot signal inlet indexes by sample. First arg is array name, second is window size.
 - dkphsrd~ - phasor sound reader abstraction
 - dkpolargraph~ - graph a real fft analysis in polar coords
 - dkpolyish1 - polyish abs with no note off
