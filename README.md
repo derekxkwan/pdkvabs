@@ -47,6 +47,7 @@ vanilla abstractions
 - dkoneShotM - a one-shot sample player, left inlet takes a bang to trigger playback, right inlet takes a path for file. 
 - dkoneShotS - stereo version 
 - dkpaulstretch~ - slightly modified/cleaned up martin brinkmann's (mmb) small_paul1 paulstretcher for use as an abstraction. Unlike small_paul1, it rounds window sizes to the nearest power of 2 and accept signals as position input.
+- dkpshift~ - rotating tape head pitchshifter
 - dkphasevoc~ - a phase vocoder abstraction lifted from Miller Puckette's I07.phase.vocoder from the help files. Like tabread4~, hot signal inlet indexes by sample. First arg is array name, second is window size.
 - dkphsrd~ - phasor sound reader abstraction
 - dkpolargraph~ - graph a real fft analysis in polar coords
