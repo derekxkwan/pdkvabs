@@ -15,7 +15,6 @@
 #X obj 421 268 t b f;
 #X obj 233 190 f \$1;
 #X obj 420 212 f \$2;
-#X obj 534 216 sig~;
 #X text 37 116 inlets: carrier \, harmonic \, mod idx~;
 #X text 45 139 argts: carrier \, harmonic;
 #X text 827 23 derek kwan;
@@ -23,6 +22,7 @@
 synthesis;
 #X text 832 57 pdkvabs;
 #X text 841 89 gpl v3;
+#X obj 356 103 loadbang;
 #X connect 1 0 2 0;
 #X connect 2 0 12 0;
 #X connect 3 0 5 0;
@@ -38,3 +38,5 @@ synthesis;
 #X connect 14 0 12 1;
 #X connect 14 0 10 0;
 #X connect 15 0 13 0;
+#X connect 22 0 14 0;
+#X connect 22 0 15 0;
