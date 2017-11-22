@@ -1,4 +1,4 @@
-- # dkvabs - released under gpl v3.0
+# pdkvabs - released under gpl v3.0
 vanilla abstractions
 
 - dkaccum - running sum
