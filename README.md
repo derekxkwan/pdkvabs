@@ -8,10 +8,7 @@ vanilla abstractions
 - dkbitred~ - audio-signal bit-reduction based off 3.Bit-Reduction by Alexander Torres Porres.
 - dkbitcrush~ - bit-resolution/sample-rate reducer
 - dkblkmn~ - generates blackman window according to input from 0 to 1. 
-- dkcdiv~ - division of two complex signals.
 - dkcliktrak~ - click track/metronome
-- dkcmult~ - multiplication of two complex signals. 
-- dkcnorm~ - normalization of a complex. 
 - dkdecrease - detect decreases 
 - dkdistort~ - audio-signal distortion based off the work of Landon. Requires zexy.
 - dkdownsamp~ - audio-signal downsampler.
@@ -103,6 +100,16 @@ FILTERS
 - dkvapcomb~ - allpass filter from two combs
 - dkvfbcomb~ - feedback comb filter
 
+MATH (AUDIO)
+- dkcmult~ - multiplication of two complex signals. 
+- dkcnorm~ - normalization of a complex. 
+- dkcdiv~ - division of two complex signals.
+- dkeq~ - equal to
+- dkge~ - greater than or equal to
+- dkgt~ - greater than
+- dkle~ - less than or equal to
+- dklt~ - less than
+- dkne~ - not equal to
 
 MATH (CONTROL)
 - dkaccum - running sum
@@ -131,14 +138,6 @@ PANNING
 - dkcospan~ - cosine-based equal-power panner
 - dklinpan~ - linear panner
 - dkstpan~ - stereo-to-stereo panning 
-
-VANILLA SIGNAL BINOPS
-- dkeq~ - equal to
-- dkge~ - greater than or equal to
-- dkgt~ - greater than
-- dkle~ - less than or equal to
-- dklt~ - less than
-- dkne~ - not equal to
 
 STRUCTURE
 - pdkst-init - clear scalars and init iterating over given element
