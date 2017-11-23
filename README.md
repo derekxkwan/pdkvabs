@@ -9,7 +9,6 @@ vanilla abstractions
 - dkbitcrush~ - bit-resolution/sample-rate reducer
 - dkblkmn~ - generates blackman window according to input from 0 to 1. 
 - dkcliktrak~ - click track/metronome
-- dkdecrease - detect decreases 
 - dkdistort~ - audio-signal distortion based off the work of Landon. Requires zexy.
 - dkdownsamp~ - audio-signal downsampler.
 - dkfbdel~ - simple delay with fb
@@ -114,6 +113,7 @@ MATH (AUDIO)
 MATH (CONTROL)
 - dkaccum - running sum
 - dkbpm2ms - bpm to ms
+- dkdecrease - detect decreases 
 - dkeqtemp - degree to equal temperament in Hz
 - dkfround - round float
 - dkfdec - get decimal part of float
