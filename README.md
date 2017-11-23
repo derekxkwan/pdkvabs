@@ -1,7 +1,6 @@
 # pdkvabs - released under gpl v3.0
 vanilla abstractions
 
-- dkaccum - running sum
 - dkasyncgrn~ - asynchronous granular synth
 - dkautowah~ - automatic wah based on envelope following
 - dkbangsync - bang syncer
@@ -9,7 +8,6 @@ vanilla abstractions
 - dkbitred~ - audio-signal bit-reduction based off 3.Bit-Reduction by Alexander Torres Porres.
 - dkbitcrush~ - bit-resolution/sample-rate reducer
 - dkblkmn~ - generates blackman window according to input from 0 to 1. 
-- dkbpm2ms - bpm to ms
 - dkcdiv~ - division of two complex signals.
 - dkcliktrak~ - click track/metronome
 - dkcmult~ - multiplication of two complex signals. 
@@ -17,7 +15,6 @@ vanilla abstractions
 - dkdecrease - detect decreases 
 - dkdistort~ - audio-signal distortion based off the work of Landon. Requires zexy.
 - dkdownsamp~ - audio-signal downsampler.
-- dkeqtemp - degree to equal temperament in Hz
 - dkfbdel~ - simple delay with fb
 - dkfbvdel~ - simple delay with fb (signal delay time)
 - dkfft/fftbinwipe~ - fft bin wiper ported from SuperCollider's PV_BinWipe
@@ -29,7 +26,6 @@ vanilla abstractions
 - dkfor - for loop
 - dkfreqshift~ - frequency shifter via single sideband modulation
 - dkgainenv~ - traceable gain envelope
-- dkincrease - detect increases 
 - dkincwr~ - incremental tabwriter
 - dkint~ - "typecast" signals to integer
 - dkincwritepos~ - incremental tabwrite~ with sample position table
@@ -40,8 +36,6 @@ vanilla abstractions
 - dkloopwin~ - signal-driven loop windowing
 - dkmbang - bang multiplier
 - dkmidirt - abstraction to handle midi real-time messages
-- dkms2smp - ms to samples
-- dknearpow2 - rounds input to a power of 2
 - dknobu~ - sample chopper abstraction
 - dknot - control-rate bitwise not
 - dkoneShotM - a one-shot sample player, left inlet takes a bang to trigger playback, right inlet takes a path for file. 
@@ -55,8 +49,6 @@ vanilla abstractions
 - dkpulsewidth~ - pulse width modulation
 - dkrandi - random int within a given range
 - dkrandom~ - abstraction simulating the output of the Max/MSP rand~ object.
-- dkrunmax - running maximum
-- dkrunmin - running minimum
 - dkscaledeg_van - borrowed from SuperCollider's Scale object. Maps scale degrees to midi notes. Arguments are scale and starting midi note. Vanilla version of my scaledeg external using tables
 - dkselector - a row of 32 toggle boxes whose values are stored in an array (name passed by argument, requires cyclone) 
 - dkseqgen1 - timed random sequence generator
@@ -71,11 +63,9 @@ vanilla abstractions
 - dktport - a fancy counter with beats, subdivisions, and measures. 
 - dktri~ - nonbandlimited triangle oscillator based off Miller Puckette's  J05.triangle
 - dkoutput~ - output abstraction
-- dkunit2ms - ms calculator
 - dkvancomp~ - vanilla compressor/limiter
 - dkvandrk - vanilla drunk random number generator 
 - dkvanphs~ - vanilla 3-delay line phaser/chorus effect 
-- dkvavg - vanilla float averager
 - dkvgcld~ - vanille grain cloud
 - dkvisclock - visual clock
 - dkvuzi - vanilla uzi/multiple banger
@@ -113,10 +103,21 @@ FILTERS
 - dkvapcomb~ - allpass filter from two combs
 - dkvfbcomb~ - feedback comb filter
 
-FLOAT
+
+MATH (CONTROL)
+- dkaccum - running sum
+- dkbpm2ms - bpm to ms
+- dkeqtemp - degree to equal temperament in Hz
 - dkfround - round float
 - dkfdec - get decimal part of float
 - dkfdectol - pass float if within decimal tolerance of int
+- dkincrease - detect increases 
+- dkms2smp - ms to samples
+- dknearpow2 - rounds input to a power of 2
+- dkrunmax - running maximum
+- dkrunmin - running minimum
+- dkunit2ms - ms calculator
+- dkvavg - vanilla float averager
 
 MODULATION
 - dksfm~ - simple/signal-inlet (for mod idx) frequency modulation synthesis
