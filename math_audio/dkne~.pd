@@ -1,0 +1,15 @@
+#N canvas 598 183 517 346 12;
+#X obj 177 117 -~;
+#X obj 177 163 /~;
+#X text 9 9 dkne~: !==~;
+#X text 331 16 derek kwan 2017;
+#X text 330 37 gpl v 3;
+#X text 330 62 pdkvabs;
+#X obj 149 57 inlet~;
+#X obj 252 63 inlet~;
+#X obj 177 188 outlet~;
+#X connect 0 0 1 0;
+#X connect 0 0 1 1;
+#X connect 1 0 8 0;
+#X connect 6 0 0 0;
+#X connect 7 0 0 1;
