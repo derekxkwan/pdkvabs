@@ -69,10 +69,6 @@ vanilla abstractions
 - dkvadsr~ - adsr envelope generator using vline~ based off Matt Davey's  diy-adsr~
 - dkxor - control-rate bitwise xor
 
-CONVENIENCE
-- dkezadc~ - adc abstraction
-- dkezdac~ - dac abstraction
-
 COUNTER
 - dktimedctr- on bang, output floats counting up to x 
 - dkvanctr - vanilla counter (can go both up and down)
