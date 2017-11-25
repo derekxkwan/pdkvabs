@@ -11,6 +11,7 @@ vanilla abstractions
 - dkcliktrak~ - click track/metronome
 - dkdistort~ - audio-signal distortion based off the work of Landon. Requires zexy.
 - dkdownsamp~ - audio-signal downsampler.
+- dkdrunk - a vanilla version of drunk
 - dkfbdel~ - simple delay with fb
 - dkfbvdel~ - simple delay with fb (signal delay time)
 - dkfft/fftbinwipe~ - fft bin wiper ported from SuperCollider's PV_BinWipe
