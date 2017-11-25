@@ -45,6 +45,7 @@ vanilla abstractions
 - dkpulsewidth~ - pulse width modulation
 - dkrandi - random int within a given range
 - dkrandom~ - abstraction simulating the output of the Max/MSP rand~ object.
+- dkroute2~ - one to two signal router
 - dkscaledeg_van - borrowed from SuperCollider's Scale object. Maps scale degrees to midi notes. Arguments are scale and starting midi note. Vanilla version of my scaledeg external using tables
 - dkselector - a row of 32 toggle boxes whose values are stored in an array (name passed by argument, requires cyclone) 
 - dkseqgen1 - timed random sequence generator
