@@ -49,9 +49,9 @@
 #X obj 976 363 t b b;
 #X obj 886 516 pack \$0 f f, f 29;
 #X text 1038 401 bitres;
-#X msg 886 542 \; \$1-dkbitcrush_bitres \$1 \; \$1-dkbitcrush_rate
-\$2 \;;
 #X text 943 84 pdkvabs;
+#X msg 886 542 \; \$1-dkbitcrush_bitres \$2 \; \$1-dkbitcrush_rate
+\$3 \;;
 #X connect 0 0 9 1;
 #X connect 1 0 11 0;
 #X connect 2 0 8 0;
@@ -101,4 +101,4 @@
 #X connect 47 0 48 0;
 #X connect 47 1 43 0;
 #X connect 47 1 42 0;
-#X connect 48 0 50 0;
+#X connect 48 0 51 0;
