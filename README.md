@@ -95,6 +95,12 @@ FFT
 - dkfftgraph~ - graph fft magnitude of incoming signal
 
 FILTERS
+- dkvap1o~ - first-order allpass filter (control inlet for cutoff)
+- dkvap1os~ - first-order allpass filter (signal inlet for cutoff)
+- dkvhp1o~ - first-order highpass filter (control inlet for cutoff)
+- dkvhp1os~ - first-order highpass filter (signal inlet for cutoff)
+- dkvlp1o~ - first-order lowpass filter (control inlet for cutoff)
+- dkvlp1os~ - first-order lowpass filter (signal inlet for cutoff)
 - dkvapcomb~ - allpass filter from two combs
 - dkvfbcomb~ - feedback comb filter
 

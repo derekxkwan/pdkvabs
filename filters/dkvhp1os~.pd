@@ -1,0 +1,20 @@
+#N canvas 309 266 741 897 12;
+#X obj 230 403 *~ 0.5;
+#X obj 199 191 inlet~;
+#X text 364 188 cut-off freq;
+#X obj 230 428 outlet~;
+#X text 566 17 derek kwan;
+#X text 573 49 pdkvabs;
+#X text 574 83 gpl v 3 2017;
+#X obj 230 378 -~;
+#X text 24 40 in2: cutoff freq;
+#X obj 300 188 inlet~;
+#X obj 262 284 dkvap1os~ \$1;
+#X text 13 15 dkvhp1os~ vanilla first-order highpass (signal version)
+;
+#X connect 0 0 3 0;
+#X connect 1 0 7 0;
+#X connect 1 0 10 0;
+#X connect 7 0 0 0;
+#X connect 9 0 10 1;
+#X connect 10 0 7 1;
