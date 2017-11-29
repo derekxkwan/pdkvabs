@@ -1,5 +1,6 @@
 # pdkvabs - released under gpl v3.0
 vanilla abstractions
+(before use, put subfolder contents into main pdkvabs folder)
 
 - dkasyncgrn~ - asynchronous granular synth
 - dkautowah~ - automatic wah based on envelope following
