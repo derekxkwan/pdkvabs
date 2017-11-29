@@ -97,10 +97,13 @@ FFT
 FILTERS
 - dkvap1o~ - first-order allpass filter (control inlet for cutoff)
 - dkvap1os~ - first-order allpass filter (signal inlet for cutoff)
+- dkvap1os~ - second-order allpass filter (control inlets for cutoff and q)
 - dkvhp1o~ - first-order highpass filter (control inlet for cutoff)
 - dkvhp1os~ - first-order highpass filter (signal inlet for cutoff)
 - dkvlp1o~ - first-order lowpass filter (control inlet for cutoff)
 - dkvlp1os~ - first-order lowpass filter (signal inlet for cutoff)
+- dkvbp2o~ - second-order bandpass filter (control inlets for cutoff and q)
+- dkvbr2o~ - second-order bandreject filter (control inlets for cutoff and q)
 - dkvapcomb~ - allpass filter from two combs
 - dkvfbcomb~ - feedback comb filter
 
