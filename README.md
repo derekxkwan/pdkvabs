@@ -94,7 +94,10 @@ GRANULAR
 - dkloopgrn~ - granular synchronized looper based on dksyncgrn~
 
 FFT
-- dkfftgraph~ - graph fft magnitude of incoming signal
+- dkfftgate~ - spectral gating (above or below)
+- dkfftcross~ - spectral cross-synthesis
+- dkfftdelay~ - spectral delay
+- dkfftfilt~ - spectral filtering
 
 FILTERS
 - dkvap1o~ - first-order allpass filter (control inlet for cutoff)
