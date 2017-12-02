@@ -95,6 +95,7 @@ GRANULAR
 
 FFT
 - dkfftgate~ - spectral gating (above or below)
+- dkfftconvolve~ - spectral non-partitioned convolution
 - dkfftcross~ - spectral cross-synthesis
 - dkfftdelay~ - spectral delay
 - dkfftfilt~ - spectral filtering
