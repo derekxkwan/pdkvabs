@@ -4,6 +4,7 @@ vanilla abstractions
 
 - dkasyncgrn~ - asynchronous granular synth
 - dkautowah~ - automatic wah based on envelope following
+- dkbangroute - route bangs with bangs
 - dkbangsync - bang syncer
 - dkbinlist - int to binary list
 - dkbitred~ - audio-signal bit-reduction based off 3.Bit-Reduction by Alexander Torres Porres.
@@ -36,6 +37,7 @@ vanilla abstractions
 - dkmidirt - abstraction to handle midi real-time messages
 - dknobu~ - sample chopper abstraction
 - dknot - control-rate bitwise not
+- dknote2midi - note names (case-insensitive) to midi notes
 - dkoneShotM - a one-shot sample player, left inlet takes a bang to trigger playback, right inlet takes a path for file. 
 - dkoneShotS - stereo version 
 - dkpaulstretch~ - slightly modified/cleaned up martin brinkmann's (mmb) small_paul1 paulstretcher for use as an abstraction. Unlike small_paul1, it rounds window sizes to the nearest power of 2 and accept signals as position input.
