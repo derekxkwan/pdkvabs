@@ -85,10 +85,10 @@ DELAY-BASED
 - dkphaser~ - phaser
 
 GATE
-- dklegt - let through floats lesser or equal to x
-- dkgegt - let through floats greater or equal to x
+- dklegate - let through floats lesser or equal to x
+- dkgegate - let through floats greater or equal to x
 - dkrgate - let through anything x% of the time
-- dknzgt - only let nonzero floats through
+- dknzgate - only let nonzero floats through
 
 GRANULAR
 - dklgstr1~ - live granular stretcher (uses dksyncgrn~)
