@@ -137,6 +137,7 @@ MATH (CONTROL)
 - dkincrease - detect increases 
 - dkms2smp - ms to samples
 - dknearpow2 - rounds input to a power of 2
+- dkrrand - random number in a given range
 - dkrunmax - running maximum
 - dkrunmin - running minimum
 - dkunit2ms - ms calculator
