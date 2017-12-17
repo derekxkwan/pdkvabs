@@ -34,6 +34,7 @@ vanilla abstractions
 - dkloopplay~ - synced looper based around tabplay~
 - dkloopwin~ - signal-driven loop windowing
 - dkmbang - multiple banger
+- dkmbang_r - multiple banger (but randomly gated)
 - dkmidirt - abstraction to handle midi real-time messages
 - dknobu~ - sample chopper abstraction
 - dknot - control-rate bitwise not
