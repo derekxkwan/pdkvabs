@@ -33,7 +33,7 @@ vanilla abstractions
 - dkkeyrow2num - maps the key row to floats
 - dkloopplay~ - synced looper based around tabplay~
 - dkloopwin~ - signal-driven loop windowing
-- dkmbang - bang multiplier
+- dkmbang - multiple banger
 - dkmidirt - abstraction to handle midi real-time messages
 - dknobu~ - sample chopper abstraction
 - dknot - control-rate bitwise not
