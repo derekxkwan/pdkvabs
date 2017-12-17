@@ -47,6 +47,7 @@ vanilla abstractions
 - dkphsrd~ - phasor sound reader abstraction
 - dkpolargraph~ - graph a real fft analysis in polar coords
 - dkpolyish1 - polyish abs with no note off
+- dkpulsar~ - pulsar synthesis
 - dkpulsewidth~ - pulse width modulation
 - dkrandi - random int within a given range
 - dkrandom~ - abstraction simulating the output of the Max/MSP rand~ object.
