@@ -1,4 +1,4 @@
-#N canvas 1404 291 1101 651 12;
+#N canvas 1270 507 1101 651 12;
 #X obj 302 118 phasor~ \$1;
 #X obj 302 179 dkle~;
 #X obj 149 207 /~;
@@ -23,12 +23,13 @@
 #X text 903 7 derek kwan;
 #X text 915 33 pdkvabs;
 #X text 923 55 gpl v 3 2017;
+#X obj 344 254 - 1;
 #X connect 0 0 1 0;
 #X connect 0 0 2 0;
 #X connect 1 0 7 1;
 #X connect 2 0 5 0;
 #X connect 3 0 4 0;
-#X connect 4 0 5 1;
+#X connect 4 0 24 0;
 #X connect 5 0 6 0;
 #X connect 6 0 7 0;
 #X connect 7 0 8 0;
@@ -41,3 +42,4 @@
 #X connect 15 1 4 1;
 #X connect 15 1 16 0;
 #X connect 16 0 6 0;
+#X connect 24 0 5 1;
