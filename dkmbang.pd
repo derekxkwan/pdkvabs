@@ -10,7 +10,7 @@
 #X obj 245 331 max 1;
 #X obj 255 560 t b b;
 #X obj 440 658 sel 1;
-#X msg 421 709 0;
+#X msg 398 692 0;
 #X obj 706 269 loadbang;
 #X obj 641 330 f \$1;
 #X msg 641 355 tempo \$1 msec;
@@ -31,6 +31,8 @@
 #X obj 798 344 moses 1e-20;
 #X msg 798 369 1;
 #X text 12 29 dkmbang - multiple banger;
+#X obj 425 758 outlet;
+#X text 488 754 done;
 #X connect 0 0 2 0;
 #X connect 2 0 3 0;
 #X connect 2 1 8 0;
@@ -41,9 +43,10 @@
 #X connect 6 0 26 0;
 #X connect 7 0 10 0;
 #X connect 8 0 7 1;
-#X connect 9 0 19 0;
-#X connect 9 1 5 0;
+#X connect 9 0 5 0;
+#X connect 9 1 19 0;
 #X connect 10 0 11 0;
+#X connect 10 0 32 0;
 #X connect 11 0 15 0;
 #X connect 12 0 13 0;
 #X connect 12 0 28 0;
