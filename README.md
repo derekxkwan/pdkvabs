@@ -126,6 +126,7 @@ MATH (AUDIO)
 - dkle~ - less than or equal to
 - dklt~ - less than
 - dkne~ - not equal to
+- dkrange~ - range mapping (audio rate)
 
 MATH (CONTROL)
 - dkaccum - running sum
@@ -138,6 +139,7 @@ MATH (CONTROL)
 - dkincrease - detect increases 
 - dkms2smp - ms to samples
 - dknearpow2 - rounds input to a power of 2
+- dkrange - range mapping (control rate)
 - dkrrand - random number in a given range
 - dkrunmax - running maximum
 - dkrunmin - running minimum
