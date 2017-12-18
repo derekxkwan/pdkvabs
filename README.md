@@ -126,6 +126,7 @@ MATH (AUDIO)
 - dkle~ - less than or equal to
 - dklt~ - less than
 - dkne~ - not equal to
+- dknum~ - signal to float
 - dkrange~ - range mapping (audio rate)
 
 MATH (CONTROL)
