@@ -2,6 +2,7 @@
 vanilla abstractions
 (before use, put subfolder contents into main pdkvabs folder)
 
+## GENERAL
 - dkasyncgrn~ - asynchronous granular synth
 - dkautowah~ - automatic wah based on envelope following
 - dkbangroute - route bangs with bangs
@@ -76,34 +77,34 @@ vanilla abstractions
 - dkvadsr~ - adsr envelope generator using vline~ based off Matt Davey's  diy-adsr~
 - dkxor - control-rate bitwise xor
 
-COUNTER
+## COUNTER
 - dktimedctr- on bang, output floats counting up to x 
 - dkvanctr - vanilla counter (can go both up and down)
 
-DELAY-BASED
+## DELAY-BASED
 - dkchorus~ - chorus
 - dkflanger~ - flanger
 - dkphaser~ - phaser
 
-GATE
+## GATE
 - dklegate - let through floats lesser or equal to x
 - dkgegate - let through floats greater or equal to x
 - dkrgate - let through anything x% of the time
 - dknzgate - only let nonzero floats through
 
-GRANULAR
+## GRANULAR
 - dklgstr1~ - live granular stretcher (uses dksyncgrn~)
 - dksyncgrn~ - synchronous granular abstraction
 - dkloopgrn~ - granular synchronized looper based on dksyncgrn~
 
-FFT
+## FFT
 - dkfftgate~ - spectral gating (above or below)
 - dkfftconvolve~ - spectral non-partitioned convolution
 - dkfftcross~ - spectral cross-synthesis
 - dkfftdelay~ - spectral delay
 - dkfftfilt~ - spectral filtering
 
-FILTERS
+## FILTERS
 - dkvap1o~ - first-order allpass filter (control inlet for cutoff)
 - dkvap1os~ - first-order allpass filter (signal inlet for cutoff)
 - dkvap1os~ - second-order allpass filter (control inlets for cutoff and q)
@@ -116,7 +117,7 @@ FILTERS
 - dkvapcomb~ - allpass filter from two combs
 - dkvfbcomb~ - feedback comb filter
 
-MATH (AUDIO)
+## MATH (AUDIO)
 - dkcmult~ - multiplication of two complex signals. 
 - dkcnorm~ - normalization of a complex. 
 - dkcdiv~ - division of two complex signals.
@@ -129,7 +130,7 @@ MATH (AUDIO)
 - dknum~ - signal to float
 - dkrange~ - range mapping (audio rate)
 
-MATH (CONTROL)
+## MATH (CONTROL)
 - dkaccum - running sum
 - dkbpm2ms - bpm to ms
 - dkdecrease - detect decreases 
@@ -152,40 +153,40 @@ MATH (CONTROL)
 - dkvavg - vanilla float averager
 - dkvrgauss - vanilla random number generator with gaussian distribution (i think) using the Marsaglia polar method
 
-MODULATION
+## MODULATION
 - dksfm~ - simple/signal-inlet (for mod idx) frequency modulation synthesis
 
-REVERB
+## REVERB
 - dkschroeder1~ - a schroeder reverb (1-in,4-out)
 - dkschroeder2~ - satrev chowning schroeder reverb (1-in, 2-out)
 
-PANNING
+## PANNING
 - dkcomppan~ - -4.5 dB panner (compromise panner)
 - dkcospan~ - cosine-based equal-power panner
 - dklinpan~ - linear panner
 - dkstpan~ - stereo-to-stereo panning 
 
-PULSAR SYNTHESIS
+## PULSAR SYNTHESIS
 - dkpulsar~ - pulsar synthesis (unwindowed)
 - dkpulsar-hann~ - pulsar synthesis with hann window
 
-STRUCTURE
+## STRUCTURE
 - pdkst-init - clear scalars and init iterating over given element
 - pdkst-nth - get nth scalar of a structure 
 - pdkst-textdefine - emulate [text define] methods for text struct member
 
-TEXT
+## TEXT
 - pdktext-getval - get value from associated key (treating text like a hash table)
 
-WINDOWING
+## WINDOWING
 - dkhamm~ - generates hamming window according to input 0 to 1. 
 - dkhann~ - generates hann window according to input 0 to 1
 - dkhannmaker - constructs hann window. args are array name where window is stored, window size, and overlap.
 - dkhannnorm~ - normalizes an incoming signal according to hann window (usu. after an ifft~). args are window size and overlap.
 - dktukeymaker - tukey window constructor. ideal for grain envelopes. 
 
-MISC
+## MISC
 - dklogidy - abstraction to deal with default settings of logidy umi3
 
-NOT-VANILLA ABSTRACTIONS
+## NOT-VANILLA ABSTRACTIONS
 - dkamixer~ - abstraction over ggee/shell to set volume with amixer (Linux only)
