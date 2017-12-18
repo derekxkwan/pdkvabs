@@ -141,7 +141,9 @@ MATH (CONTROL)
 - dkms2smp - ms to samples
 - dknearpow2 - rounds input to a power of 2
 - dkrange - range mapping (control rate)
+- dkrdiv - vanilla reverse division
 - dkrrand - random number in a given range
+- dkrsub - vanilla reverse subtraction
 - dkrunmax - running maximum
 - dkrunmin - running minimum
 - dkunit2ms - ms calculator
