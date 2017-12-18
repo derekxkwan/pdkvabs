@@ -150,6 +150,7 @@ MATH (CONTROL)
 - dkrunmin - running minimum
 - dkunit2ms - ms calculator
 - dkvavg - vanilla float averager
+- dkvrgauss - vanilla random number generator with gaussian distribution (i think)
 
 MODULATION
 - dksfm~ - simple/signal-inlet (for mod idx) frequency modulation synthesis
