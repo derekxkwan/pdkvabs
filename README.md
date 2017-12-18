@@ -143,6 +143,7 @@ MATH (CONTROL)
 - dknearpow2 - rounds input to a power of 2
 - dkrange - range mapping (control rate)
 - dkrdiv - vanilla reverse division
+- dkpow - vanilla reverse power
 - dkrrand - random number in a given range
 - dkrsub - vanilla reverse subtraction
 - dkrunmax - running maximum
