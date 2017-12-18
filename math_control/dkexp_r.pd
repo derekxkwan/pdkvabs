@@ -1,0 +1,17 @@
+#N canvas 760 535 674 350 12;
+#X obj 225 200 inlet;
+#X obj 225 225 t b f;
+#X msg 225 250 1;
+#X obj 225 275 /;
+#X obj 307 268 exp;
+#X obj 225 300 outlet;
+#X text 20 31 dkexp_r - reciprocal exponential;
+#X text 528 25 derek kwan;
+#X text 522 49 pdkvabs;
+#X text 527 79 gpl v 3 2017;
+#X connect 0 0 1 0;
+#X connect 1 0 2 0;
+#X connect 1 1 4 0;
+#X connect 2 0 3 0;
+#X connect 3 0 5 0;
+#X connect 4 0 3 1;

@@ -134,6 +134,7 @@ MATH (CONTROL)
 - dkbpm2ms - bpm to ms
 - dkdecrease - detect decreases 
 - dkeqtemp - degree to equal temperament in Hz
+- dkexp_r - reciprocal exponential
 - dkfround - round float
 - dkfdec - get decimal part of float
 - dkfdectol - pass float if within decimal tolerance of int
