@@ -6,7 +6,6 @@ vanilla abstractions
 (also note that this is for personal use and VERY subject to change/renaming so I suggest this repo mainly for educational use)
 
 ## GENERAL
-- dkasyncgrn~ - asynchronous granular synth
 - dkautowah~ - automatic wah based on envelope following
 - dkbangroute - route bangs with bangs
 - dkbangsync - bang syncer
