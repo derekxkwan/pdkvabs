@@ -134,7 +134,7 @@ vanilla abstractions
 ## MATH (CONTROL)
 - dk0bltodec - binary list to base 10
 - dkdecto0bl - base 10 to binary list
-- dk2d21d - 
+- dk2dto1d - 2d (x y) to 1d coords (successive rows of x) 
 - dkaccum - running sum
 - dkbpm2ms - bpm to ms
 - dkdecrease - detect decreases 
