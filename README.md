@@ -9,7 +9,6 @@ vanilla abstractions
 - dkautowah~ - automatic wah based on envelope following
 - dkbangroute - route bangs with bangs
 - dkbangsync - bang syncer
-- dkbinlist - int to binary list
 - dkbitred~ - audio-signal bit-reduction based off 3.Bit-Reduction by Alexander Torres Porres.
 - dkbitcrush~ - bit-resolution/sample-rate reducer
 - dkblkmn~ - generates blackman window according to input from 0 to 1. 
@@ -133,6 +132,7 @@ vanilla abstractions
 - dkrange~ - range mapping (audio rate)
 
 ## MATH (CONTROL)
+- dkdec20bl - base 10 to binary list
 - dkaccum - running sum
 - dkbpm2ms - bpm to ms
 - dkdecrease - detect decreases 
