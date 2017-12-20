@@ -132,6 +132,7 @@ vanilla abstractions
 - dkrange~ - range mapping (audio rate)
 
 ## MATH (CONTROL)
+- dk0bl2dec - binary list to base 10
 - dkdec20bl - base 10 to binary list
 - dkaccum - running sum
 - dkbpm2ms - bpm to ms
