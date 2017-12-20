@@ -136,7 +136,7 @@ vanilla abstractions
 - dkdecto0bl - base 10 to binary list
 - dk2dto1d - 2d (x y) to 1d coords (successive rows of x) 
 - dkaccum - running sum
-- dkbpm2ms - bpm to ms
+- dkbpmtoms - bpm to ms
 - dkdecrease - detect decreases 
 - dkeqtemp - degree to equal temperament in Hz
 - dkexp_r - reciprocal exponential
@@ -144,7 +144,7 @@ vanilla abstractions
 - dkfdec - get decimal part of float
 - dkfdectol - pass float if within decimal tolerance of int
 - dkincrease - detect increases 
-- dkms2smp - ms to samples
+- dkmstosmp - ms to samples
 - dknearpow2 - rounds input to a power of 2
 - dkrange - range mapping (control rate)
 - dkrdiv - vanilla reverse division
