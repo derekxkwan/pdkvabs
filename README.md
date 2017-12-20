@@ -93,7 +93,7 @@ vanilla abstractions
 - dknzgate - only let nonzero floats through
 
 ## GRANULAR
-- dklgstr1~ - live granular stretcher (uses dksyncgrn~)
+- dktrgrnstr~ - live granular stretcher (uses dksyncgrn~)
 - dkxgrn~ -  granular stretcher
 - dkloopgrn~ - granular synchronized looper based on dksyncgrn~
 
