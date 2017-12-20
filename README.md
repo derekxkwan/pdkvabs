@@ -94,7 +94,7 @@ vanilla abstractions
 
 ## GRANULAR
 - dklgstr1~ - live granular stretcher (uses dksyncgrn~)
-- dksyncgrn~ - synchronous granular abstraction
+- dkxgrn~ -  granular stretcher
 - dkloopgrn~ - granular synchronized looper based on dksyncgrn~
 
 ## FFT
