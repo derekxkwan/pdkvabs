@@ -6,6 +6,7 @@ vanilla abstractions
 (also note that this is for personal use and VERY subject to change/renaming so I suggest this repo mainly for educational use)
 
 ## GENERAL
+- dkattqpt - record attack locations in a soundfile
 - dkautowah~ - automatic wah based on envelope following
 - dkbangroute - route bangs with bangs
 - dkbangsync - bang syncer
