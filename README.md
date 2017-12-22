@@ -60,6 +60,7 @@ vanilla abstractions
 - dksisascl~ - SIne SAmple SCaLer
 - dksmp2ms - samples to ms
 - dksndchop~ - sound chopper
+- dksndchopgrn~ - granular sound chopper
 - dkstrippoly - a poly without noteoff messages (or zero velocity notes) 
 - dkstutter~ - a delay-based stutter effect
 - dkswitch2~ - choose between 2 different signal inputs
