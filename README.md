@@ -162,6 +162,9 @@ vanilla abstractions
 ## MODULATION
 - dksfm~ - simple/signal-inlet (for mod idx) frequency modulation synthesis
 
+## MUX
+- dkvmux2/3/4 - vanilla multiplexer (control)
+
 ## REVERB
 - dkschroeder1~ - a schroeder reverb (1-in,4-out)
 - dkschroeder2~ - satrev chowning schroeder reverb (1-in, 2-out)
