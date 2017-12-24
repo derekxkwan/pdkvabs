@@ -73,6 +73,7 @@ vanilla abstractions
 - dkvanphs~ - vanilla 3-delay line phaser/chorus effect 
 - dkvgcld~ - vanille grain cloud
 - dkvisclock - visual clock
+- dkvmetrox - vanilla metro divider
 - dkvuzi - vanilla uzi/multiple banger
 - dkvadsr~ - adsr envelope generator using vline~ based off Matt Davey's  diy-adsr~
 - dkxor - control-rate bitwise xor
@@ -166,7 +167,7 @@ vanilla abstractions
 - dksfm~ - simple/signal-inlet (for mod idx) frequency modulation synthesis
 
 ## MUX
-- dkvmux2/3/4 - vanilla multiplexer (control)
+- dkvmux2/3/4/5 - vanilla multiplexer (control)
 
 ## REVERB
 - dkschroeder1~ - a schroeder reverb (1-in,4-out)
