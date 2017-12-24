@@ -131,6 +131,9 @@
 #X obj 156 299 metro \$2;
 #X obj 358 201 t a b;
 #X msg 384 233 1;
+#X text 362 117 where x is the integer subdiv up to 7 ));
+#X text 358 96 (( subdivs are sent out wiith [s] bound to symbol_xb
+;
 #X connect 1 0 13 0;
 #X connect 3 0 16 0;
 #X connect 4 0 13 0;
