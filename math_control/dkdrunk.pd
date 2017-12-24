@@ -1,9 +1,9 @@
 #N canvas 158 317 1006 561 12;
 #X text 356 331 state;
 #X obj 210 65 inlet;
-#X text 685 86 step size;
+#X text 690 69 step size;
 #X obj 491 43 inlet;
-#X obj 627 85 inlet;
+#X obj 627 69 inlet;
 #X text 555 36 max value;
 #X obj 557 266 random 2;
 #X obj 645 172 + 1;
@@ -26,12 +26,10 @@
 #X obj 638 132 max 1;
 #X obj 653 19 loadbang;
 #X obj 573 72 f \$1;
-#X obj 653 44 f \$2;
-#X text 13 26 dkdrunk: a vanilla drunk object;
+#X obj 671 95 f \$2;
 #X text 6 197 in1: bang - trigger;
 #X text 47 224 float - set state and output;
 #X text 49 254 set - set state;
-#X text 51 283 seed - set seet;
 #X text 10 326 in2: float - max value;
 #X text 16 364 in3: float - step size;
 #X text 15 101 arg1: max value;
@@ -39,6 +37,8 @@
 #X text 798 33 derek kwan;
 #X text 808 59 pdkvabs;
 #X text 815 94 gpl v 3 2017;
+#X text 13 26 dkdrunk: a vanilla drunk object (int vals);
+#X text 51 283 seed - set seed;
 #X connect 1 0 20 0;
 #X connect 3 0 23 0;
 #X connect 4 0 24 0;

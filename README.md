@@ -139,6 +139,7 @@ vanilla abstractions
 - dkbpmtoms - bpm to ms
 - dkdecrease - detect decreases 
 - dkdrunk - a vanilla version of drunk
+- dkdrunk2 - drunk with floats
 - dkeqtemp - degree to equal temperament in Hz
 - dkexp_r - reciprocal exponential
 - dkfround - round float
