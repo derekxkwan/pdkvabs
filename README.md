@@ -147,6 +147,8 @@ vanilla abstractions
 - dkfdectol - pass float if within decimal tolerance of int
 - dkincrease - detect increases 
 - dkmstosmp - ms to samples
+- dknearest - floor to the nearest grain
+- dknearest - round to the nearest grain
 - dknearpow2 - rounds input to a power of 2
 - dkrange - range mapping (control rate)
 - dkrdiv - vanilla reverse division
