@@ -50,7 +50,6 @@ vanilla abstractions
 - dkpolargraph~ - graph a real fft analysis in polar coords
 - dkpolyish1 - polyish abs with no note off
 - dkpulsewidth~ - pulse width modulation
-- dkrandom~ - abstraction simulating the output of the Max/MSP rand~ object.
 - dkroute2~ - one to two signal router
 - dkscaledeg_van - borrowed from SuperCollider's Scale object. Maps scale degrees to midi notes. Arguments are scale and starting midi note. Vanilla version of my scaledeg external using tables
 - dkselector - a row of 32 toggle boxes whose values are stored in an array (name passed by argument, requires cyclone) 
@@ -129,6 +128,7 @@ vanilla abstractions
 - dklt~ - less than
 - dkne~ - not equal to
 - dknum~ - signal to float
+- dkrandom~ - abstraction simulating the output of the Max/MSP rand~ object.
 - dkrange~ - range mapping (audio rate)
 
 ## MATH (CONTROL)
