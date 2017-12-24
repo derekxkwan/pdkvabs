@@ -16,7 +16,6 @@ vanilla abstractions
 - dkcliktrak~ - click track/metronome
 - dkdistort~ - audio-signal distortion based off the work of Landon. Requires zexy.
 - dkdownsamp~ - audio-signal downsampler.
-- dkdrunk - a vanilla version of drunk
 - dkfbdel~ - simple delay with fb
 - dkfbvdel~ - simple delay with fb (signal delay time)
 - dkfft/fftbinwipe~ - fft bin wiper ported from SuperCollider's PV_BinWipe
@@ -51,7 +50,6 @@ vanilla abstractions
 - dkpolargraph~ - graph a real fft analysis in polar coords
 - dkpolyish1 - polyish abs with no note off
 - dkpulsewidth~ - pulse width modulation
-- dkrandi - random int within a given range
 - dkrandom~ - abstraction simulating the output of the Max/MSP rand~ object.
 - dkroute2~ - one to two signal router
 - dkscaledeg_van - borrowed from SuperCollider's Scale object. Maps scale degrees to midi notes. Arguments are scale and starting midi note. Vanilla version of my scaledeg external using tables
@@ -140,6 +138,7 @@ vanilla abstractions
 - dkaccum - running sum
 - dkbpmtoms - bpm to ms
 - dkdecrease - detect decreases 
+- dkdrunk - a vanilla version of drunk
 - dkeqtemp - degree to equal temperament in Hz
 - dkexp_r - reciprocal exponential
 - dkfround - round float
@@ -150,6 +149,7 @@ vanilla abstractions
 - dknearest - floor to the nearest grain
 - dknearest - round to the nearest grain
 - dknearpow2 - rounds input to a power of 2
+- dkrandi - random int within a given range
 - dkrange - range mapping (control rate)
 - dkrdiv - vanilla reverse division
 - dkpow - vanilla reverse power
