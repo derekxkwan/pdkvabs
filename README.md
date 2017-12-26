@@ -119,6 +119,9 @@ vanilla abstractions
 - dkvapcomb~ - allpass filter from two combs
 - dkvfbcomb~ - feedback comb filter
 
+## MARKOV
+- dkvmarkov1o - vanilla first-order markov analysis/generator (analysis ready, generation very still much under construction...)
+
 ## MATH (AUDIO)
 - dkcmult~ - multiplication of two complex signals. 
 - dkcnorm~ - normalization of a complex. 
