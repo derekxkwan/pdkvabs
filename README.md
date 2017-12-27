@@ -121,6 +121,7 @@ vanilla abstractions
 
 ## MARKOV
 - dkvmarkov1o - vanilla first-order markov analysis/generator
+- dkvmarkov2o - vanilla second-order markov analysis/generator
 
 ## MATH (AUDIO)
 - dkcmult~ - multiplication of two complex signals. 
