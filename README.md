@@ -120,7 +120,7 @@ vanilla abstractions
 - dkvfbcomb~ - feedback comb filter
 
 ## MARKOV
-- dkvmarkov1o - vanilla first-order markov analysis/generator (analysis ready, generation very still much under construction...)
+- dkvmarkov1o - vanilla first-order markov analysis/generator
 
 ## MATH (AUDIO)
 - dkcmult~ - multiplication of two complex signals. 
