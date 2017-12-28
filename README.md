@@ -32,7 +32,7 @@ vanilla abstractions
 - dkincwritepos~ - incremental tabwrite~ with sample position table
 - dkkarplus~ - karplus-strong synth
 - dkkeysend - send globally via prefixed key
-- dkkeyrow2num - maps the key row to floats
+- dkkeytonum - maps keys to numbers sequentially by row
 - dkloopplay~ - synced looper based around tabplay~
 - dkloopwin~ - signal-driven loop windowing
 - dkmbang - multiple banger
