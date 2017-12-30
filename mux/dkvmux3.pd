@@ -18,13 +18,12 @@
 #X obj 500 181 == 1;
 #X obj 620 180 == 2;
 #X obj 743 158 == 3;
+#X obj 288 131 min 3;
 #X connect 0 0 4 0;
 #X connect 1 0 4 0;
 #X connect 2 0 0 0;
 #X connect 3 0 1 0;
-#X connect 5 0 16 0;
-#X connect 5 0 17 0;
-#X connect 5 0 18 0;
+#X connect 5 0 19 0;
 #X connect 6 0 5 0;
 #X connect 7 0 5 0;
 #X connect 14 0 4 0;
@@ -32,3 +31,6 @@
 #X connect 16 0 0 1;
 #X connect 17 0 1 1;
 #X connect 18 0 14 1;
+#X connect 19 0 16 0;
+#X connect 19 0 17 0;
+#X connect 19 0 18 0;
