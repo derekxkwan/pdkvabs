@@ -9,9 +9,9 @@
 #X obj 353 64 loadbang;
 #X text 40 161 args: default selection;
 #X text 35 197 inlets: selector (0-indexed) \, choices;
-#X text 1175 25 derek kwan;
-#X text 1183 69 pdkvabs;
-#X text 1181 98 gpl v 3 2017;
+#X text 1056 25 derek kwan;
+#X text 1054 44 pdkvabs;
+#X text 1050 75 gpl v 3 2017;
 #X obj 683 221 spigot 0;
 #X obj 681 84 inlet;
 #X obj 833 221 spigot 0;

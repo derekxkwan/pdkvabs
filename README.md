@@ -173,7 +173,7 @@ vanilla abstractions
 
 ## MUX
 - dkvmux - dynamically patched version of input multiplexing
-- dkvmux2/3/4/5 - vanilla multiplexer (control)
+- dkvmux2/3/4/5/6/7/8 - vanilla multiplexer (control)
 
 ## REVERB
 - dkschroeder1~ - a schroeder reverb (1-in,4-out)

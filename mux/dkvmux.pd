@@ -21,7 +21,6 @@
 \, obj \$4 175 spigot 0;
 #X obj 177 409 * 100;
 #X obj 42 376 * 3;
-#X text 34 18 dkvmux - dynamic patched input multiplexer;
 #X text 26 45 args: number of inlets \, default inlet open (1-idx)
 ;
 #X text 30 82 inlet1: inlet selector (1-idx);
@@ -29,6 +28,8 @@
 #X obj 35 409 + 29;
 #X msg 57 682 \; \$7-dkvmux connect 27 0 \$1 0 \, connect \$1 0 \$3
 1 \, connect \$2 0 \$3 0 \, connect \$3 0 28 0;
+#X text 34 18 dkvmux - dynamic patched input multiplexer (control)
+;
 #X obj 51 265 min 1;
 #X obj 279 592 outlet;
 #X connect 0 0 6 0;
@@ -41,7 +42,7 @@
 #X connect 5 1 2 0;
 #X connect 6 0 27 0;
 #X connect 8 0 10 0;
-#X connect 9 0 26 0;
+#X connect 9 0 25 0;
 #X connect 9 1 18 0;
 #X connect 10 0 11 0;
 #X connect 10 1 15 4;
@@ -57,6 +58,6 @@
 #X connect 16 2 17 0;
 #X connect 17 0 15 5;
 #X connect 19 0 8 0;
-#X connect 20 0 25 0;
-#X connect 25 0 12 0;
+#X connect 20 0 24 0;
+#X connect 24 0 12 0;
 #X connect 27 0 20 0;
