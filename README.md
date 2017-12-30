@@ -172,6 +172,7 @@ vanilla abstractions
 - dksfm~ - simple/signal-inlet (for mod idx) frequency modulation synthesis
 
 ## MUX
+- dkvmux - dynamically patched version of input multiplexing
 - dkvmux2/3/4/5 - vanilla multiplexer (control)
 
 ## REVERB
