@@ -5,7 +5,7 @@
 #X text 585 81 on/off;
 #X obj 371 82 inlet;
 #X obj 198 356 snapshot~;
-#X obj 90 320 metro;
+#X obj 287 312 metro;
 #X obj 198 381 outlet;
 #X text 419 84 rate (ms);
 #X obj 384 130 loadbang;
