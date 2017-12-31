@@ -59,6 +59,8 @@ vanilla abstractions
 - dksndchop~ - sound chopper
 - dksndchopgrn~ - granular sound chopper
 - dksndtrig~ - triggered sound player
+- dkspigot~ - control-rate spigot for audio signals
+- dkspigot2~ - audio-rate spigot for audio signals
 - dkstrippoly - a poly without noteoff messages (or zero velocity notes) 
 - dkstutter~ - a delay-based stutter effect
 - dkswitch2~ - choose between 2 different signal inputs
