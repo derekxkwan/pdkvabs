@@ -1,7 +1,7 @@
 # pdkvabs - released under gpl v3.0
 vanilla abstractions
 
-(before use, put subfolder contents into main pdkvabs folder)
+(before use, put subfolder contents besides the util folder into main pdkvabs folder)
 
 (also note that this is for personal use and VERY subject to change/renaming so I suggest this repo mainly for educational use)
 
