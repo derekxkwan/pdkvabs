@@ -33,11 +33,11 @@
 #X obj 102 590 sel 67 68 69 70 71 65 66, f 38;
 #X msg 349 502 0;
 #X obj 476 394 - 4;
-#X text 33 22 dknote2midi - note naes to midi;
 #X text 509 27 derek kwan \, pdkvabs;
 #X text 520 48 gpl v 3 2017;
 #X obj 101 738 outlet;
 #X obj 253 356 route bang;
+#X text 33 22 dknote2midi - note names to midi;
 #X connect 0 0 1 0;
 #X connect 1 0 2 0;
 #X connect 2 0 3 0;
@@ -51,7 +51,7 @@
 #X connect 9 0 10 0;
 #X connect 10 0 33 0;
 #X connect 11 0 16 0;
-#X connect 11 1 38 0;
+#X connect 11 1 37 0;
 #X connect 12 0 14 0;
 #X connect 12 1 13 0;
 #X connect 13 0 21 0;
@@ -72,7 +72,7 @@
 #X connect 27 0 29 0;
 #X connect 28 0 29 0;
 #X connect 29 0 30 0;
-#X connect 30 0 37 0;
+#X connect 30 0 36 0;
 #X connect 31 0 22 0;
 #X connect 31 1 23 0;
 #X connect 31 2 24 0;
@@ -82,5 +82,5 @@
 #X connect 31 6 28 0;
 #X connect 32 0 30 1;
 #X connect 33 0 29 1;
-#X connect 38 0 32 0;
-#X connect 38 1 17 0;
+#X connect 37 0 32 0;
+#X connect 37 1 17 0;
