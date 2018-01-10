@@ -167,6 +167,7 @@ vanilla abstractions
 - dkrunmax - running maximum
 - dkrunmin - running minimum
 - dkunit2ms - ms calculator
+- dkunique - flag input as unique (or not)
 - dkvavg - vanilla float averager
 - dkvrgauss - vanilla random number generator with gaussian distribution (i think) using the Marsaglia polar method
 
