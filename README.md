@@ -12,7 +12,8 @@ vanilla abstractions
 - dkbangsync - bang syncer
 - dkbitred~ - audio-signal bit-reduction based off 3.Bit-Reduction by Alexander Torres Porres.
 - dkbitcrush~ - bit-resolution/sample-rate reducer
-- dkblkmn~ - generates blackman window according to input from 0 to 1. 
+- dkblkmn~ - generates blackman window according to input from 0 to 1.
+- dkchangebang~ - bang when detecting changes in a signal
 - dkcliktrak~ - click track/metronome
 - dkdistort~ - audio-signal distortion based off the work of Landon. Requires zexy.
 - dkdownsamp~ - audio-signal downsampler.
