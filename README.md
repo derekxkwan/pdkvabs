@@ -60,6 +60,7 @@ vanilla abstractions
 - dksndchop~ - sound chopper
 - dksndchopgrn~ - granular sound chopper
 - dksndtrig~ - triggered sound player
+- dksndtriggrn~ - triggered granular sound player
 - dkspigot~ - control-rate spigot for audio signals
 - dkspigot2~ - audio-rate spigot for audio signals
 - dkstrippoly - a poly without noteoff messages (or zero velocity notes) 
