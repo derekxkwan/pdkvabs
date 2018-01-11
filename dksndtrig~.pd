@@ -51,11 +51,11 @@
 #X obj 388 892 change;
 #X msg 419 847 1;
 #X msg 375 841 0;
-#X msg 284 794 stop;
+#X msg 277 814 stop;
 #X obj 173 744 t a a;
 #X obj 38 725 t a a;
 #X msg 216 839 \$3;
-#X obj 282 906 del;
+#X obj 256 868 del;
 #X obj 318 1030 outlet;
 #X obj 234 701 t b b b, f 24;
 #X text 28 76 outlets: signal \, done bang;
@@ -64,14 +64,15 @@
 #X text 35 102 args: array \, speed \, offset \, loop;
 #X text 962 221 loop;
 #X obj 919 232 f \$4;
-#X obj 282 931 spigot 0, f 40;
-#X msg 282 956 1;
+#X obj 282 931 spigot 0, f 94;
+#X msg 225 959 1;
 #X text 480 638 if speed >= 0;
 #X text 166 610 samp1 \, samp2 \, dur;
 #X obj 552 31 t b b b b, f 71;
 #X text 23 50 inlets: trig/stop \, speed/offset/loop/set \, symbol
 ;
 #X obj 414 116 route speed offset loop set, f 116;
+#X obj 272 894 t b b, f 12;
 #X connect 0 0 47 0;
 #X connect 1 0 43 0;
 #X connect 3 0 6 0;
@@ -132,7 +133,7 @@
 #X connect 54 0 26 0;
 #X connect 54 1 55 0;
 #X connect 55 0 56 0;
-#X connect 56 0 65 0;
+#X connect 56 0 72 0;
 #X connect 58 0 51 0;
 #X connect 58 1 57 0;
 #X connect 58 2 52 0;
@@ -151,3 +152,5 @@
 #X connect 71 1 41 0;
 #X connect 71 2 64 0;
 #X connect 71 3 42 0;
+#X connect 72 0 65 0;
+#X connect 72 1 57 0;
