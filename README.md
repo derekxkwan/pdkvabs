@@ -79,6 +79,7 @@ vanilla abstractions
 - dkvgcld~ - vanille grain cloud
 - dkvisclock - visual clock
 - dkvmetrox - vanilla metro divider
+- dkvmetrox - receiver for dkvemtrox
 - dkvuzi - vanilla uzi/multiple banger
 - dkvadsr~ - adsr envelope generator using vline~ based off Matt Davey's  diy-adsr~
 - dkxor - control-rate bitwise xor
@@ -180,6 +181,8 @@ vanilla abstractions
 - dkvmux - dynamically patched version of input multiplexing
 - dkvmux2/3/4/5/6/7/8 - vanilla multiplexer (control)
 
+## OSC
+- dkvanssimp~ - triggered single-sample impulse
 ## REVERB
 - dkschroeder1~ - a schroeder reverb (1-in,4-out)
 - dkschroeder2~ - satrev chowning schroeder reverb (1-in, 2-out)
