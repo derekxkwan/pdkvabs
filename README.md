@@ -72,6 +72,7 @@ vanilla abstractions
 - dksyncf - synchronized floats
 - dktport - a fancy counter with beats, subdivisions, and measures. 
 - dktri~ - nonbandlimited triangle oscillator based off Miller Puckette's  J05.triangle
+- dktrigrd~ - triggered array reader
 - dkoutput~ - output abstraction
 - dkvancomp~ - vanilla compressor/limiter
 - dkvandrk - vanilla drunk random number generator 
