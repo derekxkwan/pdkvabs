@@ -28,13 +28,14 @@
 #X text 633 26 derek kwan;
 #X text 641 49 pdkvabs 2018;
 #X text 645 76 gpl v 3;
+#X obj 436 215 max 1e-30;
 #X connect 0 0 1 0;
 #X connect 0 1 2 0;
 #X connect 1 0 5 0;
 #X connect 2 0 3 0;
 #X connect 2 1 4 1;
 #X connect 3 0 4 0;
-#X connect 4 0 5 1;
+#X connect 4 0 29 0;
 #X connect 5 0 9 0;
 #X connect 7 0 13 0;
 #X connect 8 0 11 1;
@@ -50,3 +51,4 @@
 #X connect 16 0 15 0;
 #X connect 17 0 15 0;
 #X connect 19 0 0 0;
+#X connect 29 0 5 1;
