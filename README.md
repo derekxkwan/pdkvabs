@@ -71,7 +71,6 @@ vanilla abstractions
 - dksyncb - synchronized banger
 - dksyncf - synchronized floats
 - dktport - a fancy counter with beats, subdivisions, and measures. 
-- dktri~ - nonbandlimited triangle oscillator based off Miller Puckette's  J05.triangle
 - dktrigrd~ - triggered array reader
 - dkoutput~ - output abstraction
 - dkvancomp~ - vanilla compressor/limiter
@@ -184,6 +183,8 @@ vanilla abstractions
 
 ## OSC
 - dkvanssimp~ - triggered single-sample impulse
+- dktri~ - triangle oscillator
+
 ## REVERB
 - dkschroeder1~ - a schroeder reverb (1-in,4-out)
 - dkschroeder2~ - satrev chowning schroeder reverb (1-in, 2-out)
