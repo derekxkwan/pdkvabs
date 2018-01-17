@@ -56,7 +56,7 @@ vanilla abstractions
 - dkselector - a row of 32 toggle boxes whose values are stored in an array (name passed by argument, requires cyclone) 
 - dkseqgen1 - timed random sequence generator
 - dksisascl~ - SIne SAmple SCaLer
-- dksmp2ms - samples to ms
+- dksamptoms - samples to ms
 - dksndchop~ - sound chopper
 - dksndchopgrn~ - granular sound chopper
 - dksndtrig~ - triggered sound player
