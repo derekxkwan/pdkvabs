@@ -110,6 +110,7 @@ vanilla abstractions
 - dkfftcross~ - spectral cross-synthesis
 - dkfftdelay~ - spectral delay
 - dkfftfilt~ - spectral filtering
+- dkhannnorm~ - normalization for hann windowing (and overlapping) in an fft transform
 
 ## FILTERS
 - dkvap1o~ - first-order allpass filter (control inlet for cutoff)
