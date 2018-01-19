@@ -56,7 +56,6 @@ vanilla abstractions
 - dkselector - a row of 32 toggle boxes whose values are stored in an array (name passed by argument, requires cyclone) 
 - dkseqgen1 - timed random sequence generator
 - dksisascl~ - SIne SAmple SCaLer
-- dksamptoms - samples to ms
 - dksndchop~ - sound chopper
 - dksndchopgrn~ - granular sound chopper
 - dksndtrig~ - triggered sound player
@@ -160,7 +159,7 @@ vanilla abstractions
 - dkfdec - get decimal part of float
 - dkfdectol - pass float if within decimal tolerance of int
 - dkincrease - detect increases 
-- dkmstosmp - ms to samples
+- dkmstosamp - ms to samples
 - dknearest - floor to the nearest grain
 - dknearest - round to the nearest grain
 - dknearpow2 - rounds input to a power of 2
@@ -172,6 +171,7 @@ vanilla abstractions
 - dkrsub - vanilla reverse subtraction
 - dkrunmax - running maximum
 - dkrunmin - running minimum
+- dksamptoms - samples to ms
 - dkunit2ms - ms calculator
 - dkunique - flag input as unique (or not)
 - dkvavg - vanilla float averager
