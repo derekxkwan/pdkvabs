@@ -111,6 +111,7 @@ vanilla abstractions
 - dkfftdelay~ - spectral delay
 - dkfftfilt~ - spectral filtering
 - dkhannnorm~ - normalization for hann windowing (and overlapping) in an fft transform
+- dkvanpaul~ - vanilla paulstretcher
 - dkvanpvoc~ - vanilla phase vocoder
 
 ## FILTERS
