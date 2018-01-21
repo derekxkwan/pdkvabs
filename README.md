@@ -114,7 +114,7 @@ vanilla abstractions
 - dkvanpvoc~ - vanilla phase vocoder
 
 ## FILTERS
-- dkresonz~ - two-pole resonating filter (zeroes at +/- 1) with ring time arg
+- dkringer~ - two-pole resonating filter (zeroes at +/- 1) with ring time arg
 - dkvap1o~ - first-order allpass filter (control inlet for cutoff)
 - dkvap1os~ - first-order allpass filter (signal inlet for cutoff)
 - dkvap1os~ - second-order allpass filter (control inlets for cutoff and q)
