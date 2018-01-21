@@ -157,7 +157,7 @@
 #X obj 915 257 f \$3;
 #X obj 566 244 route clear scale;
 #X obj 756 170 loadbang;
-#X text 17 12 dkresonz~ - two-pole resonator;
+#X text 17 12 dkringer~ - two-pole resonator with ring time argt;
 #X connect 0 0 11 0;
 #X connect 1 0 20 0;
 #X connect 3 0 20 1;
