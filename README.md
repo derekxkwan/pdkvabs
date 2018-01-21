@@ -158,6 +158,7 @@ vanilla abstractions
 - dkfround - round float
 - dkfdec - get decimal part of float
 - dkfdectol - pass float if within decimal tolerance of int
+- dkhztorad - linear freq (Hz) to angular freq (rad/s)
 - dkincrease - detect increases 
 - dkmstosamp - ms to samples
 - dknearest - floor to the nearest grain
