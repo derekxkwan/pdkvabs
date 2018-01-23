@@ -1,0 +1,12 @@
+#N canvas 1492 191 545 378 12;
+#X obj 174 128 inlet;
+#X obj 174 152 list fromsymbol;
+#X obj 174 176 list length;
+#X obj 174 200 outlet;
+#X text 39 25 dksymbollen - symbol length;
+#X text 398 24 derek kwan;
+#X text 403 47 pdkvabs 2018;
+#X text 405 78 gpl v 3;
+#X connect 0 0 1 0;
+#X connect 1 0 2 0;
+#X connect 2 0 3 0;
