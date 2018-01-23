@@ -1,5 +1,5 @@
-#N canvas 942 660 1128 666 12;
-#X obj 117 558 biquad~;
+#N canvas 942 282 1154 782 12;
+#X obj 105 558 biquad~;
 #X obj 224 217 inlet;
 #X text 266 214 center freq;
 #X obj 374 211 inlet;
@@ -13,7 +13,7 @@
 ;
 #X obj 77 205 inlet~;
 #X text 135 212 sig;
-#X obj 124 605 outlet~;
+#X obj 105 640 outlet~;
 #X obj 572 209 inlet;
 #X msg 414 511 clear;
 #X obj 833 294 max 1;
@@ -152,17 +152,18 @@
 #X text 468 12 inlets: sig \, center freq \, ring time in ms \, (scale/clear)
 ;
 #X text 617 210 scale/clear;
-#X obj 625 405 clip 0 2;
+#X obj 546 422 clip 0 2;
 #X obj 748 214 t b b b b, f 24;
 #X obj 915 257 f \$3;
-#X obj 566 244 route clear scale;
 #X obj 756 170 loadbang;
 #X text 17 12 dkringer~ - two-pole resonator with ring time argt;
-#X connect 0 0 11 0;
+#X obj 566 244 route clear scale amp;
+#X obj 105 587 *~ 1, f 66;
+#X connect 0 0 30 0;
 #X connect 1 0 20 0;
 #X connect 3 0 20 1;
 #X connect 9 0 0 0;
-#X connect 12 0 27 0;
+#X connect 12 0 29 0;
 #X connect 13 0 0 0;
 #X connect 14 0 20 1;
 #X connect 18 0 20 0;
@@ -174,6 +175,8 @@
 #X connect 25 2 19 0;
 #X connect 25 3 26 0;
 #X connect 26 0 24 0;
-#X connect 27 0 13 0;
-#X connect 27 1 24 0;
-#X connect 28 0 25 0;
+#X connect 27 0 25 0;
+#X connect 29 0 13 0;
+#X connect 29 1 24 0;
+#X connect 29 2 30 1;
+#X connect 30 0 11 0;
