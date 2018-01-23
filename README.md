@@ -34,6 +34,7 @@ vanilla abstractions
 - dkkarplus~ - karplus-strong synth
 - dkkeysend - send globally via prefixed key
 - dkkeytonum - maps keys to numbers sequentially by row
+- dklisttoclone - distribute list to clone instances
 - dkloopplay~ - synced looper based around tabplay~
 - dkloopwin~ - signal-driven loop windowing
 - dkmbang - multiple banger
