@@ -116,6 +116,7 @@ vanilla abstractions
 
 ## FILTERS
 - dkringer~ - two-pole resonating filter (zeroes at +/- 1) with ring time arg
+- dkringerbank~ - a bank of resonating filters (dkringer~), handy for modal synthesis
 - dkvap1o~ - first-order allpass filter (control inlet for cutoff)
 - dkvap1os~ - first-order allpass filter (signal inlet for cutoff)
 - dkvap1os~ - second-order allpass filter (control inlets for cutoff and q)
