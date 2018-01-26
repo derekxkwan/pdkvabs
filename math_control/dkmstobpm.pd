@@ -1,0 +1,15 @@
+#N canvas 1517 584 450 300 12;
+#X obj 135 69 inlet;
+#X obj 135 93 t b f, f 13;
+#X msg 135 117 60000;
+#X obj 135 141 /, f 9;
+#X obj 135 165 outlet;
+#X text 15 9 dkbpmtoms;
+#X text 279 20 derek kwan;
+#X text 281 43 pdkvabs 2018;
+#X text 282 63 gpl v 3;
+#X connect 0 0 1 0;
+#X connect 1 0 2 0;
+#X connect 1 1 3 1;
+#X connect 2 0 3 0;
+#X connect 3 0 4 0;

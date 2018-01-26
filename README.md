@@ -71,6 +71,7 @@ vanilla abstractions
 - dkswing - bang swinger
 - dksyncb - synchronized banger
 - dksyncf - synchronized floats
+- dktaptempo - deduce tempo from incoming bangs
 - dktport - a fancy counter with beats, subdivisions, and measures. 
 - dktrigrd~ - triggered array reader
 - dkoutput~ - output abstraction
@@ -163,7 +164,8 @@ vanilla abstractions
 - dkfdec - get decimal part of float
 - dkfdectol - pass float if within decimal tolerance of int
 - dkhztorad - linear freq (Hz) to angular freq (rad/s)
-- dkincrease - detect increases 
+- dkincrease - detect increases
+- dkmstobpm - ms to beats per minute
 - dkmstosamp - ms to samples
 - dknearest - floor to the nearest grain
 - dknearest - round to the nearest grain
