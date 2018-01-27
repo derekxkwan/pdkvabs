@@ -16,6 +16,7 @@ vanilla abstractions
 - dkchangebang~ - bang when detecting changes in a signal
 - dkcliktrak~ - click track/metronome
 - dkdelbank~ - delay bank
+- dkdellopbank~ - delay bank with lowpass filtering
 - dkdistort~ - distortion waveshaper
 - dkdownsamp~ - audio-signal downsampler.
 - dkfbdel~ - simple delay with fb
