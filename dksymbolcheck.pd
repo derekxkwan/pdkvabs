@@ -15,7 +15,6 @@
 #X text 621 40 pdkvabs 2018;
 #X text 623 71 gpl v 3;
 #X obj 148 139 symbol \$1;
-#X obj 276 75 loadbang;
 #X text 48 35 args: default symbol;
 #X connect 0 0 7 0;
 #X connect 0 1 1 0;
@@ -28,4 +27,3 @@
 #X connect 7 0 5 0;
 #X connect 8 0 15 0;
 #X connect 15 0 0 0;
-#X connect 16 0 15 0;
