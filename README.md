@@ -15,6 +15,7 @@ vanilla abstractions
 - dkblkmn~ - generates blackman window according to input from 0 to 1.
 - dkchangebang~ - bang when detecting changes in a signal
 - dkcliktrak~ - click track/metronome
+- dkdelbank~ - delay bank
 - dkdistort~ - distortion waveshaper
 - dkdownsamp~ - audio-signal downsampler.
 - dkfbdel~ - simple delay with fb
