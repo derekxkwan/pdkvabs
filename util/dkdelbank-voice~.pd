@@ -12,13 +12,11 @@
 #X text 554 31 wet;
 #X text 65 339 args: delay line name \, number of delay lines;
 #X obj 86 264 /~ \$2;
-#X obj 193 256 /~ \$2;
 #X connect 0 0 1 0;
 #X connect 0 0 2 0;
 #X connect 1 0 12 0;
-#X connect 2 0 13 0;
+#X connect 2 0 3 0;
 #X connect 5 0 0 0;
 #X connect 7 0 1 1;
 #X connect 9 0 2 1;
 #X connect 12 0 4 0;
-#X connect 13 0 3 0;
