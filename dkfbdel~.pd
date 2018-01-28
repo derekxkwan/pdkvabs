@@ -34,8 +34,8 @@
 #X obj 1002 331 moses 1e-30;
 #X obj 866 316 moses 1e-30;
 #X obj 654 378 *~ 0.5;
-#X msg 1002 356 0.5;
 #X text 1163 38 pdkvabs;
+#X msg 1002 356 1;
 #X connect 1 0 16 0;
 #X connect 1 0 34 0;
 #X connect 2 0 3 0;
@@ -52,9 +52,9 @@
 #X connect 16 0 3 1;
 #X connect 23 0 1 0;
 #X connect 31 0 32 0;
-#X connect 32 0 35 0;
+#X connect 32 0 36 0;
 #X connect 32 1 34 1;
 #X connect 33 0 14 0;
 #X connect 33 1 15 1;
 #X connect 34 0 4 0;
-#X connect 35 0 34 1;
+#X connect 36 0 34 1;
