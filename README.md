@@ -176,6 +176,7 @@ vanilla abstractions
 - dkrandi - random int within a given range
 - dkrange - range mapping (control rate)
 - dkrdiv - vanilla reverse division
+- dkpeakenv - peak envelope for float input stream
 - dkpow - vanilla reverse power
 - dkrrand - random number in a given range
 - dkrsub - vanilla reverse subtraction
