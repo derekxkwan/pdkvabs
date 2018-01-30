@@ -84,7 +84,8 @@ vanilla abstractions
 - dkvgcld~ - vanille grain cloud
 - dkvisclock - visual clock
 - dkvmetrox - vanilla metro divider
-- dkvmetrox - receiver for dkvemtrox
+- dkvmetrox_grp - grouper for dkvmetrox
+- dkvmetrox_rcv - receiver for dkvmetrox
 - dkvuzi - vanilla uzi/multiple banger
 - dkvadsr~ - adsr envelope generator using vline~ based off Matt Davey's  diy-adsr~
 - dkxor - control-rate bitwise xor
