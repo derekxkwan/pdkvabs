@@ -198,6 +198,7 @@ vanilla abstractions
 
 ## OSC
 - dkvanssimp~ - triggered single-sample impulse
+- dksq~ - pulse-wave oscillator
 - dktri~ - triangle oscillator
 
 ## REVERB
