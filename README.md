@@ -86,6 +86,7 @@ vanilla abstractions
 - dkvmetrox - vanilla metro divider
 - dkvmetrox_grp - grouper for dkvmetrox
 - dkvmetrox_rcv - receiver for dkvmetrox
+- dkvmetrox_grprcv - receiver for dkvmetrox_grp
 - dkvuzi - vanilla uzi/multiple banger
 - dkvadsr~ - adsr envelope generator using vline~ based off Matt Davey's  diy-adsr~
 - dkxor - control-rate bitwise xor
