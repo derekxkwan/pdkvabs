@@ -10,10 +10,10 @@ vanilla abstractions
 - dkautowah~ - automatic wah based on envelope following
 - dkbangroute - route bangs with bangs
 - dkbangsync - bang syncer
-- dkbitred~ - audio-signal bit-reduction based off 3.Bit-Reduction by Alexander Torres Porres.
 - dkbitcrush~ - bit-resolution/sample-rate reducer
 - dkblkmn~ - generates blackman window according to input from 0 to 1.
 - dkchangebang~ - bang when detecting changes in a signal
+- dkchoprd~ - triggered chopped array reader (analogue to dksndchop)
 - dkcliktrak~ - click track/metronome
 - dkdelbank~ - delay bank
 - dkdellopbank~ - delay bank with lowpass filtering
