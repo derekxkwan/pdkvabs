@@ -78,6 +78,7 @@ hexmajor hexaeolian;
 #X text 31 77 inlets: float (degree) \, "scale (sym)" - scale \; offset
 ;
 #X text 34 134 args: scale \, offset;
+#X obj 158 566 outlet;
 #X connect 2 0 9 1;
 #X connect 2 0 4 1;
 #X connect 3 0 18 0;
@@ -89,6 +90,7 @@ hexmajor hexaeolian;
 #X connect 9 0 12 0;
 #X connect 12 0 13 0;
 #X connect 13 0 14 0;
+#X connect 14 0 30 0;
 #X connect 16 0 20 0;
 #X connect 18 0 8 0;
 #X connect 18 1 2 0;
