@@ -55,7 +55,6 @@ vanilla abstractions
 - dkpolyish1 - polyish abs with no note off
 - dkpulsewidth~ - pulse width modulation
 - dkroute2~ - one to two signal router
-- dkscaledeg_van - borrowed from SuperCollider's Scale object. Maps scale degrees to midi notes. Arguments are scale and starting midi note. Vanilla version of my scaledeg external using tables
 - dkselector - a row of 32 toggle boxes whose values are stored in an array (name passed by argument, requires cyclone) 
 - dkseqgen1 - timed random sequence generator
 - dksisascl~ - SIne SAmple SCaLer
@@ -87,6 +86,7 @@ vanilla abstractions
 - dkvmetrox_grp - grouper for dkvmetrox
 - dkvmetrox_rcv - receiver for dkvmetrox
 - dkvmetrox_grprcv - receiver for dkvmetrox_grp
+- dkvscaledeg - maps scale degrees to midi notes (borrowing from SC's Scale)
 - dkvuzi - vanilla uzi/multiple banger
 - dkvadsr~ - adsr envelope generator using vline~ based off Matt Davey's  diy-adsr~
 - dkxor - control-rate bitwise xor

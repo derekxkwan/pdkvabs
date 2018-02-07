@@ -1,0 +1,96 @@
+#N canvas 349 258 938 749 12;
+#X obj 539 423 text define -k \$0-dkvscaledeg_scales;
+#A set major 0 2 4 5 7 9 11 \; ionian 0 2 4 5 7 9 11 \; dorian 0 2
+3 5 7 9 10 \; phrygian 0 1 3 5 7 8 10 \; lydian 0 2 4 6 7 9 11 \; mixo
+0 2 4 5 7 9 10 \; aeolian 0 2 3 5 7 8 10 \; minor 0 2 3 5 7 8 10 \;
+locrian 0 1 3 5 6 8 10 \; harminor 0 2 3 5 7 8 11 \; melminor 0 2 4
+5 7 8 10 \; bartok 0 2 4 5 7 8 10 \; neapminor 0 1 3 5 7 8 11 \; neapmajor
+0 1 3 5 7 8 11 \; rominor 0 2 3 6 7 9 10 \; superloc 0 1 3 4 6 8 10
+\; spanish 0 1 4 5 7 8 10 \; enigmatic 0 1 4 6 8 10 11 \; todi 0 1
+3 6 7 8 11 \; purvi 0 1 4 6 7 8 11 \; marva 0 1 4 6 7 9 11 \; bhairav
+0 1 4 5 7 8 11 \; ahirbhairav 0 1 4 5 7 8 11 \; leadwhole 0 2 4 6 8
+10 11 \; lydianminor 0 2 4 6 7 8 10 \; locrianmajor 0 2 4 5 6 8 10
+\; dim1 0 1 3 4 6 7 9 10 \; dim2 0 2 3 5 6 8 9 11 \; whole 0 2 4 6
+8 10 \; hexmajor7 0 2 4 7 9 11 \; hexdorian 0 2 3 5 7 10 \; hexphrygian
+0 1 3 5 8 10 \; hexsus 0 2 5 7 9 10 \; hexmajor 0 2 4 5 7 9 \; hexaeolian
+0 3 5 7 8 10 \;;
+#X obj 542 386 array define \$0-dkvscaledeg_cur 12;
+#N canvas 355 244 970 621 dkvscaledeg_scale-get 0;
+#X obj 344 51 loadbang;
+#X obj 241 100 symbol \$1;
+#X obj 241 124 text search \$0-dkvscaledeg_scales;
+#X obj 241 148 moses 0;
+#X obj 235 266 text get \$0-dkvscaledeg_scales;
+#X obj 155 210 print dkvscaledeg;
+#X msg 155 182 scale not found;
+#X obj 235 290 list split 1;
+#X obj 273 343 t l l, f 22;
+#X obj 423 389 list length;
+#X obj 144 395 array set \$0-dkvscaledeg_cur;
+#X obj 244 32 inlet;
+#X text 299 31 scale symbol;
+#X obj 423 413 outlet;
+#X text 479 419 scale length;
+#X connect 0 0 1 0;
+#X connect 1 0 2 0;
+#X connect 2 0 3 0;
+#X connect 3 0 6 0;
+#X connect 3 1 4 0;
+#X connect 4 0 7 0;
+#X connect 6 0 5 0;
+#X connect 7 1 8 0;
+#X connect 8 0 10 0;
+#X connect 8 1 9 0;
+#X connect 9 0 13 0;
+#X connect 11 0 1 0;
+#X restore 534 317 pd dkvscaledeg_scale-get;
+#X obj 159 234 inlet;
+#X obj 363 390 / 7;
+#X obj 363 414 i;
+#X obj 363 438 * 12;
+#X text 395 410 octave;
+#X obj 158 351 t f f, f 30;
+#X obj 158 380 % 7;
+#X text 17 372 degree (in oct);
+#X text 89 286 degree;
+#X obj 158 494 tabread \$0-dkvscaledeg_cur;
+#X obj 158 518 +, f 31;
+#X obj 158 542 + 0, f 35;
+#X text 96 540 offset;
+#X obj 402 239 inlet;
+#X text 450 237 offset;
+#X obj 159 258 route float scale, f 32;
+#X obj 535 241 loadbang;
+#X obj 402 313 f \$2;
+#N canvas 239 176 699 113 dkvscaledeg_possible_scales 0;
+#X text 33 17 major ionian dorian phrygian lydian mixo aeolian minor
+locrian harminor melminor bartok neapminor neapmajor rominor superloc
+spanish enigmatic todi purvi marva bhairav ahirbhairav leadwhole lydianminor
+locrianmajor dim1 dim2 whole hexmajor7 hexdorian hexphrygian hexsus
+hexmajor hexaeolian;
+#X restore 568 502 pd dkvscaledeg_possible_scales;
+#X text 20 18 dkvscaledeg - scale degs -> midi notes;
+#X text 106 40 (borrowed from SC's Scale);
+#X text 600 41 derek kwan;
+#X text 604 59 pdkvabs 2018;
+#X text 607 80 gpl v 3;
+#X text 24 102 outlets: midi note;
+#X text 31 77 inlets: float (degree) \, "scale (sym)" - scale \; offset
+;
+#X text 34 134 args: scale \, offset;
+#X connect 2 0 9 1;
+#X connect 2 0 4 1;
+#X connect 3 0 18 0;
+#X connect 4 0 5 0;
+#X connect 5 0 6 0;
+#X connect 6 0 13 1;
+#X connect 8 0 9 0;
+#X connect 8 1 4 0;
+#X connect 9 0 12 0;
+#X connect 12 0 13 0;
+#X connect 13 0 14 0;
+#X connect 16 0 20 0;
+#X connect 18 0 8 0;
+#X connect 18 1 2 0;
+#X connect 19 0 20 0;
+#X connect 20 0 14 1;
