@@ -41,6 +41,7 @@ vanilla abstractions
 - dkloopwin~ - signal-driven loop windowing
 - dkmbang - multiple banger
 - dkmbang_r - multiple banger (but randomly gated)
+- dkmiditonote - midi notes to note names
 - dkmidirt - abstraction to handle midi real-time messages
 - dknobu~ - sample chopper abstraction
 - dknot - control-rate bitwise not
