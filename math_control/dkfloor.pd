@@ -1,0 +1,15 @@
+#N canvas 556 420 890 808 12;
+#X obj 273 238 moses 0;
+#X obj 321 309 i;
+#X obj 273 367 outlet;
+#X obj 273 201 inlet;
+#X text 27 19 dkfloor - floor function;
+#X text 758 11 derek kwan;
+#X text 758 30 pdkvabs 2018;
+#X text 761 51 gpl v 3;
+#X obj 273 262 - 1;
+#X connect 0 0 8 0;
+#X connect 0 1 1 0;
+#X connect 1 0 2 0;
+#X connect 3 0 0 0;
+#X connect 8 0 1 0;

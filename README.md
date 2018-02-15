@@ -166,6 +166,7 @@ vanilla abstractions
 - dkdrunk2 - drunk with floats
 - dkeqtemp - degree to equal temperament in Hz
 - dkexp_r - reciprocal exponential
+- dkfloor - floor float input
 - dkfround - round float
 - dkfdec - get decimal part of float
 - dkfdectol - pass float if within decimal tolerance of int
@@ -190,6 +191,7 @@ vanilla abstractions
 - dkunique - flag input as unique (or not)
 - dkvavg - vanilla float averager
 - dkvrgauss - vanilla random number generator with gaussian distribution (i think) using the Marsaglia polar method
+- dkwrap - wrap with argument (like zexy's wrap)
 
 ## MODULATION
 - dksfm~ - simple/signal-inlet (for mod idx) frequency modulation synthesis
