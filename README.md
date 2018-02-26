@@ -15,6 +15,7 @@ vanilla abstractions
 - dkchangebang~ - bang when detecting changes in a signal
 - dkchoprd~ - triggered chopped array reader (analogue to dksndchop)
 - dkcliktrak~ - click track/metronome
+- dkcoinflip - output 1 a given pct of the time else 0
 - dkdelbank~ - delay bank
 - dkdellopbank~ - delay bank with lowpass filtering
 - dkdistort~ - distortion waveshaper
