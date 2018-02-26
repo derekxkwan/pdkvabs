@@ -1,7 +1,7 @@
-#N canvas 613 604 739 484 12;
+#N canvas 764 342 739 484 12;
 #X obj 275 240 cos~;
-#X obj 240 321 -~ 1;
-#X obj 240 346 *~ -0.5;
+#X obj 259 280 -~ 1;
+#X obj 259 305 *~ -0.5;
 #X obj 257 105 bang~;
 #X msg 257 130 clear;
 #X obj 257 155 rpole~ 1;
@@ -17,10 +17,10 @@
 #X obj 429 110 f \$1;
 #X obj 429 135 moses 1;
 #X msg 429 160 64;
-#X obj 429 213 - 1;
 #X obj 571 126 inlet;
 #X text 567 160 block size;
 #X text 25 69 args/in: blocksize;
+#X obj 429 213 - 0;
 #X connect 0 0 1 0;
 #X connect 1 0 2 0;
 #X connect 2 0 7 0;
@@ -33,7 +33,7 @@
 #X connect 14 0 15 0;
 #X connect 15 0 16 0;
 #X connect 16 0 17 0;
-#X connect 16 1 18 0;
-#X connect 17 0 18 0;
-#X connect 18 0 8 1;
-#X connect 19 0 18 0;
+#X connect 16 1 21 0;
+#X connect 17 0 21 0;
+#X connect 18 0 21 0;
+#X connect 21 0 8 1;
