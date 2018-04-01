@@ -206,6 +206,8 @@ vanilla abstractions
 - dkvmux2/3/4/5/6/7/8 - vanilla multiplexer (control)
 
 ## OSC
+- dkoscdetune2~ - osc~ + detuned osc~
+- dkoscdetune3~ - osc~ + 2 detuned osc~s
 - dkvanssimp~ - triggered single-sample impulse
 - dksq~ - pulse-wave oscillator
 - dktri~ - triangle oscillator
