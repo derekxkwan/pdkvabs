@@ -168,7 +168,8 @@ vanilla abstractions
 - dkdecrease - detect decreases 
 - dkdrunk - a vanilla version of drunk
 - dkdrunk2 - drunk with floats
-- dkeqtemp - degree to equal temperament in Hz
+- dkeqtemp - degree to equal temperament in Hz (EDO)
+- dkeqtemp_scl - specify custom scales for use with dkeqtemp (EDO scales)
 - dkexp_r - reciprocal exponential
 - dkfloor - floor float input
 - dkfround - round float
