@@ -210,6 +210,8 @@ vanilla abstractions
 ## OSC
 - dkoscdetune2~ - osc~ + detuned osc~
 - dkoscdetune3~ - osc~ + 2 detuned osc~s
+- dktaboscdetune2~ - tabosc4~ + detuned tabosc4~
+- dktaboscdetune3~ - tabosc4~ + 2 detuned tabosc4~s
 - dkvanssimp~ - triggered single-sample impulse
 - dksq~ - pulse-wave oscillator
 - dktri~ - triangle oscillator
