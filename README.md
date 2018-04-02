@@ -125,6 +125,8 @@ vanilla abstractions
 - dkvanpvoc~ - vanilla phase vocoder
 
 ## FILTERS
+- dkdecay~ - exponential decay (port of SuperCollider's Decay UGen)
+- dkdecay2~ - exponential attack+decay (port of SuperCollider's Decay2 UGen)
 - dkringer~ - two-pole resonating filter (zeroes at +/- 1) with ring time arg
 - dkringerbank~ - a bank of resonating filters (dkringer~), handy for modal synthesis
 - dkringerpreset - presets for dkringerbank~
