@@ -80,7 +80,6 @@ vanilla abstractions
 - dktport - a fancy counter with beats, subdivisions, and measures. 
 - dktrigrd~ - triggered array reader
 - dkoutput~ - output abstraction
-- dkvancomp~ - vanilla compressor/limiter
 - dkvandrk - vanilla drunk random number generator 
 - dkvanphs~ - vanilla 3-delay line phaser/chorus effect 
 - dkvgcld~ - vanille grain cloud
@@ -130,6 +129,7 @@ vanilla abstractions
 - dkringer~ - two-pole resonating filter (zeroes at +/- 1) with ring time arg
 - dkringerbank~ - a bank of resonating filters (dkringer~), handy for modal synthesis
 - dkringerpreset - presets for dkringerbank~
+- dkvancomp~ - vanilla compressor/limiter
 - dkvap1o~ - first-order allpass filter (control inlet for cutoff)
 - dkvap1os~ - first-order allpass filter (signal inlet for cutoff)
 - dkvap1os~ - second-order allpass filter (control inlets for cutoff and q)
