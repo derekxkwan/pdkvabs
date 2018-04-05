@@ -72,10 +72,10 @@
 #X obj 198 87 t l b, f 25;
 #X obj 183 407 t l b, f 37;
 #X obj 73 618 t b b, f 14;
-#X obj 23 572 t b b;
 #X text 894 457 in3: array name;
 #X obj 1001 41 dksymbolcheck \$1;
 #X obj 374 321 array size;
+#X obj 23 499 t b b b;
 #X connect 0 0 43 0;
 #X connect 1 0 10 0;
 #X connect 1 1 13 0;
@@ -100,7 +100,7 @@
 #X connect 18 0 19 0;
 #X connect 19 0 55 0;
 #X connect 21 0 59 0;
-#X connect 22 0 74 0;
+#X connect 22 0 73 0;
 #X connect 24 0 50 2;
 #X connect 25 0 18 0;
 #X connect 25 1 53 0;
@@ -112,7 +112,7 @@
 #X connect 28 1 30 0;
 #X connect 29 0 27 0;
 #X connect 30 0 2 0;
-#X connect 30 1 75 0;
+#X connect 30 1 74 0;
 #X connect 32 0 52 0;
 #X connect 34 0 29 1;
 #X connect 35 0 52 0;
@@ -137,7 +137,7 @@
 #X connect 57 0 58 0;
 #X connect 58 0 62 0;
 #X connect 58 1 62 1;
-#X connect 59 0 72 0;
+#X connect 59 0 75 0;
 #X connect 59 1 61 1;
 #X connect 59 2 69 0;
 #X connect 60 0 61 0;
@@ -163,8 +163,9 @@
 #X connect 70 1 49 0;
 #X connect 71 0 48 0;
 #X connect 71 1 63 0;
-#X connect 72 0 44 0;
-#X connect 72 1 71 0;
-#X connect 74 0 24 0;
-#X connect 74 0 75 1;
-#X connect 75 0 2 1;
+#X connect 73 0 24 0;
+#X connect 73 0 74 1;
+#X connect 74 0 2 1;
+#X connect 75 0 45 0;
+#X connect 75 1 48 0;
+#X connect 75 2 44 0;
