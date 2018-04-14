@@ -1,0 +1,15 @@
+#N canvas 6 98 450 300 12;
+#X obj 106 64 t b f, f 9;
+#X msg 106 88 1000;
+#X obj 106 112 /, f 6;
+#X obj 106 136 outlet;
+#X obj 105 32 inlet;
+#X text 232 92 derek kwan;
+#X text 231 131 gpl v 3 2018;
+#X text 239 115 pdkvabs;
+#X text 9 9 dkfreqtoms - frequency to wavelength in ms;
+#X connect 0 0 1 0;
+#X connect 0 1 2 1;
+#X connect 1 0 2 0;
+#X connect 2 0 3 0;
+#X connect 4 0 0 0;

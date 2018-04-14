@@ -176,6 +176,7 @@ vanilla abstractions
 - dkfround - round float
 - dkfdec - get decimal part of float
 - dkfdectol - pass float if within decimal tolerance of int
+- dkfreqtoms - frequency (Hz) to period in ms
 - dkhztorad - linear freq (Hz) to angular freq (rad/s)
 - dkincrease - detect increases
 - dkmstobpm - ms to beats per minute
