@@ -38,7 +38,7 @@ vanilla abstractions
 - dkkeysend - send globally via prefixed key
 - dkkeytonum - maps keys to numbers sequentially by row
 - dklisttoclone - distribute list to clone instances
-- dkloopplay~ - synced looper based around tabplay~
+- dklooper~ - looper
 - dkloopwin~ - signal-driven loop windowing
 - dkmbang - multiple banger
 - dkmbang_r - multiple banger (but randomly gated)
@@ -70,7 +70,6 @@ vanilla abstractions
 - dkstutter~ - a delay-based stutter effect
 - dkswitch2~ - choose between 2 different signal inputs
 - dksymbolcheck - bangs for empty symbol, else passes symbol
-- dksyncloop - a synchronized looper
 - dksymbollen - length of a symbol
 - dkswing - bang swinger
 - dksyncb - synchronized banger
