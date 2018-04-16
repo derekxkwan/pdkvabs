@@ -38,6 +38,7 @@ vanilla abstractions
 - dkkeysend - send globally via prefixed key
 - dkkeytonum - maps keys to numbers sequentially by row
 - dklisttoclone - distribute list to clone instances
+- dkliverev~ - live reverser
 - dklooper~ - looper
 - dkloopwin~ - signal-driven loop windowing
 - dkmbang - multiple banger
