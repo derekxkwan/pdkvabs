@@ -248,6 +248,7 @@ vanilla abstractions
 
 ## MISC
 - dklogidy - abstraction to deal with default settings of logidy umi3
+- dkdrumtrig~ - detecting triggers from a contact-mic and mapping to usable parameters
 
 ## NOT-VANILLA ABSTRACTIONS
 - dkamixer~ - abstraction over ggee/shell to set volume with amixer (Linux only)
