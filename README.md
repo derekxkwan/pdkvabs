@@ -77,6 +77,7 @@ vanilla abstractions
 - dksyncf - synchronized floats
 - dktaptempo - deduce tempo from incoming bangs
 - dktimegate - limit messages to 1 per x time units
+- dktimer - simple wrapper around timer
 - dktport - a fancy counter with beats, subdivisions, and measures. 
 - dktrigrd~ - triggered array reader
 - dkoutput~ - output abstraction
