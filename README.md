@@ -27,6 +27,7 @@ vanilla abstractions
 - dkfft/fftcross~ - spectral cross-synthesis based on 1.Cross-Synthesis by Alexander Torres Porres.
 - dkfft/fftgain~ - spectral filter with traceable gain. 
 - dkfft/fftgate~ - spectral gate (requires zexy). 
+- dkflipflop - like a tgl but without graphics
 - dkfor - for loop
 - dkfreqshift~ - frequency shifter via single sideband modulation
 - dkgainenv~ - traceable gain envelope
