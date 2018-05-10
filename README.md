@@ -237,7 +237,11 @@ vanilla abstractions
 - pdkst-textdefine - emulate [text define] methods for text struct member
 
 ## SYNC
+- dkanysync - sync anything
 - dkbangsync - bang syncer
+- dkfloatsync - sync floats
+- dksymsync - sync symbols
+- dkptrsync - sync pointers
 
 ## TEXT
 - pdktext-getval - get value from associated key (treating text like a hash table)
