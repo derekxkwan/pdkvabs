@@ -9,7 +9,6 @@ vanilla abstractions
 - dkattqpt - record attack locations in a soundfile
 - dkautowah~ - automatic wah based on envelope following
 - dkbangroute - route bangs with bangs
-- dkbangsync - bang syncer
 - dkbitcrush~ - bit-resolution/sample-rate reducer
 - dkblkmn~ - generates blackman window according to input from 0 to 1.
 - dkchangebang~ - bang when detecting changes in a signal
@@ -236,6 +235,9 @@ vanilla abstractions
 - pdkst-init - clear scalars and init iterating over given element
 - pdkst-nth - get nth scalar of a structure 
 - pdkst-textdefine - emulate [text define] methods for text struct member
+
+## SYNC
+- dkbangsync - bang syncer
 
 ## TEXT
 - pdktext-getval - get value from associated key (treating text like a hash table)
