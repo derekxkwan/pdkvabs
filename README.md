@@ -81,6 +81,8 @@ vanilla abstractions
 - dktport - a fancy counter with beats, subdivisions, and measures. 
 - dktrigrd~ - triggered array reader
 - dkoutput~ - output abstraction
+- dkvanadsr~ - vanilla adsr envelope
+- dkvanadsrexp~ - vanilla exponential adsr envelope
 - dkvandrk - vanilla drunk random number generator 
 - dkvanphs~ - vanilla 3-delay line phaser/chorus effect 
 - dkvgcld~ - vanille grain cloud
@@ -91,7 +93,6 @@ vanilla abstractions
 - dkvmetrox_grprcv - receiver for dkvmetrox_grp
 - dkvscaledeg - maps scale degrees to midi notes (borrowing from SC's Scale)
 - dkvuzi - vanilla uzi/multiple banger
-- dkvadsr~ - adsr envelope generator using vline~ based off Matt Davey's  diy-adsr~
 - dkxor - control-rate bitwise xor
 
 ## COUNTER
