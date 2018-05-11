@@ -143,6 +143,11 @@ vanilla abstractions
 - dkvapcomb~ - allpass filter from two combs
 - dkvfbcomb~ - feedback comb filter
 
+## LINE
+dklineexp - exponential line
+dklineexp~ - exponential line~
+dkvlineexp~ - exponential vline~
+
 ## MARKOV
 - dkvmarkov1o - vanilla first-order markov analysis/generator
 - dkvmarkov2o - vanilla second-order markov analysis/generator
