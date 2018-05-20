@@ -252,6 +252,7 @@ dkvlineexp~ - exponential vline~
 - dkptrsync - sync pointers
 
 ## TEXT
+-dktextlooper - looping sequencer built around [text sequence -g]
 - pdktext-getval - get value from associated key (treating text like a hash table)
 
 ## WINDOWING
