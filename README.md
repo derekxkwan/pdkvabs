@@ -204,6 +204,7 @@ dkvlineexp~ - exponential vline~
 - dkrunmax - running maximum
 - dkrunmin - running minimum
 - dksamptoms - samples to ms
+- dkselsort - selection sort on a list of floats
 - dkunit2ms - ms calculator
 - dkunique - flag input as unique (or not)
 - dkvavg - vanilla float averager
