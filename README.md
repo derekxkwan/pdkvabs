@@ -64,6 +64,7 @@ vanilla abstractions
 - dksndchop~ - sound chopper
 - dksndchopgrn~ - granular sound chopper
 - dksndtrig~ - triggered sound player
+- dksndtrig2~ - triggered sound player with modulatable rate
 - dksndtriggrn~ - triggered granular sound player
 - dkspigot~ - control-rate spigot for audio signals
 - dkspigot2~ - audio-rate spigot for audio signals
