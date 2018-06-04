@@ -224,6 +224,7 @@ dkvlineexp~ - exponential vline~
 - dktaboscdetune2~ - tabosc4~ + detuned tabosc4~
 - dktaboscdetune3~ - tabosc4~ + 2 detuned tabosc4~s
 - dkvanssimp~ - triggered single-sample impulse
+- dksaw~ - saw oscillator
 - dksq~ - pulse-wave oscillator
 - dktri~ - triangle oscillator
 
