@@ -63,6 +63,7 @@ vanilla abstractions
 - dksisascl~ - SIne SAmple SCaLer
 - dksndchop~ - sound chopper
 - dksndchopgrn~ - granular sound chopper
+- dksndload-text - load from a [text]-based path/array manifest
 - dksndtrig~ - triggered sound player
 - dksndtrig2~ - triggered sound player with modulatable rate
 - dksndtriggrn~ - triggered granular sound player
