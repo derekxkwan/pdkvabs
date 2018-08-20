@@ -237,7 +237,7 @@ dkvlineexp~ - exponential vline~
 - dkcomppan~ - -4.5 dB panner (compromise panner)
 - dkcospan~ - cosine-based equal-power panner
 - dklinpan~ - linear panner
-- dkstpan~ - stereo-to-stereo panning 
+- dkstbal~ - stereo-to-stereo panning (aka balance) 
 
 ## PULSAR SYNTHESIS
 - dkpulsar~ - pulsar synthesis (unwindowed)
