@@ -220,6 +220,7 @@ dkvlineexp~ - exponential vline~
 - dkvmux2/3/4/5/6/7/8 - vanilla multiplexer (control)
 
 ## OSC
+- dkcurvesaw~ - sawtooth oscllator with curvature
 - dkoscdetune2~ - osc~ + detuned osc~
 - dkoscdetune3~ - osc~ + 2 detuned osc~s
 - dktaboscdetune2~ - tabosc4~ + detuned tabosc4~
