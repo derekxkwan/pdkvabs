@@ -9,6 +9,7 @@ vanilla abstractions
 - dkattqpt - record attack locations in a soundfile
 - dkautowah~ - automatic wah based on envelope following
 - dkbangroute - route bangs with bangs
+- dkbatchsndload - batch loading of sound files into arrays
 - dkbitcrush~ - bit-resolution/sample-rate reducer
 - dkblkmn~ - generates blackman window according to input from 0 to 1.
 - dkchangebang~ - bang when detecting changes in a signal
