@@ -273,3 +273,4 @@ dkvlineexp~ - exponential vline~
 
 ## NOT-VANILLA ABSTRACTIONS
 - dkamixer~ - abstraction over ggee/shell to set volume with amixer (Linux only)
+- dkls - grab contents of directory as list (requires ggee/shell)
