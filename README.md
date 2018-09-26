@@ -9,7 +9,6 @@ vanilla abstractions
 - dkattqpt - record attack locations in a soundfile
 - dkautowah~ - automatic wah based on envelope following
 - dkbangroute - route bangs with bangs
-- dkbatchsndload - batch loading of sound files into arrays
 - dkbitcrush~ - bit-resolution/sample-rate reducer
 - dkblkmn~ - generates blackman window according to input from 0 to 1.
 - dkchangebang~ - bang when detecting changes in a signal
@@ -45,10 +44,12 @@ vanilla abstractions
 - dkmbang - multiple banger
 - dkmbang_r - multiple banger (but randomly gated)
 - dkmiditonote - midi notes to note names
-- dkmidirt - abstraction to handle midi real-time messages
+- dkmidirt - abstraction to handle midi real-time message
+- dknarray - batch array definer
 - dknobu~ - sample chopper abstraction
 - dknot - control-rate bitwise not
 - dknotetomidi - note names (case-insensitive) to midi notes
+- dknsndload - batch loading of sound files into arrays
 - dkoneShotM - a one-shot sample player, left inlet takes a bang to trigger playback, right inlet takes a path for file. 
 - dkoneShotS - stereo version 
 - dkpaulstretch~ - slightly modified/cleaned up martin brinkmann's (mmb) small_paul1 paulstretcher for use as an abstraction. Unlike small_paul1, it rounds window sizes to the nearest power of 2 and accept signals as position input.

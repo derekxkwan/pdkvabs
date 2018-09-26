@@ -13,17 +13,18 @@
 #X msg 244 524 read -resize -maxsize 1.0584e+09 \$2 \$1;
 #X obj 230 345 moses \$2;
 #X obj 237 403 makefilename \$1-%d;
-#X text 53 111 args: bind-name \, number of arrays;
 #X obj 360 95 inlet;
 #X text 416 92 path list;
 #X obj 735 89 inlet;
 #X text 786 89 offset;
-#X text 54 95 inlets: path-list \, offset;
-#X text 58 37 dkbatchsndload - batch-loading sound files;
+#X text 31 51 inlets: path-list \, offset;
+#X text 34 17 dkbatchsndload - batch-loading sound files;
 #X text 848 28 gpl v 3;
 #X text 848 54 pdkvabs;
 #X text 846 2 derek kwan 2018;
-#X obj 548 521 clone util/dkclonearray \$2 \$1;
+#X text 30 67 args: bind-name \, number of arrays \, init-size (opt)
+;
+#X obj 548 521 clone dknarray \$2 \$1 \$3;
 #X connect 1 0 10 1;
 #X connect 2 0 5 0;
 #X connect 2 1 3 0;
@@ -40,5 +41,5 @@
 #X connect 11 0 0 0;
 #X connect 12 0 13 0;
 #X connect 13 0 10 0;
-#X connect 15 0 2 0;
-#X connect 17 0 9 1;
+#X connect 14 0 2 0;
+#X connect 16 0 9 1;
