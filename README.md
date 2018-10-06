@@ -171,6 +171,8 @@ dkvlineexp~ - exponential vline~
 - dkrandom~ - abstraction simulating the output of the Max/MSP rand~ object.
 - dkrange~ - range mapping (audio rate)
 - dksin~ - signal-rate sine (input range 0-1)
+- dkzerox~ - detect zero crossings
+- dkzerox_tr~ - send bangs out for zero crossings
 
 ## MATH (CONTROL)
 - dk0bltodec - binary list to base 10

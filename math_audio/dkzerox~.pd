@@ -1,0 +1,17 @@
+#N canvas 1277 370 810 753 12;
+#X obj 163 457 rpole~ -1;
+#X obj 158 493 bonk~;
+#X obj 164 305 min~ 0;
+#X obj 164 329 /~;
+#X obj 173 254 inlet~;
+#X text 410 18 derek kwan;
+#X text 408 47 pdkvabs;
+#X text 413 78 2018;
+#X text 65 61 dkzerox~ - detect zero crossings;
+#X text 74 166 outlet - signal;
+#X text 69 129 inlet~ - signal;
+#X connect 0 0 1 0;
+#X connect 2 0 3 0;
+#X connect 2 0 3 1;
+#X connect 3 0 0 0;
+#X connect 4 0 2 0;
