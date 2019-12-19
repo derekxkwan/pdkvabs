@@ -1,8 +1,8 @@
-#N canvas 440 312 1290 836 12;
+#N canvas 440 311 1290 836 12;
 #X obj 171 553 rifft~;
 #X obj 171 577 *~, f 15;
 #X obj 171 663 outlet~;
-#X obj 65 142 inlet~;
+#X obj 68 137 inlet~;
 #X text 105 170 position;
 #X obj 814 161 inlet;
 #X text 868 159 messages;
