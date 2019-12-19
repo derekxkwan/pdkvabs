@@ -1,4 +1,4 @@
-#N canvas 875 394 955 660 12;
+#N canvas 596 324 955 660 12;
 #X text 373 134 tempo;
 #X obj 620 143 inlet;
 #X text 672 148 send symbol;
@@ -49,9 +49,9 @@
 #X obj 107 200 t f f;
 #X text 621 114 (( on/off sent on symbol_tb ));
 #X msg 623 253 8;
-#N canvas 853 308 1454 843 dkvmetrox_subdiv 0;
+#N canvas 558 238 1454 843 dkvmetrox_subdiv 0;
 #X obj 308 59 inlet;
-#X obj 37 336 s;
+#X obj 37 357 s;
 #X msg 37 276 2;
 #X obj 36 243 spigot 1;
 #X obj 24 395 spigot 1;
@@ -95,12 +95,13 @@
 #X msg 410 546 8;
 #X obj 410 571 dkmbang 1000 0.125;
 #X obj 817 739 outlet;
-#X connect 0 0 32 1;
-#X connect 0 0 33 1;
-#X connect 0 0 34 1;
-#X connect 0 0 35 1;
-#X connect 0 0 36 1;
-#X connect 0 0 37 1;
+#X connect 0 0 32 2;
+#X connect 0 0 33 2;
+#X connect 0 0 35 2;
+#X connect 0 0 36 2;
+#X connect 0 0 34 2;
+#X connect 0 0 37 2;
+#X connect 0 0 43 2;
 #X connect 2 0 32 0;
 #X connect 3 0 2 0;
 #X connect 4 0 5 0;
@@ -122,8 +123,8 @@
 #X connect 31 0 14 0;
 #X connect 31 0 11 0;
 #X connect 31 0 40 0;
-#X connect 32 0 1 0;
 #X connect 32 0 25 0;
+#X connect 32 0 1 0;
 #X connect 33 0 6 0;
 #X connect 33 0 26 0;
 #X connect 34 0 8 0;

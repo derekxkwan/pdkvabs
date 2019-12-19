@@ -1,4 +1,4 @@
-#N canvas 1148 177 966 821 12;
+#N canvas 1079 176 966 821 12;
 #X obj 239 210 inlet;
 #X text 305 210 number of bangs;
 #X obj 239 235 t b f b;
@@ -15,12 +15,12 @@
 #X obj 641 330 f \$1;
 #X msg 641 355 tempo \$1 msec;
 #X obj 244 503 metro, f 74;
-#X obj 689 203 inlet;
-#X obj 463 206 inlet;
-#X text 511 210 metro messages;
+#X obj 454 179 inlet;
+#X obj 697 178 inlet;
+#X text 745 182 metro messages;
 #X obj 193 770 outlet;
 #X text 10 236 inlets: number of bangs;
-#X text 747 203 rate per tick;
+#X text 512 179 rate per tick;
 #X text 3 267 rate per tick/metro messages;
 #X text 798 26 derek kwan 2017;
 #X text 810 53 gpl v 3;

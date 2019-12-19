@@ -1,4 +1,4 @@
-#N canvas 494 246 1121 974 12;
+#N canvas 494 175 1121 974 12;
 #X obj 239 174 inlet;
 #X text 305 174 number of bangs;
 #X obj 239 235 t b f b, f 53;
@@ -15,12 +15,12 @@
 #X obj 621 379 f \$1;
 #X msg 621 404 tempo \$1 msec;
 #X obj 208 508 metro, f 77;
-#X obj 657 193 inlet;
-#X obj 455 181 inlet;
-#X text 503 185 metro messages;
+#X obj 440 171 inlet;
+#X obj 777 175 inlet;
+#X text 825 179 metro messages;
 #X obj 201 834 outlet;
 #X text 10 236 inlets: number of bangs;
-#X text 715 193 rate per tick;
+#X text 498 171 rate per tick;
 #X text 3 267 rate per tick/metro messages;
 #X text 798 26 derek kwan 2017;
 #X text 810 53 gpl v 3;
@@ -36,8 +36,8 @@
 #X obj 912 401 moses 1e-20;
 #X msg 912 426 100;
 #X obj 912 451 max 1e-20;
-#X obj 833 190 inlet;
-#X text 881 195 pct success;
+#X obj 616 168 inlet;
+#X text 664 173 pct success;
 #X obj 164 588 dkbangroute;
 #X text 10 536 first bang always goes through;
 #X obj 414 846 outlet;
