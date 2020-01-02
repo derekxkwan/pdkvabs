@@ -7,6 +7,7 @@ vanilla abstractions
 
 ## GENERAL
 - dkattqpt - record attack locations in a soundfile
+- dkargs - parent patch argument getter
 - dkautowah~ - automatic wah based on envelope following
 - dkbangroute - route bangs with bangs
 - dkbitcrush~ - bit-resolution/sample-rate reducer
