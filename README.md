@@ -17,7 +17,9 @@ vanilla abstractions
 - dkcliktrak~ - click track/metronome
 - dkcoinflip - output 1 a given pct of the time else 0
 - dkdelbank~ - delay bank
+- dkdelbankm2s~ - delay bank but with panning
 - dkdellopbank~ - delay bank with lowpass filtering
+- dkdellopbankm2s~ - delay bank with lowpass filtering and panning
 - dkdistort~ - distortion waveshaper
 - dkdownsamp~ - audio-signal downsampler.
 - dkfbdel~ - simple delay with fb
