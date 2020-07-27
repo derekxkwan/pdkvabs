@@ -1,0 +1,12 @@
+#N canvas 901 208 829 361 12;
+#X obj 183 71 inlet;
+#X obj 183 96 bang;
+#X obj 177 265 outlet;
+#X text 10 15 dkpi - pi;
+#X text 641 23 derek kwan;
+#X text 637 43 pdkvabs 2020;
+#X text 640 67 gpl v 3;
+#X msg 178 165 3.14159;
+#X connect 0 0 1 0;
+#X connect 1 0 7 0;
+#X connect 7 0 2 0;

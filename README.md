@@ -180,7 +180,8 @@ dkvlineexp~ - exponential vline~
 ## MATH (CONTROL)
 - dk0bltodec - binary list to base 10
 - dkdecto0bl - base 10 to binary list
-- dk2dto1d - 2d (x y) to 1d coords (successive rows of x) 
+- dk2dto1d - 2d (x y) to 1d coords (successive rows of x)
+- dk2pi - value of two times pi
 - dkaccum - running sum
 - dkbpmtoms - bpm to ms
 - dkdecrease - detect decreases 
@@ -206,6 +207,7 @@ dkvlineexp~ - exponential vline~
 - dkrdiv - vanilla reverse division
 - dkround - rounds floats to nearest ints
 - dkpeakenv - peak envelope for float input stream
+- dkpi - value of pi
 - dkpow - vanilla reverse power
 - dkrrand - random number in a given range
 - dkrsub - vanilla reverse subtraction
