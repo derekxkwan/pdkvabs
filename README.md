@@ -209,8 +209,10 @@ dkvlineexp~ - exponential vline~
 - dkpow - vanilla reverse power
 - dkrrand - random number in a given range
 - dkrsub - vanilla reverse subtraction
+- dkrunavg - running average
 - dkrunmax - running maximum
 - dkrunmin - running minimum
+- dkrunrms - running rms
 - dksamptoms - samples to ms
 - dkselsort - selection sort on a list of floats
 - dkunit2ms - ms calculator
