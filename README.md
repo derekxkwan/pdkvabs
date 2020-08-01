@@ -63,6 +63,7 @@ vanilla abstractions
 - dkpolyish1 - polyish abs with no note off
 - dkpulsewidth~ - pulse width modulation
 - dkroute2~ - one to two signal router
+- dkrptr - repeat things
 - dkselector - a row of 32 toggle boxes whose values are stored in an array (name passed by argument, requires cyclone) 
 - dkseqgen1 - timed random sequence generator
 - dksisascl~ - SIne SAmple SCaLer
